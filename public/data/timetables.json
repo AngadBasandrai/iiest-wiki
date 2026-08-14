@@ -10,5 +10,852 @@
   "MNB": "Mining Engineering",
   "AEB": "Aerospace Engineering and Applied Mechanics"
  },
- "timetables": []
+ "timetables": [
+  {
+   "key": "EEB-2025-CX",
+   "dept": "EEB",
+   "department": "Electrical Engineering",
+   "year": 2025,
+   "group": "CX",
+   "batch": "EEB-2025",
+   "file": "data/timetables/EEB-2025-CX.ics",
+   "slots": [
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "SAQ"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "ASG"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "ASG",
+      "AS"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "profs": [
+      "AS",
+      "AN",
+      "Sc",
+      "Cd"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "KM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "KM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "profs": [
+      "SP",
+      "ATB",
+      "PB",
+      "PSB",
+      "Sb",
+      "sC"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "SAQ"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "AS"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "DR"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "DR"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "PP"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "MSG"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "MSG"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "PP",
+      "MM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "MM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "profs": [
+      "AB",
+      "KS",
+      "Cd",
+      "Sc"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "ASG",
+      "AS"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "SAQ",
+      "MSG"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "KM",
+      "DR"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "PP",
+      "MM"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "profs": [
+      "SP",
+      "ATB",
+      "PB",
+      "PSB",
+      "Sb",
+      "sC"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "profs": [
+      "AS",
+      "AN",
+      "Sc",
+      "Cd",
+      "AB",
+      "KS"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "EEB-2025-CY",
+   "dept": "EEB",
+   "department": "Electrical Engineering",
+   "year": 2025,
+   "group": "CY",
+   "batch": "EEB-2025",
+   "file": "data/timetables/EEB-2025-CY.ics",
+   "slots": [
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "SAQ"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "ASG"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "ASG",
+      "AS"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "KM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "KM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2171N",
+     "title": "Digital and Analog Electronics Lab and Projects",
+     "profs": [
+      "RSM",
+      "SK",
+      "Kv",
+      "sB"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "SAQ"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "AS"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "DR"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "DR"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "PP"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "MSG"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "MSG"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "profs": [
+      "BKB",
+      "ATB",
+      "AP",
+      "PD",
+      "Sb",
+      "sB"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "PP",
+      "MM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "MM"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE2171N",
+     "title": "Digital and Analog Electronics Lab and Projects",
+     "profs": [
+      "MM",
+      "PD",
+      "Sns",
+      "sC"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "profs": [
+      "ASG",
+      "AS"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "profs": [
+      "SAQ",
+      "MSG"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "profs": [
+      "KM",
+      "DR"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "profs": [
+      "PP",
+      "MM"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE2171N",
+     "title": "Digital and Analog Electronics Lab and Projects",
+     "profs": [
+      "RSM",
+      "SK",
+      "Kv",
+      "sB",
+      "MM",
+      "PD",
+      "Sns",
+      "sC"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "profs": [
+      "BKB",
+      "ATB",
+      "AP",
+      "PD",
+      "Sb",
+      "sB"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  }
+ ]
 }

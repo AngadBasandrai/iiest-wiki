@@ -91,6 +91,26 @@ named `DEPT-YEAR.ics`, for example `CSB-2025.ics`. The department codes are CSB,
 EEB, ETB, MEB, CEB, MMB, MNB and AEB. A student's roll number picks their timetable
 automatically: `2025CSB042` loads `CSB-2025.ics`.
 
+### Lab groups
+
+Where a batch splits into groups for labs, add the group to the filename,
+`DEPT-YEAR-GROUP.ics`, and describe the roll number ranges in `groups.json`:
+
+```json
+{ "EEB-2025": [
+    { "group": "CX", "label": "Cx, group 1", "max": 50 },
+    { "group": "CY", "label": "Cy, group 2", "min": 51 } ] }
+```
+
+That pairs with `EEB-2025-CX.ics` and `EEB-2025-CY.ics`. The number is the trailing
+digits of the roll, so `2025EEB050` gets Cx and `2025EEB051` gets Cy. `min` and `max`
+are both inclusive and either can be omitted for an open-ended range. A batch with no
+entry in `groups.json` just uses its plain `DEPT-YEAR.ics`.
+
+Shared lectures are duplicated in both group files. Only the lab slots differ, which
+keeps each file readable on its own and means a student never sees a class that is not
+theirs.
+
 Each class is one `VEVENT`. Put the course code first in `SUMMARY` and the staff in
 `DESCRIPTION`:
 
@@ -125,9 +145,19 @@ Notes on the format:
   first-plus-last name. Anything unmatched is listed as `unmatched_professors` in
   `faculty.json` and logged by the scraper, so check that after adding a calendar.
 
-Three sample files ship in the repo: `CSB-2025.ics` and `ITB-2025.ics` for second years,
-and `CSB-2026.ics` for first years, which is what demonstrates the cohort split. Delete
-them once you add real ones, or students in those batches will see invented classes.
+`EEB-2025-CX.ics` and `EEB-2025-CY.ics` are real, transcribed from the Electrical
+Engineering tentative routine for July to December 2026. Everything else was deleted, so
+any other batch sees "no timetable published yet" until you add one.
+
+Two things to know about that transcription. Lab cells in the routine are merged across
+periods 5 to 7, so labs run 13:50 to 16:35 rather than a single period. And the Tuesday
+afternoon lab on the Cy row is labelled "Cx: EE2171N" in the source PDF, which is a
+labelling slip: Cx already has EE2172N in that slot, so it is read as Cy here. Worth
+confirming with the department.
+
+Staff appear as the routine's own initials (SAQ, ASG, KM and so on) because the PDF's
+legend only expands the research scholar codes, not the faculty ones. That means they do
+not link to faculty profiles. Supply an initials to names mapping and they will.
 
 ## Session, holidays and exams
 

@@ -439,15 +439,38 @@ export function renderCourses() {
   wireFacultyLinks(body);
 }
 
-function pickTable() {
+function rollParts() {
   const roll = user()?.roll || "";
-  const m = /^(\d{4})([A-Z]{3})/.exec(roll);
-  if (m) {
-    const hit = state.timetables.timetables.find(
-      (t) => t.dept === m[2] && t.year === Number(m[1]));
-    if (hit) return hit;
+  const m = /^(\d{4})([A-Z]{3})(\d+)$/.exec(roll);
+  if (!m) return null;
+  return { year: Number(m[1]), dept: m[2], number: Number(m[3]),
+           batch: `${m[2]}-${m[1]}` };
+}
+
+function groupFor(parts) {
+  const rules = (state.groups || {})[parts.batch] || [];
+  for (const rule of rules) {
+    const okMin = rule.min == null || parts.number >= rule.min;
+    const okMax = rule.max == null || parts.number <= rule.max;
+    if (okMin && okMax) return rule;
   }
   return null;
+}
+
+function pickTable() {
+  const parts = rollParts();
+  if (!parts) return null;
+  const all = state.timetables.timetables;
+  const batch = all.filter((t) => t.dept === parts.dept && t.year === parts.year);
+  if (!batch.length) return null;
+  if (batch.length === 1 && !batch[0].group) return batch[0];
+
+  const rule = groupFor(parts);
+  if (rule) {
+    const hit = batch.find((t) => t.group === rule.group);
+    if (hit) return { ...hit, groupLabel: rule.label };
+  }
+  return batch.find((t) => !t.group) || null;
 }
 
 async function loadMarks() {
@@ -471,9 +494,10 @@ export function sideCards() {
   if (state.session) {
     const sem = state.session.semester;
     const yearOf = Math.ceil(sem / 2);
+    const group = state.table?.groupLabel || state.table?.group || "";
     card.innerHTML = `<p class="micro">${esc(state.session.session)} session</p>
       <p class="session-line">Semester ${sem}</p>
-      <p class="micro">${ORDINAL[yearOf]} year</p>
+      <p class="micro">${ORDINAL[yearOf]} year${group ? `, ${esc(group)}` : ""}</p>
       <p class="session-dates">${esc(fmtDate(state.session.start))} to
         ${esc(fmtDate(state.session.end))}</p>`;
     card.hidden = false;
@@ -483,6 +507,7 @@ export function sideCards() {
 }
 
 export async function showAttendance(view) {
+  $(`#${view}-sub`).textContent = "";
   if (!configured()) {
     $(`#${view}-body`).innerHTML = `<div class="card-plain gate">
       <h3>Not configured</h3>
@@ -495,16 +520,18 @@ export async function showAttendance(view) {
   }
 
   if (!state.loaded) {
-    const [timetables, schedule, holidays, exams] = await Promise.all([
+    const [timetables, schedule, holidays, exams, groups] = await Promise.all([
       fetch("data/timetables.json").then((r) => r.json()),
       fetch("data/schedule.json").then((r) => r.json()),
       fetch("data/holidays.json").then((r) => r.json()).catch(() => []),
       fetch("data/exams.json").then((r) => r.json()).catch(() => []),
+      fetch("data/groups.json").then((r) => r.json()).catch(() => ({})),
     ]);
     state.timetables = timetables;
     state.schedule = schedule;
     state.holidays = holidays;
     state.exams = exams;
+    state.groups = groups;
     state.table = pickTable();
     state.loaded = true;
   }

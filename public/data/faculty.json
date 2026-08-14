@@ -6351,5 +6351,33 @@
   "staff": 85,
   "officer": 13
  },
- "unmatched_professors": []
+ "unmatched_professors": [
+  "AB",
+  "AN",
+  "AP",
+  "AS",
+  "ASG",
+  "ATB",
+  "BKB",
+  "Cd",
+  "DR",
+  "KM",
+  "KS",
+  "Kv",
+  "MM",
+  "MSG",
+  "PB",
+  "PD",
+  "PP",
+  "PSB",
+  "RSM",
+  "SAQ",
+  "SK",
+  "SP",
+  "Sb",
+  "Sc",
+  "Sns",
+  "sB",
+  "sC"
+ ]
 }

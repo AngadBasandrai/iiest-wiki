@@ -19,10 +19,12 @@ async function load(name) {
   return cache.get(name);
 }
 
-function fail(err) {
+function fail(err, name) {
   const box = $("#load-error");
   box.hidden = false;
   box.textContent = `Could not load data: ${err.message}. Run the scraper, then reload.`;
+  const sub = name && $(`#${name}-count, #${name}-sub`);
+  if (sub) sub.textContent = "";
 }
 
 const facultyView = (() => {
@@ -510,7 +512,7 @@ async function route() {
     if (ATTENDANCE_VIEWS.includes(name)) await showAttendance(name);
     else await SHOW[name](param);
   } catch (err) {
-    fail(err);
+    fail(err, name);
   }
 }
 

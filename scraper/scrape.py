@@ -916,22 +916,26 @@ def scrape_timetables() -> dict:
     log("timetables")
     tables = []
     for path in sorted(TIMETABLE_DIR.glob("*.ics")):
-        m = re.match(r"^([A-Z]{3})-(\d{4})$", path.stem, re.I)
+        m = re.match(r"^([A-Z]{3})-(\d{4})(?:-([A-Z0-9]+))?$", path.stem, re.I)
         if not m:
-            log(f"  skip {path.name}: expected <DEPT>-<YEAR>.ics")
+            log(f"  skip {path.name}: expected <DEPT>-<YEAR>.ics or <DEPT>-<YEAR>-<GROUP>.ics")
             continue
         dept, year = m.group(1).upper(), int(m.group(2))
+        group = (m.group(3) or "").upper()
         parsed = parse_timetable(path)
         tables.append({
             "key": path.stem.upper(),
             "dept": dept,
             "department": DEPT_CODES.get(dept, dept),
             "year": year,
+            "group": group,
+            "batch": f"{dept}-{year}",
             "file": f"data/timetables/{path.name}",
             "slots": parsed["slots"],
             "courses": parsed["courses"],
         })
-        log(f"  {path.stem}: {len(parsed['slots'])} slots, {len(parsed['courses'])} courses")
+        tag = f" group {group}" if group else ""
+        log(f"  {path.stem}: {len(parsed['slots'])} slots, {len(parsed['courses'])} courses{tag}")
 
     return {"departments": DEPT_CODES, "timetables": tables}
 

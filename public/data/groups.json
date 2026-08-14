@@ -1,0 +1,6 @@
+{
+ "EEB-2025": [
+  { "group": "CX", "label": "Cx, group 1", "max": 50 },
+  { "group": "CY", "label": "Cy, group 2", "min": 51 }
+ ]
+}
