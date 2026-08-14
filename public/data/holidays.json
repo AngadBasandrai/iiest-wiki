@@ -1,0 +1,25 @@
+[
+ { "date": "2026-08-15", "name": "Independence Day" },
+ { "date": "2026-09-24", "name": "INSTRUO, classes suspended" },
+ { "date": "2026-10-02", "name": "Gandhi Jayanti" },
+ { "start": "2026-10-19", "end": "2026-10-25", "name": "Semester break" },
+ { "date": "2026-11-24", "name": "Institute Foundation Day" },
+ {
+  "start": "2026-12-01", "end": "2026-12-31",
+  "name": "Winter break and internship",
+  "semesters": [3, 5, 7, 9]
+ },
+ {
+  "start": "2026-12-15", "end": "2026-12-31",
+  "name": "Winter break",
+  "semesters": [1]
+ },
+ { "date": "2027-01-26", "name": "Republic Day" },
+ { "date": "2027-01-22", "name": "REBECA, classes suspended" },
+ { "date": "2027-01-29", "name": "Annual Athletic Meet, classes suspended" },
+ {
+  "start": "2027-05-17", "end": "2027-07-16",
+  "name": "Summer vacation",
+  "semesters": [2, 4, 6, 8, 10]
+ }
+]

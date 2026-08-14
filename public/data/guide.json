@@ -1,0 +1,281 @@
+{
+ "source": "https://iiest-town.github.io",
+ "index": {
+  "title": "IIEST Student Wiki",
+  "lede": "A comprehensive guide to IIEST Shibpur and knowledge transfer.",
+  "html": "<p>This college is old, <em>really</em> old. And like many older institutions, essential information is scattered and locked away in the heads of a few individuals. This wiki aims to document the current state of the institute (as of 2026) for the benefit of students and the broader community. Beyond a few outdated Facebook groups, Quora threads, and unmaintained notes, reliable information on the web is scarce -- and this wiki changes that!</p>\n<h3 id=\"getting-started\">Getting Started</h3>\n<ul>\n<li><a data-wiki=\"hostels\" href=\"https://iiest-town.github.io/hostels/\">How are the hostels?</a></li>\n<li><a data-wiki=\"departments\" href=\"https://iiest-town.github.io/departments/\">How is my department?</a></li>\n<li><a data-wiki=\"misc\" href=\"https://iiest-town.github.io/misc/\">What will my student life look like?</a></li>\n<li><a data-wiki=\"campus\" href=\"https://iiest-town.github.io/campus/\">How is the campus?</a></li>\n<li><a data-wiki=\"gallery\" href=\"https://iiest-town.github.io/gallery/\">Show me some photos!</a></li>\n<li><a data-wiki=\"search\" href=\"https://iiest-town.github.io/search/\">Search</a> the entire wiki.</li>\n</ul>\n<h3 id=\"community\">Community</h3>\n<p>We have maintained two vibrant and active communities since November 2025. Everyone is welcome to join the conversation on our <a href=\"https://www.reddit.com/r/iiests/\" target=\"_blank\" rel=\"noreferrer noopener\">subreddit</a>. We also have a <a href=\"https://discord.gg/zG5HM8uMRq\" target=\"_blank\" rel=\"noreferrer noopener\">Discord Server</a>, which requires a quick verification process to enter.</p>",
+  "path": ""
+ },
+ "pages": [
+  {
+   "title": "Campus",
+   "lede": "Map links, buildings, lakes, places, and ways to connect with people.",
+   "section": "campus",
+   "group": "Campus",
+   "path": "campus",
+   "url": "https://iiest-town.github.io/campus/",
+   "html": "<h3 id=\"map\">Map</h3>\n<ul>\n<li>Official map if available.</li>\n<li>OpenStreetMap link.</li>\n<li>Gate names and access rules.</li>\n<li>Walking time between hostels, departments, library, canteens, and transport points.</li>\n</ul>\n<h3 id=\"buildings-and-places\">Buildings And Places</h3>\n<ul>\n<li>Place name.</li>\n<li>What it is used for.</li>\n<li>Nearby landmarks.</li>\n<li>Access rules or timings.</li>\n<li>Photo with month/year.</li>\n</ul>\n<h3 id=\"lakes\">Lakes</h3>\n<ul>\n<li>Names students use.</li>\n<li>Nearby buildings.</li>\n<li>Whether sitting or walking nearby is allowed.</li>\n<li>Safety notes during rain and at night.</li>\n</ul>\n<h3 id=\"connect-with-people\">Connect With People</h3>\n<p>The public Discord and Reddit links are on the <a data-wiki=\"\" href=\"https://iiest-town.github.io\">home page</a>.</p>\n<ul>\n<li>Share only public links or links where admins have agreed.</li>\n<li>Mention department-specific groups only if the invite is meant to be public.</li>\n<li>Do not publish private WhatsApp links without consent.</li>\n</ul>",
+   "words": 106
+  },
+  {
+   "title": "Departments",
+   "lede": "Department pages should cover faculty, labs, placements, notes, higher studies, workload, and active societies.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments",
+   "url": "https://iiest-town.github.io/departments/",
+   "html": "<p>Each department page uses the same sections so students can compare across branches.</p>\n<h3 id=\"pages-to-fill\">Pages To Fill</h3>\n<ul>\n<li><a data-wiki=\"departments/computer-science\" href=\"https://iiest-town.github.io/departments/computer-science/\">Computer Science and Technology</a></li>\n<li><a data-wiki=\"departments/information-technology\" href=\"https://iiest-town.github.io/departments/information-technology/\">Information Technology</a></li>\n<li><a data-wiki=\"departments/electronics\" href=\"https://iiest-town.github.io/departments/electronics/\">Electronics and Telecommunication Engineering</a></li>\n<li><a data-wiki=\"departments/electrical\" href=\"https://iiest-town.github.io/departments/electrical/\">Electrical Engineering</a></li>\n<li><a data-wiki=\"departments/mechanical\" href=\"https://iiest-town.github.io/departments/mechanical/\">Mechanical Engineering</a></li>\n<li><a data-wiki=\"departments/civil\" href=\"https://iiest-town.github.io/departments/civil/\">Civil Engineering</a></li>\n<li><a data-wiki=\"departments/aerospace\" href=\"https://iiest-town.github.io/departments/aerospace/\">Aerospace Engineering and Applied Mechanics</a></li>\n<li><a data-wiki=\"departments/mining\" href=\"https://iiest-town.github.io/departments/mining/\">Mining Engineering</a></li>\n<li><a data-wiki=\"departments/metallurgy\" href=\"https://iiest-town.github.io/departments/metallurgy/\">Metallurgy and Materials Engineering</a></li>\n<li><a data-wiki=\"departments/architecture\" href=\"https://iiest-town.github.io/departments/architecture/\">Architecture, Town and Regional Planning</a></li>\n</ul>",
+   "words": 48
+  },
+  {
+   "title": "Aerospace Engineering And Applied Mechanics",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for aerospace and applied mechanics.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/aerospace",
+   "url": "https://iiest-town.github.io/departments/aerospace/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition and equipment availability.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Aerospace, simulation, mechanical, software, analytics, and higher studies paths.</li>\n<li>Notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 31
+  },
+  {
+   "title": "Architecture, Town And Regional Planning",
+   "lede": "Faculty, studios, workload, design reviews, internships, placements, and career routes for architecture and planning.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/architecture",
+   "url": "https://iiest-town.github.io/departments/architecture/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Studio and lab condition.</li>\n<li>Research opportunities, portfolios, LORs, and SOPs.</li>\n<li>Architecture practice, planning, design, policy, GIS, and higher studies paths.</li>\n<li>Workload, free time, notes, competitions, societies, and fests.</li>\n</ul>",
+   "words": 34
+  },
+  {
+   "title": "Civil Engineering",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for CE.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/civil",
+   "url": "https://iiest-town.github.io/departments/civil/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition and fieldwork.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Construction, structural, transport, government exams, consulting, software, and higher studies paths.</li>\n<li>Notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 32
+  },
+  {
+   "title": "Computer Science And Technology",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for CST.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/computer-science",
+   "url": "https://iiest-town.github.io/departments/computer-science/",
+   "html": "<h3 id=\"faculty-and-professors\">Faculty And Professors</h3>\n<p>Add research areas, official profile links, and how responsive faculty are to project requests.</p>\n<h3 id=\"labs\">Labs</h3>\n<p>Track machine access, lab condition, hours, and whether equipment is usable for coursework or research.</p>\n<h3 id=\"research-and-higher-studies\">Research And Higher Studies</h3>\n<p>Document project groups, LOR patterns, SOP advice, and alumni who went to graduate school.</p>\n<h3 id=\"placements-and-careers\">Placements And Careers</h3>\n<p>Add official placement reports, off-campus routes, internships, open source, research engineering, product engineering, and quant preparation.</p>\n<h3 id=\"notes-and-pyqs\">Notes And PYQs</h3>\n<p>Link maintained notes, previous year questions, and course-specific warnings.</p>",
+   "words": 82
+  },
+  {
+   "title": "Electrical Engineering",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for EE.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/electrical",
+   "url": "https://iiest-town.github.io/departments/electrical/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition and safety.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Core electrical, power systems, electronics, software, and consulting paths.</li>\n<li>Assignments, free time, notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 33
+  },
+  {
+   "title": "Electronics And Telecommunication Engineering",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for ETC.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/electronics",
+   "url": "https://iiest-town.github.io/departments/electronics/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition and hardware access.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Core electronics, software, embedded, VLSI, telecom, and higher studies paths.</li>\n<li>Assignment load and free time.</li>\n<li>Notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 37
+  },
+  {
+   "title": "Information Technology",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for IT.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/information-technology",
+   "url": "https://iiest-town.github.io/departments/information-technology/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Placements and internships.</li>\n<li>Career paths found through alumni LinkedIn profiles.</li>\n<li>Free time and assignment load.</li>\n<li>Whether conditions are improving.</li>\n<li>Notes, PYQs, library resources, competitions, societies, and fests.</li>\n</ul>",
+   "words": 40
+  },
+  {
+   "title": "Mechanical Engineering",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for ME.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/mechanical",
+   "url": "https://iiest-town.github.io/departments/mechanical/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Workshop and lab condition.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Manufacturing, design, analytics, software, consulting, and higher studies paths.</li>\n<li>Assignments, free time, notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 33
+  },
+  {
+   "title": "Metallurgy And Materials Engineering",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for metallurgy and materials.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/metallurgy",
+   "url": "https://iiest-town.github.io/departments/metallurgy/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition and instrument access.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Materials, manufacturing, semiconductors, research, software, consulting, and higher studies paths.</li>\n<li>Notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 32
+  },
+  {
+   "title": "Mining Engineering",
+   "lede": "Faculty, labs, research, placements, notes, workload, societies, and career routes for mining.",
+   "section": "departments",
+   "group": "Departments",
+   "path": "departments/mining",
+   "url": "https://iiest-town.github.io/departments/mining/",
+   "html": "<h3 id=\"fill-this-page\">Fill This Page</h3>\n<ul>\n<li>Faculty and professors.</li>\n<li>Lab condition and field visits.</li>\n<li>Research opportunities, LORs, and SOPs.</li>\n<li>Core mining, government, analytics, software, consulting, and higher studies paths.</li>\n<li>Notes, PYQs, competitions, societies, and fests.</li>\n</ul>",
+   "words": 32
+  },
+  {
+   "title": "Hostels",
+   "lede": "A practical index for hostel life, room types, food, cleanliness, rules, eligibility, and photos.",
+   "section": "hostels",
+   "group": "Hostels",
+   "path": "hostels",
+   "url": "https://iiest-town.github.io/hostels/",
+   "html": "<h4 id=\"what-are-the-hostels-for-first-year-students\">What are the Hostels for first year students?</h4>\n<p>There are ...</p>\n<h3 id=\"food\">Food</h3>\n<ul>\n<li>Mess fees = 27.7k (Pay through this portal : - )</li>\n</ul>\n<h3 id=\"room-types\">Room Types</h3>\n<ul>\n<li>4 seater : currently the 1st year hostels are majorly 4 seatered, space is an issue, but fun to live if you get the right roomates.</li>\n<li>5 Seater : In each boys hostel, &quot;4&quot;-5 seater room are there, the room is bigger than hte 4 seaters and has an attached balcony.</li>\n<li>8 seater: Only in H-10, &quot;2&quot;-8 seater rooms are there.</li>\n</ul>\n<h3 id=\"1000-seater\">1000 Seater</h3>\n<ul>\n<li>Opens on 16th August,2026</li>\n</ul>\n<h3 id=\"halls-and-new-hostels\">Halls And New Hostels</h3>\n<ul>\n<li>Currently we have 5 HALLS for boys and 2 Halls for girls.</li>\n<li>Halls for boys are - wolfenden, Richardson, MacDonalds, Sen, Sengupta</li>\n<li>Halls for Girls are - Pandya and Lt. William.</li>\n<li>The boys halls are generally for the 4th years, few 3rd years also stay and the college-senate position holders are also the residents of the halls.</li>\n<li>The boys halls are generally 1 or 2 seaters.</li>\n</ul>\n<h3 id=\"hygiene-and-cleanliness\">Hygiene And Cleanliness</h3>\n<ul>\n<li>Bathrooms are cleaned everyday.</li>\n<li>Filter drinking water are available</li>\n<li>Waste disposal points are there</li>\n<li>Mess is clean.</li>\n<li>Rooms are to be cleaned by the individuals living in them, though the staff would assist you if you ask them to.</li>\n</ul>\n<h3 id=\"in-time\">In-time</h3>\n<ul>\n<li>for the first two months, irrespective of gender, your hostel intime is 7PM</li>\n<li>The intime gets extended to 10PM afterwards for the rest of the year.</li>\n</ul>\n<h3 id=\"electronics-usability\">Electronics Usability</h3>\n<ul>\n<li>You can actually bring anything you want.</li>\n<li>you get 4 sockets per room.</li>\n<li>always take one extension cord, it&#39;s beneficial.</li>\n</ul>\n<p>Do not publish advice that bypasses electrical safety rules.</p>\n<h3 id=\"home-distance-eligibility\">Home Distance Eligibility</h3>\n<ul>\n<li>Previously in round-1 of hostel allotments : - 150kms was the minimum limit to get hostel accomodations.</li>\n</ul>\n<h3 id=\"photos\">Photos</h3>\n<ul>\n<li>Prefer natural light and uncropped context.</li>\n<li>Blur faces or avoid people entirely.</li>\n<li>Add hall name, room type, and month/year.</li>\n<li>Include both good and bad conditions.</li>\n</ul>",
+   "words": 308
+  },
+  {
+   "title": "Student Life",
+   "lede": "Safety, health, discrimination, stores, food outlets, festivals, clubs, scholarships, and communities.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc",
+   "url": "https://iiest-town.github.io/misc/",
+   "html": "<h3 id=\"pages\">Pages</h3>\n<ul>\n<li><a data-wiki=\"misc/soft-ragging\" href=\"https://iiest-town.github.io/misc/soft-ragging/\">Soft ragging and intro</a></li>\n<li><a data-wiki=\"misc/drugs-alcohol\" href=\"https://iiest-town.github.io/misc/drugs-alcohol/\">Drugs and alcohol abuse</a></li>\n<li><a data-wiki=\"misc/no-senior-batch\" href=\"https://iiest-town.github.io/misc/no-senior-batch/\">Departments with no senior batch</a></li>\n<li><a data-wiki=\"misc/yellow-pages\" href=\"https://iiest-town.github.io/misc/yellow-pages/\">Stores and food outlets</a></li>\n<li><a data-wiki=\"misc/hospitals\" href=\"https://iiest-town.github.io/misc/hospitals/\">Hospitals nearby</a></li>\n<li><a data-wiki=\"misc/discrimination\" href=\"https://iiest-town.github.io/misc/discrimination/\">Discrimination</a></li>\n<li><a data-wiki=\"misc/lgbtq\" href=\"https://iiest-town.github.io/misc/lgbtq/\">LGBTQ</a></li>\n<li><a data-wiki=\"misc/festivals-vacations\" href=\"https://iiest-town.github.io/misc/festivals-vacations/\">Festivals and vacations</a></li>\n<li><a data-wiki=\"misc/clubs-societies\" href=\"https://iiest-town.github.io/misc/clubs-societies/\">Clubs and societies</a></li>\n<li><a data-wiki=\"misc/gaabesu-scholarships\" href=\"https://iiest-town.github.io/misc/gaabesu-scholarships/\">GAABESU and scholarships</a></li>\n</ul>",
+   "words": 31
+  },
+  {
+   "title": "Clubs And Societies",
+   "lede": "Active clubs, societies, fraternities, fests, recruitment, and contact links.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/clubs-societies",
+   "url": "https://iiest-town.github.io/misc/clubs-societies/",
+   "html": "<h3 id=\"listing-format\">Listing Format</h3>\n<ul>\n<li>Name.</li>\n<li>What they do.</li>\n<li>How to join.</li>\n<li>Current contact.</li>\n<li>Events or competitions.</li>\n<li>Last verified month.</li>\n</ul>",
+   "words": 17
+  },
+  {
+   "title": "Departments With No Senior Batch",
+   "lede": "How students can evaluate newer departments or programs without passout data.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/no-senior-batch",
+   "url": "https://iiest-town.github.io/misc/no-senior-batch/",
+   "html": "<h3 id=\"questions-to-ask\">Questions To Ask</h3>\n<ul>\n<li>Is there a full curriculum and faculty roster?</li>\n<li>Are labs and classrooms ready?</li>\n<li>Which department owns placement support?</li>\n<li>Are alumni absent, or just not from the same program name?</li>\n</ul>",
+   "words": 32
+  },
+  {
+   "title": "Discrimination",
+   "lede": "Racism, groupism, ethnicity-based discrimination, harassment, and reporting routes.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/discrimination",
+   "url": "https://iiest-town.github.io/misc/discrimination/",
+   "html": "<h3 id=\"what-belongs-here\">What Belongs Here</h3>\n<ul>\n<li>Official equal opportunity or grievance links.</li>\n<li>Anonymous patterns and student advice.</li>\n<li>Escalation routes.</li>\n<li>Support communities.</li>\n</ul>\n<p>Keep reports specific, dated, and privacy-preserving.</p>",
+   "words": 24
+  },
+  {
+   "title": "Drugs And Alcohol Abuse",
+   "lede": "Support routes, emergency steps, and reporting paths for substance-related harm.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/drugs-alcohol",
+   "url": "https://iiest-town.github.io/misc/drugs-alcohol/",
+   "html": "<h3 id=\"document\">Document</h3>\n<ul>\n<li>Medical emergency steps.</li>\n<li>Campus reporting channels.</li>\n<li>Counselling or support contacts.</li>\n<li>Nearby treatment options.</li>\n</ul>\n<p>This page should be practical and non-moralising.</p>",
+   "words": 21
+  },
+  {
+   "title": "Festivals And Vacations",
+   "lede": "Academic breaks, campus festivals, travel planning, and what remains open.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/festivals-vacations",
+   "url": "https://iiest-town.github.io/misc/festivals-vacations/",
+   "html": "<h3 id=\"track\">Track</h3>\n<ul>\n<li>Academic calendar links.</li>\n<li>Major campus events.</li>\n<li>Hostel and mess availability during breaks.</li>\n<li>Travel rush periods around Howrah and Kolkata.</li>\n</ul>",
+   "words": 20
+  },
+  {
+   "title": "GAABESU And Scholarships",
+   "lede": "Alumni association links, scholarships, financial aid, and application timelines.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/gaabesu-scholarships",
+   "url": "https://iiest-town.github.io/misc/gaabesu-scholarships/",
+   "html": "<h3 id=\"add\">Add</h3>\n<ul>\n<li>Official GAABESU links.</li>\n<li>Scholarship names and eligibility.</li>\n<li>Application deadlines.</li>\n<li>Required documents.</li>\n<li>Student examples with dates.</li>\n</ul>",
+   "words": 16
+  },
+  {
+   "title": "Hospitals Nearby",
+   "lede": "Nearby hospitals, clinics, pharmacies, emergency rooms, and when students used them.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/hospitals",
+   "url": "https://iiest-town.github.io/misc/hospitals/",
+   "html": "<h3 id=\"add-carefully\">Add Carefully</h3>\n<ul>\n<li>Emergency number and location.</li>\n<li>Whether it is open 24 hours.</li>\n<li>Payment expectations.</li>\n<li>Student reports with dates.</li>\n</ul>\n<p>Medical information changes and is high stakes. Verify before publishing.</p>",
+   "words": 28
+  },
+  {
+   "title": "LGBTQ",
+   "lede": "Safety, support, privacy, allies, and campus climate for LGBTQ students.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/lgbtq",
+   "url": "https://iiest-town.github.io/misc/lgbtq/",
+   "html": "<h3 id=\"maintain\">Maintain</h3>\n<ul>\n<li>Support contacts that have consented to be listed.</li>\n<li>Safe healthcare or counselling information.</li>\n<li>Known risks and privacy advice.</li>\n<li>Events or groups if they exist.</li>\n</ul>",
+   "words": 25
+  },
+  {
+   "title": "Soft Ragging And Intro",
+   "lede": "What to do when intro culture becomes coercive, humiliating, or unsafe.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/soft-ragging",
+   "url": "https://iiest-town.github.io/misc/soft-ragging/",
+   "html": "<h3 id=\"immediate-steps\">Immediate Steps</h3>\n<ul>\n<li>Leave the situation if possible.</li>\n<li>Preserve messages, call logs, photos, and dates.</li>\n<li>Contact trusted seniors, faculty, hostel authorities, or anti-ragging channels.</li>\n<li>Add official anti-ragging links here and verify them every semester.</li>\n</ul>\n<p>Avoid publishing names on the wiki. This page should guide action, not run public trials.</p>",
+   "words": 48
+  },
+  {
+   "title": "Stores And Food Outlets",
+   "lede": "A local yellow pages for essentials, repairs, stationery, food, and daily services.",
+   "section": "misc",
+   "group": "Student life",
+   "path": "misc/yellow-pages",
+   "url": "https://iiest-town.github.io/misc/yellow-pages/",
+   "html": "<h3 id=\"add-listings\">Add Listings</h3>\n<ul>\n<li>Name.</li>\n<li>Category.</li>\n<li>Walking distance from gate or hostel.</li>\n<li>Usual price range.</li>\n<li>Phone number if public.</li>\n<li>Last verified month.</li>\n</ul>",
+   "words": 20
+  },
+  {
+   "title": "Gallery",
+   "lede": "A campus image board for IIEST Shibpur.",
+   "section": "gallery",
+   "group": "Gallery",
+   "path": "gallery",
+   "url": "https://iiest-town.github.io/gallery/",
+   "html": "Clock Tower\n  \n  Centenary Gate\n  \n  Hostel\n  \n  Wolfenden Hall\n  \n  Old campus photo\n  \n  Clock Tower side",
+   "words": 13
+  },
+  {
+   "title": "About",
+   "lede": "Who keeps Shibpur Wiki running.",
+   "section": "about",
+   "group": "About",
+   "path": "about",
+   "url": "https://iiest-town.github.io/about/",
+   "html": "<p>Shibpur Wiki is a small student-run effort to keep useful IIEST Shibpur information in one place.</p>\n<p>It is not an official institute website. It is a place for notes, links, corrections, and lived student knowledge that would otherwise stay scattered in chats.</p>\n<h3 id=\"people\">People</h3>\n<ul>\n<li><a href=\"https://datavorous.github.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Sagnik</a> - started the wiki.</li>\n<li>More contributors to be added.</li>\n</ul>\n<h3 id=\"how-to-help\">How To Help</h3>\n<ul>\n<li>Add missing links.</li>\n<li>Fix outdated claims.</li>\n<li>Add dates to rules, fees, contacts, and notices.</li>\n<li>Share photos only when they are useful and safe to publish.</li>\n<li>Keep private student information private.</li>\n</ul>",
+   "words": 86
+  },
+  {
+   "title": "Contribute",
+   "lede": "How maintainers can add or update pages without touching the site generator.",
+   "section": "contribute",
+   "group": "Contribute",
+   "path": "contribute",
+   "url": "https://iiest-town.github.io/contribute/",
+   "html": "<p>Edit files inside <code>src/content/pages</code>. Each file is Markdown with a small metadata block at the top.</p>\n<h3 id=\"page-template\">Page Template</h3>\n<p>Use this shape for new pages:</p>\n<pre><code>---\ntitle: Page title\nsummary: One sentence summary.\norder: 50\n---\nIntro paragraph.\n## Links\n- [Useful link](https://example.com)\n## Needs Verification\n- Add pending claims here.</code></pre>\n<h3 id=\"writing-standard\">Writing Standard</h3>\n<ul>\n<li>Prefer links over long explanations.</li>\n<li>Add dates for fees, rules, placements, availability, and office timings.</li>\n<li>Separate official rules from student reports.</li>\n<li>Keep allegations careful, specific, and actionable.</li>\n<li>Avoid naming private students without consent.</li>\n</ul>\n<h3 id=\"photos-in-pages\">Photos In Pages</h3>\n<p>Put downloaded photos inside <code>src/assets/photos</code>. The build copies that folder to <code>/assets/photos</code>.</p>\n<p>Use this in the middle of any Markdown page:</p>\n<pre><code>Text before the photo.\n![Clock Tower sample](/assets/photos/sample-campus.jpg)\nText after the photo.</code></pre>\n<p>Text before the photo.</p>\n<p>Text after the photo.</p>",
+   "words": 131
+  }
+ ]
+}

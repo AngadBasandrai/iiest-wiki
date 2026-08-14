@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Mid-Semester Examinations",
+  "start": "2026-10-05",
+  "end": "2026-10-13",
+  "semesters": [1, 3, 5, 7, 9],
+  "note": "Regular classes suspended."
+ },
+ {
+  "name": "End-Semester Examinations",
+  "start": "2026-11-16",
+  "end": "2026-11-29",
+  "semesters": [3, 5, 7, 9],
+  "note": "Regular classes suspended. No paper on Foundation Day, 24 November."
+ },
+ {
+  "name": "End-Semester Examinations",
+  "start": "2026-12-07",
+  "end": "2026-12-14",
+  "semesters": [1],
+  "note": "First year UG and PG only."
+ },
+ {
+  "name": "Supplementary Examinations",
+  "start": "2027-02-01",
+  "end": "2027-02-05",
+  "semesters": [2, 4, 6, 8, 10],
+  "note": "Only for students carrying backlogs."
+ },
+ {
+  "name": "Mid-Semester Examinations",
+  "start": "2027-02-22",
+  "end": "2027-02-27",
+  "semesters": [2, 4, 6, 8, 10],
+  "note": "Regular classes suspended."
+ },
+ {
+  "name": "End-Semester Examinations",
+  "start": "2027-04-26",
+  "end": "2027-05-10",
+  "semesters": [2, 4, 6, 8, 10],
+  "note": "Regular classes suspended."
+ }
+]

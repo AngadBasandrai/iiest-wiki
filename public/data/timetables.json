@@ -1,0 +1,14 @@
+{
+ "departments": {
+  "CSB": "Computer Science and Technology",
+  "ITB": "Information Technology",
+  "EEB": "Electrical Engineering",
+  "ETB": "Electronics and Telecommunication Engineering",
+  "MEB": "Mechanical Engineering",
+  "CEB": "Civil Engineering",
+  "MMB": "Metallurgy and Materials Engineering",
+  "MNB": "Mining Engineering",
+  "AEB": "Aerospace Engineering and Applied Mechanics"
+ },
+ "timetables": []
+}

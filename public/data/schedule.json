@@ -1,0 +1,28 @@
+{
+ "session": "2026-2027",
+ "source": "https://data.iiests.ac.in/cloud/2026/07/20260710_21490_academic-calender-2026-2027.pdf",
+ "terms": [
+  {
+   "id": "odd-first-year-ug",
+   "label": "Odd semester, first year UG",
+   "semesters": [1],
+   "start": "2026-08-24",
+   "end": "2026-12-04"
+  },
+  {
+   "id": "odd-senior",
+   "label": "Odd semester",
+   "semesters": [3, 5, 7, 9],
+   "start": "2026-07-20",
+   "end": "2026-11-13"
+  },
+  {
+   "id": "even",
+   "label": "Even semester",
+   "semesters": [2, 4, 6, 8, 10],
+   "start": "2027-01-04",
+   "end": "2027-04-23"
+  }
+ ],
+ "overrides": {}
+}
