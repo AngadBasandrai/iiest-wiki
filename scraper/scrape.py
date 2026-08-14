@@ -851,7 +851,29 @@ def slot_kind(title: str, declared: str) -> str:
     return "Lecture"
 
 
-def parse_timetable(path: Path) -> dict:
+def load_codes() -> dict:
+    path = OUT / "faculty-codes.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def resolve_profs(raw: list[str], rules: dict, hide_scholars: bool) -> list[str]:
+    names = rules.get("names", {})
+    hidden = set(rules.get("hide", []))
+    out = []
+    for code in raw:
+        if code in hidden:
+            continue
+        if hide_scholars and code.startswith("#"):
+            continue
+        out.append(names.get(code, code))
+    return out
+
+
+def parse_timetable(path: Path, rules: dict | None = None,
+                    hide_scholars: bool = False) -> dict:
+    rules = rules or {}
     events = parse_ics(path.read_text(encoding="utf-8"))
     slots = []
     for ev in events:
@@ -884,7 +906,7 @@ def parse_timetable(path: Path) -> dict:
         slots.append({
             "code": code,
             "title": summary,
-            "profs": fields.get("PROF", []),
+            "profs": resolve_profs(fields.get("PROF", []), rules, hide_scholars),
             "kind": slot_kind(summary, (fields.get("TYPE") or [""])[0]),
             "room": clean(ev.get("LOCATION")),
             "day": weekday,
@@ -914,6 +936,7 @@ def parse_timetable(path: Path) -> dict:
 
 def scrape_timetables() -> dict:
     log("timetables")
+    all_codes = load_codes()
     tables = []
     for path in sorted(TIMETABLE_DIR.glob("*.ics")):
         m = re.match(r"^([A-Z]{3})-(\d{4})(?:-([A-Z0-9]+))?$", path.stem, re.I)
@@ -922,7 +945,8 @@ def scrape_timetables() -> dict:
             continue
         dept, year = m.group(1).upper(), int(m.group(2))
         group = (m.group(3) or "").upper()
-        parsed = parse_timetable(path)
+        parsed = parse_timetable(path, all_codes.get(dept, {}),
+                                 bool(all_codes.get("hide_scholars")))
         tables.append({
             "key": path.stem.upper(),
             "dept": dept,

@@ -12,6 +12,1548 @@
  },
  "timetables": [
   {
+   "key": "EEB-2023-CX",
+   "dept": "EEB",
+   "department": "Electrical Engineering",
+   "year": 2023,
+   "group": "CX",
+   "batch": "EEB-2023",
+   "file": "data/timetables/EEB-2023-CX.ics",
+   "slots": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Amal Barman",
+      "Amalendu Bikash Choudhury",
+      "Debabrata Roy",
+      "Mousumi Mukherjee",
+      "Pritam Paral"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "11:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Kaushik Mukherjee"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "profs": [
+      "Abhinandan De"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "profs": [
+      "Amal Barman"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "profs": [
+      "Abhinandan De"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "profs": [
+      "Amal Barman"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Prasid Syam",
+      "Sourav Dhara"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "profs": [
+      "Anirudh Nath"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "profs": [
+      "Anirudh Nath",
+      "Debjani Ganguly"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "HU4101",
+     "title": "HSS",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Abhinandan De",
+      "Pritam Paral",
+      "Reetam Mondal",
+      "Syed Abdullah Qasim"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Anirudh Nath",
+      "Atanu Banerjee",
+      "Kumari Swati",
+      "Mousumi Mukherjee",
+      "Syed Abdullah Qasim",
+      "Sukanya Parui"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "profs": [
+      "Syed Abdullah Qasim"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "profs": [
+      "Sukanya Parui"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "profs": [
+      "Syed Abdullah Qasim"
+     ],
+     "kind": "Lecture",
+     "room": "S464",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "15:40",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "profs": [
+      "Sukanya Parui"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "15:40",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Bhaskaran Barman",
+      "Reetam Mondal",
+      "Suvarun Dalapati"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Konika Das (Bhattacharya)"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Konika Das (Bhattacharya)",
+      "Kaushik Mukherjee"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "profs": [
+      "Anirudh Nath",
+      "Debjani Ganguly"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Kaushik Mukherjee",
+      "Konika Das (Bhattacharya)"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "profs": [
+      "Abhinandan De",
+      "Syed Abdullah Qasim"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "profs": [
+      "Amal Barman",
+      "Sukanya Parui"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Amal Barman",
+      "Amalendu Bikash Choudhury",
+      "Debabrata Roy",
+      "Mousumi Mukherjee",
+      "Pritam Paral",
+      "Prasid Syam",
+      "Sourav Dhara",
+      "Abhinandan De",
+      "Reetam Mondal",
+      "Syed Abdullah Qasim",
+      "Anirudh Nath",
+      "Atanu Banerjee",
+      "Kumari Swati",
+      "Sukanya Parui",
+      "Bhaskaran Barman",
+      "Suvarun Dalapati"
+     ],
+     "kinds": [
+      "Project"
+     ]
+    },
+    {
+     "code": "HU4101",
+     "title": "HSS",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "EEB-2023-CY",
+   "dept": "EEB",
+   "department": "Electrical Engineering",
+   "year": 2023,
+   "group": "CY",
+   "batch": "EEB-2023",
+   "file": "data/timetables/EEB-2023-CY.ics",
+   "slots": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Amal Barman",
+      "Amalendu Bikash Choudhury",
+      "Debabrata Roy",
+      "Mousumi Mukherjee",
+      "Pritam Paral"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "11:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Kaushik Mukherjee"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4124",
+     "title": "Soft Computing and Intelligent Systems",
+     "profs": [
+      "Pritam Paral"
+     ],
+     "kind": "Lecture",
+     "room": "SL",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4124",
+     "title": "Soft Computing and Intelligent Systems",
+     "profs": [
+      "Pritam Paral"
+     ],
+     "kind": "Lecture",
+     "room": "SL",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Prasid Syam",
+      "Sourav Dhara"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "profs": [
+      "Anirudh Nath"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "profs": [
+      "Anirudh Nath",
+      "Debjani Ganguly"
+     ],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "HU4101",
+     "title": "HSS",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S281",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Abhinandan De",
+      "Pritam Paral",
+      "Reetam Mondal",
+      "Syed Abdullah Qasim"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Anirudh Nath",
+      "Atanu Banerjee",
+      "Kumari Swati",
+      "Mousumi Mukherjee",
+      "Syed Abdullah Qasim",
+      "Sukanya Parui"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4124",
+     "title": "Soft Computing and Intelligent Systems",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "SL",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4124",
+     "title": "Soft Computing and Intelligent Systems",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "SL",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Bhaskaran Barman",
+      "Reetam Mondal",
+      "Suvarun Dalapati"
+     ],
+     "kind": "Project",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Konika Das (Bhattacharya)"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Konika Das (Bhattacharya)",
+      "Kaushik Mukherjee"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE4171",
+     "title": "Digital Signal Processing and Embedded System Lab",
+     "profs": [
+      "Debjani Ganguly",
+      "Ranajay Paul",
+      "Ritam Banerjee"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "profs": [
+      "Anirudh Nath",
+      "Debjani Ganguly"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "profs": [
+      "Kaushik Mukherjee",
+      "Konika Das (Bhattacharya)"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4124",
+     "title": "Soft Computing and Intelligent Systems",
+     "profs": [
+      "Pritam Paral"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE4171",
+     "title": "Digital Signal Processing and Embedded System Lab",
+     "profs": [
+      "Debjani Ganguly",
+      "Ranajay Paul",
+      "Ritam Banerjee"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "profs": [
+      "Amal Barman",
+      "Amalendu Bikash Choudhury",
+      "Debabrata Roy",
+      "Mousumi Mukherjee",
+      "Pritam Paral",
+      "Prasid Syam",
+      "Sourav Dhara",
+      "Abhinandan De",
+      "Reetam Mondal",
+      "Syed Abdullah Qasim",
+      "Anirudh Nath",
+      "Atanu Banerjee",
+      "Kumari Swati",
+      "Sukanya Parui",
+      "Bhaskaran Barman",
+      "Suvarun Dalapati"
+     ],
+     "kinds": [
+      "Project"
+     ]
+    },
+    {
+     "code": "HU4101",
+     "title": "HSS",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "EEB-2024-CX",
+   "dept": "EEB",
+   "department": "Electrical Engineering",
+   "year": 2024,
+   "group": "CX",
+   "batch": "EEB-2024",
+   "file": "data/timetables/EEB-2024-CX.ics",
+   "slots": [
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "profs": [
+      "Kaushik Mukherjee",
+      "Suvarun Dalapati",
+      "Wahid Rahaman",
+      "Sudipta Paul"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "profs": [
+      "Amalendu Bikash Choudhury",
+      "Sukanya Parui"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [
+      "Reetam Mondal"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [
+      "Reetam Mondal"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Atanu Banerjee"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Atanu Banerjee"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "profs": [
+      "Amalendu Bikash Choudhury"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Debabrata Roy",
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Debabrata Roy"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "profs": [
+      "Debabrata Roy"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "profs": [
+      "Amalendu Bikash Choudhury"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3174",
+     "title": "HEAT POWER LAB [ENGINE LAB, ME, Gr. Floor]",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Suvarun Dalapati",
+      "Atanu Banerjee"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "profs": [
+      "Amalendu Bikash Choudhury",
+      "Sukanya Parui"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [
+      "Reetam Mondal"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Suvarun Dalapati",
+      "Debabrata Roy"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "profs": [
+      "Kaushik Mukherjee",
+      "Suvarun Dalapati",
+      "Wahid Rahaman",
+      "Sudipta Paul"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "profs": [
+      "Amalendu Bikash Choudhury",
+      "Debabrata Roy"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "ME3174",
+     "title": "HEAT POWER LAB [ENGINE LAB, ME, Gr. Floor]",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "EEB-2024-CY",
+   "dept": "EEB",
+   "department": "Electrical Engineering",
+   "year": 2024,
+   "group": "CY",
+   "batch": "EEB-2024",
+   "file": "data/timetables/EEB-2024-CY.ics",
+   "slots": [
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "profs": [
+      "Sukanya Parui"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3174",
+     "title": "HEAT POWER LAB [ENGINE LAB, ME, Gr. Floor]",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "profs": [
+      "Amalendu Bikash Choudhury",
+      "Sukanya Parui"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [
+      "Reetam Mondal"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [
+      "Reetam Mondal"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Atanu Banerjee"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Atanu Banerjee"
+     ],
+     "kind": "Lecture",
+     "room": "S470",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "profs": [
+      "Mainak Sengupta",
+      "Bhaskaran Barman",
+      "Gourab Banerjee",
+      "Subhajit Dey"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Debabrata Roy",
+      "Suvarun Dalapati"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Debabrata Roy"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "profs": [
+      "Sourav Dhara"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "profs": [
+      "Debabrata Roy"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "profs": [
+      "Suvarun Dalapati",
+      "Atanu Banerjee"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "profs": [
+      "Sukanya Parui",
+      "Amalendu Bikash Choudhury"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "profs": [
+      "Reetam Mondal"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "profs": [
+      "Debabrata Roy",
+      "Suvarun Dalapati"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "profs": [
+      "Mainak Sengupta",
+      "Bhaskaran Barman",
+      "Gourab Banerjee",
+      "Subhajit Dey"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "profs": [
+      "Sourav Dhara",
+      "Debabrata Roy"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "ME3106",
+     "title": "HEAT POWER",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "ME3174",
+     "title": "HEAT POWER LAB [ENGINE LAB, ME, Gr. Floor]",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
    "key": "EEB-2025-CX",
    "dept": "EEB",
    "department": "Electrical Engineering",
@@ -24,7 +1566,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "SAQ"
+      "Syed Abdullah Qasim"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -40,7 +1582,7 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "ASG"
+      "Aparajita Sengupta"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -56,8 +1598,8 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "ASG",
-      "AS"
+      "Aparajita Sengupta",
+      "Ashoke Sutradhar"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -73,10 +1615,10 @@
      "code": "EE2173N",
      "title": "Networks and Circuit Theory Lab and Projects",
      "profs": [
-      "AS",
-      "AN",
-      "Sc",
-      "Cd"
+      "Ashoke Sutradhar",
+      "Anirudh Nath",
+      "Sukumar Chakraborty",
+      "Chirosree Dolui"
      ],
      "kind": "Lab",
      "room": "",
@@ -106,7 +1648,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "KM"
+      "Kaushik Mukherjee"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -122,7 +1664,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "KM"
+      "Kaushik Mukherjee"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -138,12 +1680,9 @@
      "code": "EE2172N",
      "title": "Electrical Machines Laboratory I",
      "profs": [
-      "SP",
-      "ATB",
-      "PB",
-      "PSB",
-      "Sb",
-      "sC"
+      "Sukanya Parui",
+      "Atanu Banerjee",
+      "Sourav Bala"
      ],
      "kind": "Lab",
      "room": "",
@@ -159,7 +1698,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "SAQ"
+      "Syed Abdullah Qasim"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -189,7 +1728,7 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "AS"
+      "Ashoke Sutradhar"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -205,7 +1744,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "DR"
+      "Debabrata Roy"
      ],
      "kind": "Lecture",
      "room": "S281",
@@ -221,7 +1760,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "DR"
+      "Debabrata Roy"
      ],
      "kind": "Lecture",
      "room": "S281",
@@ -237,7 +1776,7 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "PP"
+      "Pritam Paral"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -253,7 +1792,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "MSG"
+      "Mainak Sengupta"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -269,7 +1808,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "MSG"
+      "Mainak Sengupta"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -299,8 +1838,8 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "PP",
-      "MM"
+      "Pritam Paral",
+      "Mousumi Mukherjee"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -316,10 +1855,10 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "MM"
+      "Mousumi Mukherjee"
      ],
      "kind": "Lecture",
-     "room": "S464",
+     "room": "",
      "day": 4,
      "day_name": "Friday",
      "start": "10:50",
@@ -332,10 +1871,10 @@
      "code": "EE2173N",
      "title": "Networks and Circuit Theory Lab and Projects",
      "profs": [
-      "AB",
-      "KS",
-      "Cd",
-      "Sc"
+      "Amal Barman",
+      "Kumari Swati",
+      "Chirosree Dolui",
+      "Sukumar Chakraborty"
      ],
      "kind": "Lab",
      "room": "",
@@ -353,8 +1892,8 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "ASG",
-      "AS"
+      "Aparajita Sengupta",
+      "Ashoke Sutradhar"
      ],
      "kinds": [
       "Lecture"
@@ -364,8 +1903,8 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "SAQ",
-      "MSG"
+      "Syed Abdullah Qasim",
+      "Mainak Sengupta"
      ],
      "kinds": [
       "Lecture"
@@ -375,8 +1914,8 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "KM",
-      "DR"
+      "Kaushik Mukherjee",
+      "Debabrata Roy"
      ],
      "kinds": [
       "Lecture"
@@ -386,8 +1925,8 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "PP",
-      "MM"
+      "Pritam Paral",
+      "Mousumi Mukherjee"
      ],
      "kinds": [
       "Lecture"
@@ -397,12 +1936,9 @@
      "code": "EE2172N",
      "title": "Electrical Machines Laboratory I",
      "profs": [
-      "SP",
-      "ATB",
-      "PB",
-      "PSB",
-      "Sb",
-      "sC"
+      "Sukanya Parui",
+      "Atanu Banerjee",
+      "Sourav Bala"
      ],
      "kinds": [
       "Lab"
@@ -412,12 +1948,12 @@
      "code": "EE2173N",
      "title": "Networks and Circuit Theory Lab and Projects",
      "profs": [
-      "AS",
-      "AN",
-      "Sc",
-      "Cd",
-      "AB",
-      "KS"
+      "Ashoke Sutradhar",
+      "Anirudh Nath",
+      "Sukumar Chakraborty",
+      "Chirosree Dolui",
+      "Amal Barman",
+      "Kumari Swati"
      ],
      "kinds": [
       "Lab"
@@ -446,7 +1982,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "SAQ"
+      "Syed Abdullah Qasim"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -462,7 +1998,7 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "ASG"
+      "Aparajita Sengupta"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -478,8 +2014,8 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "ASG",
-      "AS"
+      "Aparajita Sengupta",
+      "Ashoke Sutradhar"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -509,7 +2045,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "KM"
+      "Kaushik Mukherjee"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -525,7 +2061,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "KM"
+      "Kaushik Mukherjee"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -541,10 +2077,8 @@
      "code": "EE2171N",
      "title": "Digital and Analog Electronics Lab and Projects",
      "profs": [
-      "RSM",
-      "SK",
-      "Kv",
-      "sB"
+      "Kundan Kumar Verma",
+      "Saswat Banerji"
      ],
      "kind": "Lab",
      "room": "",
@@ -560,7 +2094,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "SAQ"
+      "Syed Abdullah Qasim"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -590,7 +2124,7 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "AS"
+      "Ashoke Sutradhar"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -606,7 +2140,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "DR"
+      "Debabrata Roy"
      ],
      "kind": "Lecture",
      "room": "S281",
@@ -622,7 +2156,7 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "DR"
+      "Debabrata Roy"
      ],
      "kind": "Lecture",
      "room": "S281",
@@ -638,7 +2172,7 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "PP"
+      "Pritam Paral"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -654,7 +2188,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "MSG"
+      "Mainak Sengupta"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -670,7 +2204,7 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "MSG"
+      "Mainak Sengupta"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -686,12 +2220,10 @@
      "code": "EE2172N",
      "title": "Electrical Machines Laboratory I",
      "profs": [
-      "BKB",
-      "ATB",
-      "AP",
-      "PD",
-      "Sb",
-      "sB"
+      "Bhaskaran Barman",
+      "Atanu Banerjee",
+      "Sourav Bala",
+      "Saswat Banerji"
      ],
      "kind": "Lab",
      "room": "",
@@ -721,8 +2253,8 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "PP",
-      "MM"
+      "Pritam Paral",
+      "Mousumi Mukherjee"
      ],
      "kind": "Lecture",
      "room": "S464",
@@ -738,10 +2270,10 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "MM"
+      "Mousumi Mukherjee"
      ],
      "kind": "Lecture",
-     "room": "S464",
+     "room": "",
      "day": 4,
      "day_name": "Friday",
      "start": "10:50",
@@ -754,10 +2286,8 @@
      "code": "EE2171N",
      "title": "Digital and Analog Electronics Lab and Projects",
      "profs": [
-      "MM",
-      "PD",
-      "Sns",
-      "sC"
+      "Mousumi Mukherjee",
+      "Surya Narayan Santra"
      ],
      "kind": "Lab",
      "room": "",
@@ -775,8 +2305,8 @@
      "code": "EE2101N",
      "title": "Signals and Systems",
      "profs": [
-      "ASG",
-      "AS"
+      "Aparajita Sengupta",
+      "Ashoke Sutradhar"
      ],
      "kinds": [
       "Lecture"
@@ -786,8 +2316,8 @@
      "code": "EE2102N",
      "title": "Engineering Electrodynamics",
      "profs": [
-      "SAQ",
-      "MSG"
+      "Syed Abdullah Qasim",
+      "Mainak Sengupta"
      ],
      "kinds": [
       "Lecture"
@@ -797,8 +2327,8 @@
      "code": "EE2103N",
      "title": "Electrical Machines I",
      "profs": [
-      "KM",
-      "DR"
+      "Kaushik Mukherjee",
+      "Debabrata Roy"
      ],
      "kinds": [
       "Lecture"
@@ -808,8 +2338,8 @@
      "code": "EE2104N",
      "title": "Networks and Circuit Theory",
      "profs": [
-      "PP",
-      "MM"
+      "Pritam Paral",
+      "Mousumi Mukherjee"
      ],
      "kinds": [
       "Lecture"
@@ -819,14 +2349,10 @@
      "code": "EE2171N",
      "title": "Digital and Analog Electronics Lab and Projects",
      "profs": [
-      "RSM",
-      "SK",
-      "Kv",
-      "sB",
-      "MM",
-      "PD",
-      "Sns",
-      "sC"
+      "Kundan Kumar Verma",
+      "Saswat Banerji",
+      "Mousumi Mukherjee",
+      "Surya Narayan Santra"
      ],
      "kinds": [
       "Lab"
@@ -836,12 +2362,10 @@
      "code": "EE2172N",
      "title": "Electrical Machines Laboratory I",
      "profs": [
-      "BKB",
-      "ATB",
-      "AP",
-      "PD",
-      "Sb",
-      "sB"
+      "Bhaskaran Barman",
+      "Atanu Banerjee",
+      "Sourav Bala",
+      "Saswat Banerji"
      ],
      "kinds": [
       "Lab"
@@ -853,6 +2377,982 @@
      "profs": [],
      "kinds": [
       "Lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ETB-2023",
+   "dept": "ETB",
+   "department": "Electronics and Telecommunication Engineering",
+   "year": 2023,
+   "group": "",
+   "batch": "ETB-2023",
+   "file": "data/timetables/ETB-2023.ics",
+   "slots": [
+    {
+     "code": "",
+     "title": "Microwave and Radar Engineering Lab",
+     "profs": [
+      "Debasis Mitra"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Elective-I",
+     "profs": [
+      "Dhrubajyoti Bhattacharya",
+      "Soumyajit Poddar"
+     ],
+     "kind": "Lecture",
+     "room": "C266/C366",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Elective-I",
+     "profs": [
+      "Dhrubajyoti Bhattacharya"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "B. Tech. Project Part I",
+     "profs": [],
+     "kind": "Project",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Microwave and Radar Engg",
+     "profs": [
+      "Debasis Mitra"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Digital Image Processing and Computer Vision",
+     "profs": [
+      "Ankita Pramanik"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "B. Tech. Project Part I",
+     "profs": [],
+     "kind": "Project",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Elective-I",
+     "profs": [
+      "Soumyajit Poddar",
+      "Ramanand Sagar Sangam"
+     ],
+     "kind": "Lecture",
+     "room": "C366/3rdFloor",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Open Elective (HSS)",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Digital Image Processing and Computer Vision Lab",
+     "profs": [
+      "Ankita Pramanik"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Digital Image Proc and Comp Vis.",
+     "profs": [
+      "Soumyajit Poddar"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Microwave and Radar Engg",
+     "profs": [
+      "Debasis Mitra"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Open Elective (HSS)",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "",
+     "title": "B. Tech. Project Part I",
+     "profs": [],
+     "kinds": [
+      "Project"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Digital Image Proc and Comp Vis.",
+     "profs": [
+      "Soumyajit Poddar"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Digital Image Processing and Computer Vision",
+     "profs": [
+      "Ankita Pramanik"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Digital Image Processing and Computer Vision Lab",
+     "profs": [
+      "Ankita Pramanik"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Elective-I",
+     "profs": [
+      "Dhrubajyoti Bhattacharya",
+      "Soumyajit Poddar",
+      "Ramanand Sagar Sangam"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Microwave and Radar Engg",
+     "profs": [
+      "Debasis Mitra"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Microwave and Radar Engineering Lab",
+     "profs": [
+      "Debasis Mitra"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Open Elective (HSS)",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ETB-2024",
+   "dept": "ETB",
+   "department": "Electronics and Telecommunication Engineering",
+   "year": 2024,
+   "group": "",
+   "batch": "ETB-2024",
+   "file": "data/timetables/ETB-2024.ics",
+   "slots": [
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontr.",
+     "profs": [
+      "Subiman Chatterjee"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Niladri Das"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers Lab",
+     "profs": [
+      "Subiman Chatterjee",
+      "Niladri Das"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers",
+     "profs": [
+      "Subiman Chatterjee"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "profs": [
+      "Tamaghna Acharya"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas Lab",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems",
+     "profs": [
+      "Ayan Banerjee"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "profs": [
+      "Dhrubajyoti Bhattacharya"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems",
+     "profs": [
+      "Ayan Banerjee"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems Lab",
+     "profs": [
+      "Ayan Banerjee"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications Lab",
+     "profs": [
+      "Dhrubajyoti Bhattacharya"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Niladri Das"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas",
+     "profs": [
+      "Susanta Kumar Parui"
+     ],
+     "kind": "Lecture",
+     "room": "C366",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "profs": [
+      "Tamaghna Acharya",
+      "Dhrubajyoti Bhattacharya"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications Lab",
+     "profs": [
+      "Dhrubajyoti Bhattacharya"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Niladri Das"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems",
+     "profs": [
+      "Ayan Banerjee"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems Lab",
+     "profs": [
+      "Ayan Banerjee"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontr.",
+     "profs": [
+      "Subiman Chatterjee"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers",
+     "profs": [
+      "Subiman Chatterjee"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers Lab",
+     "profs": [
+      "Subiman Chatterjee",
+      "Niladri Das"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas",
+     "profs": [
+      "Santanu Das",
+      "Susanta Kumar Parui"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas Lab",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ETB-2025",
+   "dept": "ETB",
+   "department": "Electronics and Telecommunication Engineering",
+   "year": 2025,
+   "group": "",
+   "batch": "ETB-2025",
+   "file": "data/timetables/ETB-2025.ics",
+   "slots": [
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "profs": [
+      "Dhrubajyoti Bhattacharya"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Electromagnetic Theory",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Electronic Devices Lab",
+     "profs": [
+      "Partha Bhattacharyya"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Network Theory",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Mathematics-III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Electronic Devices",
+     "profs": [
+      "Rik Chattopadhyay"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "profs": [
+      "Tamaghna Acharya"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:55",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Mathematics-III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Network Theory Lab",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications Lab",
+     "profs": [
+      "Tamaghna Acharya"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Mathematics-III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Electronic Devices",
+     "profs": [
+      "Ananda Sankar Chakraborty"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Electromagnetic Theory",
+     "profs": [
+      "Ramanand Sagar Sangam"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Network Theory",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kind": "Lecture",
+     "room": "C266",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Modelling and Simulation Lab",
+     "profs": [
+      "Manas Rakshit",
+      "Ramanand Sagar Sangam",
+      "Soumyajit Poddar"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "profs": [
+      "Dhrubajyoti Bhattacharya",
+      "Tamaghna Acharya"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications Lab",
+     "profs": [
+      "Tamaghna Acharya"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Electromagnetic Theory",
+     "profs": [
+      "Santanu Das",
+      "Ramanand Sagar Sangam"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Electronic Devices",
+     "profs": [
+      "Rik Chattopadhyay",
+      "Ananda Sankar Chakraborty"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Electronic Devices Lab",
+     "profs": [
+      "Partha Bhattacharyya"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Mathematics-III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Modelling and Simulation Lab",
+     "profs": [
+      "Manas Rakshit",
+      "Ramanand Sagar Sangam",
+      "Soumyajit Poddar"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Network Theory",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Network Theory Lab",
+     "profs": [
+      "Santanu Das"
+     ],
+     "kinds": [
+      "Lab"
      ]
     }
    ]

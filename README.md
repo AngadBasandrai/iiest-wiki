@@ -145,19 +145,42 @@ Notes on the format:
   first-plus-last name. Anything unmatched is listed as `unmatched_professors` in
   `faculty.json` and logged by the scraper, so check that after adding a calendar.
 
-`EEB-2025-CX.ics` and `EEB-2025-CY.ics` are real, transcribed from the Electrical
-Engineering tentative routine for July to December 2026. Everything else was deleted, so
-any other batch sees "no timetable published yet" until you add one.
+Nine real timetables ship, covering both departments that published a routine for
+July to December 2026:
 
-Two things to know about that transcription. Lab cells in the routine are merged across
-periods 5 to 7, so labs run 13:50 to 16:35 rather than a single period. And the Tuesday
-afternoon lab on the Cy row is labelled "Cx: EE2171N" in the source PDF, which is a
-labelling slip: Cx already has EE2172N in that slot, so it is read as Cy here. Worth
-confirming with the department.
+| Batch | Semester | Files |
+| --- | --- | --- |
+| EEB 2025, 2024, 2023 | 3, 5, 7 | `EEB-YEAR-CX.ics` and `EEB-YEAR-CY.ics` |
+| ETB 2025, 2024, 2023 | 3, 5, 7 | `ETB-YEAR.ics` |
 
-Staff appear as the routine's own initials (SAQ, ASG, KM and so on) because the PDF's
-legend only expands the research scholar codes, not the faculty ones. That means they do
-not link to faculty profiles. Supply an initials to names mapping and they will.
+Electrical splits into Cx and Cy for labs; Electronics does not, so its files have no
+group suffix. Any batch without a file sees "no timetable published yet".
+
+Three things to know about the transcription. Lab cells in the EE routine are merged
+across periods 5 to 7, so labs run 13:50 to 16:35 rather than a single period. The
+semester label is vertically centred and can sit on either the Cx or the Cy row, so
+groups are resolved from the cell geometry rather than the label. And the Tuesday
+afternoon lab on the Cy row reads "Cx: EE2171N" in the source PDF, which is a slip,
+since Cx already has EE2172N in that slot; it is read as Cy here. Worth confirming.
+
+### Staff names
+
+`faculty-codes.json` maps each routine's initials to full names, per department code:
+
+```json
+{ "EEB": { "SAQ": "Syed Abdullah Qasim" },
+  "ETB": { "SD": "Santanu Das" } }
+```
+
+It has to be per department because the same code means different people in each: `SP`
+is Sukanya Parui in Electrical and Soumyajit Poddar in Electronics.
+
+40 codes are filled in, taken from unique initials matches against the scraped directory
+plus the PG student and research scholar legend printed in the EE routine. About 24 are
+still bare initials, mostly Electrical faculty whose codes are ambiguous (`AS` fits three
+different people in that department) or absent from the directory. They show as initials
+until you add them, and they do not link to faculty profiles. Adding a line to that file
+is all it takes.
 
 ## Session, holidays and exams
 

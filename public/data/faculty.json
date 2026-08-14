@@ -2344,7 +2344,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/abhinandande-159",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><strong><span style=\"font-size:10.5pt\"><span style=\"color:#666666\">Graduated in Electrical Engineering with honours from Jadavpur University, India in 1996, and received the Master’s degree with honours in Electrical Engineering with specialization in High Voltage Engineering from Jadavpur University in 1999 (was rank holder in both). Received the PhD (Engg.) degree from Jadavpur University in 2003.</span></span></strong></span></span></p> <ul> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\"><strong>22+ years</strong> of Under-Graduate & Post-Graduate Teaching and Research Experience in State University and Centrally Funded Technical Institute and 5 years of experience of working in the industries</span></span></span></span></li> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\"><strong>H-index:19, i-10 index:39</strong> and <strong>1000+ citations</strong> in Google Scholar as on April 2025.</span></span></span></span></li> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\">Authored <strong>5 text books</strong> and <strong>12 book chapters</strong> published by reputed international publishing houses</span></span></span></span></li> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\">Guided <strong>10 PhD research scholars</strong> and presently guiding few more PhD scholars</span></span></span></span></li> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\">More than <strong>100 research publications</strong> in peer reviewed journals and conferences including Transaction of the IEEE, Journals of the IET, Elsevier and Springer.</span></span></span></span></li> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\">Awarded the <strong>“Best Paper Awards”</strong> 3 times.</span></span></span></span></li> <li><span style=\"color:#3366ff\"><span style=\"font-size:12pt\"><span style=\"background-color:white\"><span style=\"font-size:10.5pt\">Successfully executed 3 numbers of <strong>Govt. Sponsored Research Projects</strong> and has also rendered Expert Services in a number of <strong>Consultancy Projects.</strong></span></span></span></span></li> <li><span style=\"color:#3366ff\">Served as <strong>Track Chair </strong>and <strong>Session Chair </strong>in more than 10 reputed International and National Conferences.</span></li> <li><span style=\"color:#3366ff\">Delivered more than <strong>70</strong> <strong>Invited Talks as Resource Pers</strong>on in various National and International Conferences, Seminars and Faculty Development Programs organized by different NITS and Universities.</span></li> <li><span style=\"color:#3366ff\"><strong>Expert member</strong> of the <strong>Doctoral Committees </strong>of different NITS and Universities.</span></li> <li><span style=\"color:#3366ff\"><strong>Expert Member</strong> in the the <strong>Board of Studies</strong> of different academic institutes.</span></li> </ul>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    }
+   ]
   },
   {
    "id": 140,
@@ -2361,7 +2380,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/amalbarman-140",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 156,
@@ -2378,7 +2425,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/amalendubikashchoudhury-156",
    "bio": "<p>Bachelor of Engineering (ELECTRICAL) from Jadavpur University in 1993</p> <p>Master of Engineering from BITS, Pilani in 1997</p> <p>Ph.D. from IIEST, Shibpur in 2015</p> <p><strong><span style=\"background-color:#f1c40f\">Ph.D. Topic:</span></strong><span style=\"background-color:#f1c40f\"> </span></p> <p>PERFORMANCE ANALYSIS OF A MAGNETIC FAULT CURRENT LIMITER IN LOW VOLTAGE POWER DISTRIBUTION NETWORK</p> <p><strong><span style=\"background-color:#66ff33\">Present research domain:</span></strong></p> <p>1. Modelling and State of charge estimation of Li-ion batteries in Electric Vehicle applications using various machine learning techniques</p> <p>2. Optimization techniques in power system applications (Economic Load Dispatch problem)</p> <p>3. Transient analysis, thermal modelling and optimization techniques in assessing the performance of a Magnetic Fault Current Limiter</p> <p>4. Saturated iron core superconducting fault current limiter (SISFCL)</p> <p><strong><span style=\"background-color:#ffcc99\">Publications (Till April 2025):</span></strong></p> <p><strong>Number of Journal Publications: 27</strong></p> <p><strong>Number of conference Publications: 28</strong></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">More than 24 years of under-graduate & post-graduate Teaching and Research experience at IIEST, Shibpur and 7 years of industrial experience in Development Consultants Limited, Kolkata and BSES Ltd., Noida (presently Reliance Energy)</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">H-index: 09, i-10 index:09 and about 243 citations in Google Scholar as on April 2025.</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">Authored 2 book chapters published by reputed international publishing houses</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">Guided 4 PhD research scholars and presently guiding one research scholar</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">More than 50 research publications in peer reviewed journals and conferences including Transaction of the IEEE, Elsevier, Springer, Taylor and Francis.</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">Successfully executed 2 numbers DST funded and one number AICTE sponsored Research Projects as co-investigator.</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">Served as Session Chair in reputed International Conference.</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">Expert member of the Doctoral Committees of state aided University.</span></strong></span></span></p> <p><span style=\"color:#8e44ad\"><span style=\"font-size:16px\"><strong><span style=\"font-family:Calibri,sans-serif\">Expert Member in the Board of Studies of different academic institutes.</span></strong></span></span></p> <p> </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1042,
@@ -2429,7 +2504,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/anirudhnath-233",
    "bio": "<p>Anirudh Nath earned a B.Tech. degree in Electrical Engineering from the National Institute of Technology Agartala in 2012. He later completed an M.Tech. degree with a specialization in Control & Industrial Automation from the Department of Electrical Engineering at the National Institute of Technology Silchar in 2015. In 2019, he obtained his Ph.D. from the Control Systems group within the Electrical Engineering Department at the National Institute of Technology Silchar.</p> <p>Between March and August 2019, Anirudh worked as a Research Associate in the Aerospace Department at the Indian Institute of Science in Bangalore. From October 2019 to January 2022, he was affiliated with the Control Systems group of the Electrical Engineering Department at the Indian Institute of Technology Delhi, initially as a Research Associate and later as a Institute Post Doctoral Fellow.</p> <p>Before joining IIEST, Shibpur, he was working as Research Engineer in Controls & Optimization at the John F. Welch Technology Centre (JFWTC), GE Global Research, Bangalore.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 299,
@@ -2446,7 +2549,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/aparajitasengupta-299",
    "bio": "<p>Aparajita Sengupta was born in Kolkata in 1969. She stood first among girls and overall 3rd in West Bengal in the Madhyamik Pariksha in 1986. She received her Bachelor of Engineering (B. E.) degree from Jadavpur University, Kolkata in 1988 and won a gold medal for best Sessional work in EE. She did her Master of Technology (M.Tech) from IIT, Kharagpur in 1994 winning a Silver medal for best performance among the postgraduate students in EE. She completed Ph.D in Engineering with Control Systems specialisation from IIT Kharagpur in 1997. In the same year she joined as a Lecturer in EE in the erstwhile Bengal Engineering College, (DU) and since then has been serving there. She is working there as Professor in EE, since 2012.</p> <p>Her own PhD work centred around Hinfinity Optimal Control. Though presently she is more interested in application of control theory on real physical systems</p> <p>She has guided five PhD theses. The first candidate Arpita Mukherjee worked on Dynamic State Estimation which was supported by a DRDL sponsored project entitled \"Kinematic State Estimation of Tactical Ballistic Missiles\". This thesis produced three excellent publications in SCI journals. The second and third PhD candidates were jointly guided on control problems in the field of Power Systems and Power Electronics. Side by side Aparajita completed two sponsored research projects funded by ISRO and AICTE respectively. </p> <p>Her last two PhD candidates worked on analysis and control of Nonlinear Time Delay Systems using Linear Matrix Inequalities. The candidates have produced four SCIE journal prublications. </p> <p>Presently two ongoing PhD candidates are working under her. One of them is </p> <p>Presently she is eager to nurture the immense scope projected in Artificial Intelligence. She is trying to contribute in the filed of machine learming, particularly in neural networks and reinforcemnt learning in control. Parallely she is attempting to apply control theory on real physical systems.</p> <p>She is the mother of Arkadeb (27 years) and Shruti (19 years).</p> <p>Ongoing Student Projects:</p> <p>M.Tech Projects:</p> <p>1. Reinforcement Leaning Control of Real Physical Systems.</p> <p>2. Hinfinity Control of Real Physical Systems. (1. Microgrid system - simulation only. 2. Rotary Servo Flexible Link system - (hardware application through software) </p> <p>M.Tech Projects (2023):</p> <p>1. Neural Network Modelling, Parameter Estimation and Control of Physical Systems (simulation), Smart Disease Identification using neural netoworks.</p> <p>2. Application of Reinforcement Learning in Control Systems Problems (simulation)</p> <p>B.Tech Project (Ongoing):</p> <p>Wind Power prediction using Machine Learning.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 297,
@@ -2463,7 +2576,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/ashokesutradhar-297",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE2101N",
+     "title": "Signals and Systems",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 314,
@@ -2480,7 +2612,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/atanubanerjee-314",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong><span style=\"font-size:12.0pt\"><span style=\"color:black\">Dr. Atanu Banerjee </span></span></strong><span style=\"font-size:12.0pt\"><span style=\"color:black\">was born in Asansol, West Bengal, India. He did his class 10th & 12th from schools in Asansol only. He received his B.E degree from Nagpur University in the year of 2001 and M.E degree in 2008 from Bengal Engineering & Science University, Shibpur (Now IIEST, Shibpur). He has completed his Ph.D from IIT (ISM), Dhanbad, India in 2013. He<strong> </strong>worked in industries for almost three years & has academic experience of more than 20 years. Dr. Banerjee served Asansol Engg. College for more than 10 years & NIT Meghalaya for more than 09 years. Presently he is in IIEST, Shibpur as an Associate Professor in the Electrical Engg. Department. His research interests include electric vehicle technology, renewable energy integration & control, induction heating and high frequency switching in power electronic converters, adjustable speed drives etc. He has published few books & several journal/conference research papers. Also Dr. Banerjee is granted five patents from Govt. of India. He secured four sponsored projects from Govt. of India & performed many consultancy projects. Dr. Banerjee successfully supervised 07 Ph.D & 12 M-Tech projects. Currently he is guiding 04 research scholars of Ph.D.</span></span></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 332,
@@ -2514,7 +2674,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/bhaskaranbarman-364",
    "bio": "<p><span style=\"font-size:10.5pt\"><span style=\"background-color:#fdfdfd\"><span style=\"color:black\">Bhaskaran Barman has received his Bachelor's Degree in Electrical Engineering from Bengal Engineering College (DU), Shibpur, in 2004. He has done M.E.(Specialization:-Power Electronics, Machine and Drives) in Electrical Engineering from Bengal Engineering and Science University, Shibpur, in 2008. He has two(02) years of Industry experience.</span></span></span><span style=\"font-size:10.5pt\"><span style=\"background-color:white\"><span style=\"color:black\"> He joined as a faculty of Electrical Engineering at IIEST, Shibpur, in May 2013. </span></span></span><span style=\"font-size:10.5pt\"><span style=\"color:black\">He is currently working as an Assistant Professor in the Dept. of E.E. <span style=\"background-color:#fdfdfd\"> Before joining IIEST Shibpur, he has served Mallabhum Institute of Engineering (2008-2009), Bishnupur, and College of Engineering and Management, Kolaghat (2009-2013) as an assistant professor. His area of research work is power electronic converter and High-frequency Induction Heating.</span> He has completed two (02) research sponsored projects. He is a Member of IEEE(IAS).</span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 535,
@@ -2548,7 +2736,44 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/debabrataroy-548",
    "bio": "<p>Dr. Debabrata Roy is working as a Professor in the Department of Electrical Engineering, IIEST, Shibpur, India. He received the B.E. and M.E. degrees from the Department of Electrical Engineering, Jadavpur University, Kolkata, India in 1991 and 1994 respectively. He received a Ph.D. (Engg.) degree from Kanazawa University, Kanazawa, Japan in 2002. He has also pursued his post-doctoral research at Kanazawa University, Kanazawa, Japan. Dr. Debabrata Roy has over 25 years of teaching and research experience in the diverse field of electromagnetics, electrical machines and drives, power electronics, and power system protection. He is the recipient of Gold Medals from Jadavpur University for securing the first position in both B. E. and M. E. examinations. He also received Ashok Memorial Bronze Medal at Jadavpur University. He has obtained the Monbusho Scholarship and the Telecommunications Advancement Research (TAO) Fellowship in Japan for pursuing research work. He is actively involved in various research projects funded by Centrally Funded Organizations like DST. He has published numerous research articles in reputed National/International journals and conferences including IEEE Transactions. Three (3) research scholars have got their Ph. D. degree under the supervision of Dr. Roy. Currently, five (5) students are pursuing doctoral research under him.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 541,
@@ -2565,7 +2790,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/debjaniganguly-541",
    "bio": "<p>Graduated in Electrical Engineeing from Jadavpur University in 1985 standing 7th in a class of 100+ students. Obtained the Post Graduate degree in Electrical Engineeing from Jadavpur University in 1987 with specialisation in Control Systems in 1987 standing 2nd in the class. Joined the Department of Electrical Engineering at the erstwhile B. E. College as a Lecturer in 1988.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4101",
+     "title": "Digital Signal Processing and Embedded System",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4171",
+     "title": "Digital Signal Processing and Embedded System Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    }
+   ]
   },
   {
    "id": 718,
@@ -2582,7 +2826,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/kaushikmukherjee-718",
    "bio": "<p>I received the B.E. degree in electrical engineering from Jadavpur University, Calcutta, India, in 1993, the M.E. degree in electrical engineering from Bengal Engineering College, Howrah, India, in 1998, and the Ph.D. degree in electrical engineering from the Indian Institute of Technology, Kharagpur, Kharagpur, India, in 2003. Since 1993, I have spent almost two and a half years in the industry, first with Andrew Yule and Co. Ltd., Brentford Unit. Electrical Division, India and then with Siemens Ltd., Projects Division, India. I started my teaching career as a lecturer at the Department of Electrical Engineering, Jadavpur University, Kolkata in June 2002. I am at present an Associate Professor in the Department of Electrical Engineering, Indian Institute of Engineering Science and Technology (IIEST), Shibpur, Howrah, India. I am also a Visiting (Research) Professor with the Centre for Hybrid Automotive Research and Green Energy (CHARGE) lab, University of Windsor, Windsor, Canada. My collaborative research with Prof. Narayan Kar, CHARGE, University of Windsor, Canada has so far yielded joint supervision of three doctoral research scholars and about fifteen IEEE transaction papers. Two of these scholars have visited me at IIEST Shibpur and both stayed for about two months for their research in my laboratory at IIEST Shibpur. My research interests include Electrical Machines, Electrical Drives, and other Power Electronic applications, particularly targetted to Electrified Vehicles, Distributed Generation and Flexible AC Transmission Systems (FACTS). I am a regular reviewer of research manuscripts for IET Generation, Transmission, Distribution; IET Electric Power Applications; IEEE Transactions on Energy Conversion; IEEE Transactions on Industry Applications, IEEE Transactions on Industrial Electronics and IEEE Transactions on Power Electronics. I am, at present, a Senior Member of IEEE, USA and have delivered invited lectures at Imperial College, London. UK, University of Victoria, Canada, University of Windsor, Canada, National Institute of Durgapur, Indian Institute of Mizoram, India ans SASTRA University, India. I am also a part of a team of six teaching faculties passionate about Power Electronics, Machines and Drives in the Department of Electrical Engineering, IIEST Shibpur and I have done my little bit towards building the state-of-the-art Advanced Power Electronics Laboratory of this department from 2006-2011.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE2103N",
+     "title": "Electrical Machines I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 688,
@@ -2599,7 +2871,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/konikadasbhattacharya-688",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4102",
+     "title": "Electrical Energy Utilization and Grid Interactive Control",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    }
+   ]
   },
   {
    "id": 1488,
@@ -2616,7 +2898,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/kumariswati-1488",
    "bio": "Dr. Kumari Swati is an academic and researcher specializing in High Voltage Engineering and Power & Energy Systems. She holds a B.Tech in Electrical Engineering along with a joint M.S. and Ph.D. from IIT Madras, where her doctoral research focused on the electrical and thermal performance of transformer insulation systems using nanofluid. Dr. Swati has built a diverse career across several prestigious institutions, having worked with IIT Madras as Pre-Doc Fellow, Khalifa University (Abu Dhabi) as Post-Doctoral Fellow, ISI Kolkata (IDEAS-Technology Innovation Hub) as Project Manager, Jadavpur University as SERB National Post-Doctoral Fellow, and NIT Rourkela as Assistant Professor G-II. In addition to her academic and research roles, she is a Registered Patent Agent with the Government of India. Research Areas • High Voltage Engineering: Electrical insulation systems and dielectric materials. • Power & Energy Systems: Condition Monitoring of Power System Equipment. • Nano-Dielectrics: Synthesis of solid and liquid nanodielectrics and its application to Power System and High Voltage applications. • Intellectual Property: Patent prosecution and innovation management.",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE2173N",
+     "title": "Networks and Circuit Theory Lab and Projects",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 842,
@@ -2633,7 +2934,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/mainaksengupta-842",
    "bio": "<p>Prof. Mainak Sengupta did his B.E (EE) from Jadavpur University in Calcutta in 1992. He did his M.Tech (Power Electronics and Machine Drives, Electrical Engg.) In january 1994 under Prof. K. Venkataratnam. In January 1994 he joined Ph D studies under Prof. K. Venkataratnam and Prof. Tapas K. Bhattacharya. He obtained his PhD degree in September 1999. In between, after completing the experimental work, he joined as a Lecturer in EE, in the then Bengal Engineering College (Deemed University) and is since teaching there. He is a Professor since June 2010.</p> <p> </p> <p>He has supervised 11 PhD theses and 5 more PhD students are currently working under his supervision. He has supervised 45 Master's theses and over 100 B.Tech students.Till date he has led in more than a dozen R&D projects as Principal/Chief Investigator, amounting to the tune of Rs. 8.97 Crores. He has 14 patents (filed/ registered/awarded) till date. He emphasises on analytical work and compulsory validation by experiments on set-ups which are mostly developed, by his students in his lab, from scratch.</p> <p> </p> <p>His research areas majorly include experimental and analytical work in Electrical Engineering in areas like</p> <p>1. Use of Power Electronic Converters for Power Systems applications</p> <p>2. Special Electromagnetic applications viz., Induction Heating, Electromagnetic levitation (Attraction and Repulsion type), Electric Welding</p> <p>3. State of the art Power Electronic Converters - Development , analysis, Fabrication and testing</p> <p>4. Electrical machines like (i) Switched Reluctance Machines, (ii) Permanent magnet AC machines like PMSM, BLDC (iii) Linear machines (LIM, LPMSN, TLIM), (ii) - Design, develop,ment, fabrication, analysis and testing of radial flux, axial flux, rotary and liner varieties</p> <p>5. Electrical Drives built around the above machines</p> <p>6. Wide bang gap devices based Power Electronic Converters - Design, development, fabrication control and testing</p> <p>7. Modelling, analysis and testing of Magnetic Components for use in PE converters at very high frequesnices in the range 2 00 kHz - 2 MHz</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 840,
@@ -2650,7 +2970,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/mousumimukherjee-840",
    "bio": "<p style=\"text-align:justify\">Hi, I am <strong>Mousumi Mukherjee </strong>currently working as an Assistant Professor in the Department of Electrical Engineering at the Indian Institute of Engineering Science and Technology, Shibpur.</p> <p style=\"text-align:justify\">Prior to joining IIEST, Shibpur, I was associated with the <a href=\"https://www.ee.iitm.ac.in/dynamic-control/\">Control and Optimization group</a> of the Electrical Engineering Department of <strong>Indian Institute of Technology Madras</strong> as a DST-INSPIRE Faculty.</p> <p>I received my Master of Engineering (M.E.) degree with Control System specialization from the Department of Electrical Engineering of Indian Institute of Engineering Science and Technology, Shibpur, West Bengal in 2014. I completed my Ph.D. from the <a href=\"https://www.ee.iitb.ac.in/~ccgroup/\">Control and Computing group</a> of the Electrical Engineering Department of <strong>Indian Institute of Technology Bombay </strong>in 2020. </p> <p>From April 2021 to March 2023, I was a postdoctoral researcher in the Chair for Mechatronics, Mechanical Engineering and Process Engineering Department at <a href=\"https://rptu.de/en\">Technical University of Kaiserslautern, Germany</a>. </p> <p>My broad area of research is systems and control theory. During my PhD I worked on characterizing initial data for systems of partial differential and difference equations using tools from algebraic analysis of multidimensional (nD) systems. During my postdoc, I worked on the problem of abstraction of nD systems and the data-driven control using the behavioral framework. </p> <p>If you are interested in taking up a research position, preferably a PhD position, feel free to write an email to me. </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    },
+    {
+     "code": "EE2171N",
+     "title": "Digital and Analog Electronics Lab and Projects",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 928,
@@ -2718,7 +3066,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/prasidsyam-1012",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    }
+   ]
   },
   {
    "id": 951,
@@ -2735,7 +3093,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/pritamparal-951",
    "bio": "<p><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\">Dr. Pritam Paral received the B.Tech. in Electronics and Instrumentation Engineering from West Bengal University of Technology, Kolkata, India, in 2012, and the M.E. in Electrical Engineering (Specialization - Control Systems) from Jadavpur University, Kolkata, India, in 2014. He worked as an Assistant Professor in the Department of Electrical Engineering at Techno India University, West Bengal, India, from 2014 to 2016. Between 2016 and 2021, he pursued his doctoral research work in the Electrical Engineering Department of Jadavpur University under the “Visvesvaraya PhD Scheme for Electronics and IT” of the Ministry of Electronics and Information Technology (MeitY), Government of India. Dr. Paral completed his Ph.D. (Engineering) Degree in Instrumentation and Measurement (I&M) in 2022. From March 2022 to early January 2023, he worked as a Research Associate under the “SERB-National Science Chair” Scheme, Government of India, at the Center for Soft Computing Research, Indian Statistical Institute (ISI), Kolkata, India. Since late January 2023, he has been a faculty member in the Department of Electrical Engineering (EE), Indian Institute of Engineering Science and Technology (IIEST), Shibpur, Howrah, India. Currently, he is serving as an Assistant Professor (Grade - II) in the EE Department, IIEST, Shibpur, Howrah. </span></p> <p><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\">Dr. Paral has published a number of peer-reviewed papers in renowned international journals and conferences, as well as authored several book chapters in books from reputable international publishers. His current research interests include explainable AI for cyber-physical systems, neuromorphic computing, granular computing, assistive technology, human-robot collaboration with physics-informed neural networks (PINNs), application of generative AI in IoT, etc. Dr. Paral serves as an <strong>Associate Editor</strong> for the <em>IEEE Transactions on Instrumentation and Measurement</em> and is also a reviewer of several other IEEE and Elsevier journals. He is a member of the IEEE Instrumentation & Measurement Society (IMS).</span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4124",
+     "title": "Soft Computing and Intelligent Systems",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE2104N",
+     "title": "Networks and Circuit Theory",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 999,
@@ -2803,7 +3189,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/reetammondal-1077",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:18px\"><span style=\"font-family:Times New Roman,Times,serif\"><span style=\"color:#3498db\"><strong><span style=\"background-color:#ffffff\">Dr.Reetam Mondal </span></strong><span style=\"background-color:#ffffff\">received his Bachelor of Technology (B.Tech) Degree in Electrical Engineering (EE) from West Bengal University of Technology (WBUT), Kolkata, in the year 2010 and Master of Technology (M.Tech) Degree in Mechatronics Engineering (ME) from National Institute of Technical Teachers' Training and Research (NITTTR), Kolkata in the year 2012. He pursued his PhD research work on Control Systems from the Department of Electrical Engineering (EE), National Institute of Technology (NIT), Durgapur, West Bengal which he completed in the year 2020. Thereafter, he joined this institute in the same year as a Faculty member in the Department of Electrical Engineering (EE), Indian Institute of Engineering Science and Technology (IIEST), Shibpur, Howrah, West Bengal. Prior to this he has also served and has a long teaching experience at the University Level in both the UG and PG studies of Electrical Engineering. His research interests includes Intelligent Control, Industrial Automation, Robotics, Sensors & Actuators and Robust Control.</span></span></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3103",
+     "title": "Control Systems II",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1085,
@@ -2888,7 +3293,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/souravdhara-1328",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Aptos,\"sans-serif\"\"><span style=\"font-size:10.0pt\"><span style=\"font-family:\"Bookman Old Style\",\"serif\"\">Sourav Dhara received the B.E. degree in Electrical Engineering from The University of Burdwan, Burdwan, India, in 2015. and the M.Tech. degree in Power Systems from National Institute of Technology Durgapur, Durgapur, India, in 2018.He completed his Ph.D. from the Department of Electrical Engineering of NIT Durgapur in 2024.His current research interests include high-voltage engineering and condition monitoring of high-voltage power apparatus.</span></span></span></span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Aptos,\"sans-serif\"\"><span style=\"font-size:10.0pt\"><span style=\"font-family:\"Bookman Old Style\",\"serif\"\">Before joining the institute, he served as a Research Associate at NIT Durgapur under an industrial R&D project sponsored by National Hydroelectric Power Corporation (NHPC), Government of India, from January 2025 to June 2025.</span></span></span></span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Aptos,\"sans-serif\"\"><span style=\"font-size:10.0pt\"><span style=\"font-family:\"Bookman Old Style\",\"serif\"\">He is the innovator and designer of several partial discharge sensors that have been successfully commercialized and are being used in power industries both in India and abroad.</span></span></span></span></p> <p><span style=\"font-size:10.0pt\"><span style=\"font-family:\"Bookman Old Style\",\"serif\"\">He is actively associated with power industries and condition monitoring product manufacturing companies for collaborative research and consultations.</span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3172",
+     "title": "Power System Design and Electrical Machine Design",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1348,
@@ -2905,7 +3329,44 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/sukanyaparui-1348",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4122",
+     "title": "New and Renewable Energy",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3102",
+     "title": "Power System I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE2172N",
+     "title": "Electrical Machines Laboratory I",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 1475,
@@ -2922,7 +3383,44 @@
    "scholar": "https://scholar.google.com/citations?user=Be9ky1kAAAAJ&hl=en",
    "profile": "https://www.iiests.ac.in/en/faculty/suvarundalapati-1475",
    "bio": "<p>Dr. Suvarun Dalapati specializes in the field of Power Electronics, Machine Drives, FACTS & HVDC Converters and Applications of Digital Control/Controllers in Electrical Applications. After his doctoral study, he has worked for nearly six years in industry, designing power electronic converters, inverters and battery-chargers for Indian Railways and high stability power supplies for some DAE Centers. In June 2013, he joined the Department of Electrical Engineering at IIEST Shibpur, as a faculty member. </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE3101",
+     "title": "Electrical Machines III",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE3104",
+     "title": "Power Electronics",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    },
+    {
+     "code": "EE3171",
+     "title": "Electrical Machines Laboratory III",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "EEB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1020,
@@ -2939,7 +3437,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/syedabdullahqasim-1020",
    "bio": "<p>Dr. Syed Abdullah Qasim did his B.Tech and M.Tech in Electrical Engineering from the Aligarh Muslim University (AMU), Aligarh. He did his PhD from Indian Institute of Technology (IIT) Kanpur. His broad area of research is High Voltage Engineering. Prior to joining IIEST, he worked as Senior Project Engineer in IIT Kanpur. </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "EE4121",
+     "title": "High Voltage Engineering",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE4191",
+     "title": "UG Project",
+     "kinds": [
+      "Project"
+     ],
+     "dept": "EEB",
+     "year": 2023
+    },
+    {
+     "code": "EE2102N",
+     "title": "Engineering Electrodynamics",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "EEB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 298,
@@ -2956,7 +3482,17 @@
    "scholar": "https://scholar.google.com/citations?user=1oWcnrsAAAAJ&hl=en",
    "profile": "https://www.iiests.ac.in/en/faculty/anandasankarchakraborty-298",
    "bio": "<p>Dr. Ananda Sankar Chakraborty hails from Kolkata, India. He graduated from the West Bengal University of Technology, in Electronics and Communication Engineering (2004 - 2008). After several years of independent research work and consultancy along with a year working in the Software Industry, he joined the M.Tech program in VLSI design in Indian Institute of Engineering Science and Technology, Shibpur, India (2012 -14). During M.Tech, besides coursework he collaborated on various semiconductor based research problems and worked on a project sponsored by the Department of Atomic Energy, govt. of India. From 2014 - 2019 , he worked as a PhD researcher with the Department of Electronic Systems Engineering, Indian Institute of Science (IISc) Bangalore. He developed a full-fledged \"Compact Model\" for low effective-mass channel MOSFETs and pioneered the simulation framework of the said novel devices in commercial circuit simulation engines. </p> <p>After PhD he worked briefly as an \"Institute Research Associate\" at IISc, on some open problems in the domains of quantum devices. From Feb, 2020 he started working as a postdoc researcher with the Berkeley Wireless Research Center, UC Berkeley --- where he was instrumental in designing SPICE models for advanced devices to be used in communication circuitry for US Airforce. From Nov, 2021 - July, 2023 he worked with MathWorks as a senior software engineer, and contributed towards adding Silicon Carbide and Silicon based power semiconductor device models, into the inventory of the Simscape simulation platform. Since September, 2023 he has been working as an Assistant Professor with the ETCE department, Indian Institute of Engineering Science and Technology, Shibpur, India.</p> <p> </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Electronic Devices",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 260,
@@ -2973,7 +3509,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/ankitapramanik-260",
    "bio": "<p>Our COVID Research in News: </p> <oembed>https://www.anandabazar.com/calcutta/x-rays-to-find-whether-a-person-is-infected-or-not-1.1167081?fbclid=IwAR3hV_2rS_rzcvWXbXfTL-n09gYYtoN8nDrXF48RPIBtEP3XDzkZpXuj6uM</oembed> <p> </p> <oembed>https://www.facebook.com/iiest.shibpur.official/photos/a.605563423303933/856684241525182/</oembed> <p> </p> <oembed>https://www.thewall.in/news-covid-19-detection-students-of-iiest-shibpur-developed-an-artificial-intelligence-based-web-application-that-detect-covid-19-within-a-second/?fbclid=IwAR28ovbvRANqBYRWDndZHAT74uxtM27T7Rssfh7gAuMCceRaeUNJop4zp_8</oembed> <p> </p> <p>IBM Academic Awards 2020:</p> <p><a href=\"https://www.research.ibm.com/university/awards/university-awards-recipients.html\">https://www.research.ibm.com/university/awards/university-awards-recipients.html</a></p> <p>WBDSTBT Project grant: </p> <oembed>https://www.facebook.com/iiest.shibpur.official/photos/pcb.766409033886037/766408687219405</oembed> <p> </p> <p>Vice Chairperson - IEEE Women in Engineering, Kolkata Affinity Group - 2021, 2022 and Chairperson - IEEE Women in Engineering, Kolkata Affinity Group - 2023</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Digital Image Processing and Computer Vision",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    },
+    {
+     "code": "",
+     "title": "Digital Image Processing and Computer Vision Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    }
+   ]
   },
   {
    "id": 329,
@@ -2990,7 +3545,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/ayanbanerjee-329",
    "bio": "<p><strong>Industry Experience: </strong></p> <p><span style=\"font-size:14px\">From 03/03/1999 to 31/07/2000 at</span></p> <p><span style=\"font-size:14px\">Centre for Development of Telematics (CDOT), New DelhiCentre for Development of Telematics (CDOT), New Delhi </span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Integrated Circuits and Systems Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1133,
@@ -3058,7 +3632,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/debasismitra-474",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Microwave and Radar Engg",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    },
+    {
+     "code": "",
+     "title": "Microwave and Radar Engineering Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    }
+   ]
   },
   {
    "id": 514,
@@ -3075,7 +3668,44 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/dhrubajyotibhattacharya-514",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"background-color:white\"><span style=\"font-family:Calibri,\"><span style=\"font-size:13.5pt\"><span style=\"color:#333333\">Dr. Dhrubajyoti Bhattacharya received the B.Tech. degree in Electronics and Communication Engineering from West Bengal University of Technology, in 2010, the M.E. degree from the Department of Electronics and Telecommunication engineering, IIEST Shibpur, in 2013, and the Ph.D. degree from the Department of Electronics and Electrical Communication Engineering, Indian Institute of Technology Kharagpur, in 2019. He worked as a Research Associate on a project under CSIR for few months.</span></span></span></span></span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"background-color:white\"><span style=\"font-family:Calibri,\"><span style=\"font-size:13.5pt\"><span style=\"color:#333333\">In 2019, he was associated with the Wolfram Research as a Wolfram Technology Engineer. Thereafter, he joined the School of Electronics Engineering, Kalinga Institute of Industrial Technology (KIIT), as an Assistant Professor. In 2020, he joined the Department of Electronics and Communication Engineering, Indian Institute of Information Technology (IIIT) Bhagalpur, where he was also the HoD for three years. </span></span></span></span></span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"background-color:white\"><span style=\"font-family:Calibri,\"><span style=\"font-size:13.5pt\"><span style=\"color:#333333\">Since August 2025, Dr. Bhattacharya has been working as an Assistant Professor in the Department of Electronics and Telecommunication Engineering, IIEST Shibpur.</span></span></span></span></span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"background-color:white\"><span style=\"font-family:Calibri,\"><span style=\"font-size:13.5pt\"><span style=\"color:#333333\">His current research interests include reconfigurable intelligent surface for beam steering in wireless communication, computational electromagnetics, Green’s function analysis, conformal antenna, metasurfaces, polarization control of the electromagnetic wave etc.</span></span></span></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Elective-I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 922,
@@ -3109,7 +3739,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/manasrakshit-761",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Modelling and Simulation Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 810,
@@ -3143,7 +3783,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/niladridas-872",
    "bio": "<p>Dr. Niladri Das has been working as an assistant professor in the Electronics and Telecommunication Engineering Department, IIEST, Shibpur, since September 2023. He has completed his Ph.D. degree in the area of Information Theory and Coding from the Department of Electronics and Electrical Engineering, IIT Guwahati, Guwahati. His research interests include blockchain, multi agent reinforcement learning, network coding, coded caching, networks, graph theory, and signal processing.</p> <p>Before his PhD, he obtained his M.Tech in Signal Processing from the Department of Electronics and Electrical Engineering, IIT Guwahati, Guwahati. Before that, he did his B.Tech in Electronics and Communication Engineering from the College of Engineering and Management, Kolaghat (affiliated with the erstwhile West Bengal University of Technology). After his PhD, he worked as an SERB National Post-Doctoral Fellow at the Electrical Communication Engineering Department of IISc Bangalore. Thereafter, he worked as an Assistant Professor in the School of Electronics Engineering of VIT Vellore, Vellore campus, and subsequently as an Assistant Professor in the Electrical and Electronics Engineering Department of BITS Pilani Hyderabad Campus. He has also worked at Cognizant Technology Solutions as an Associate Engineer.</p> <p>Note to students seeking recommendation letters:<strong> </strong>You must meet me personally to request recommendation letters or to submit my name as a reference. There must be a gap of at least four working days from the date of the request and the deadline to submit the recommendation. </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Data Structure and Algorithms",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 927,
@@ -3160,7 +3819,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/parthabhattacharyya-927",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:16px\"><span style=\"font-family:Times New Roman,Times,serif\"><span style=\"color:black\">Dr. Partha Bhattacharyya received his B.E. degree in Electronics and Telecommunication Engineering and M.E. degree in Electron Devices from Jadavpur University, India in 2002 and 2004, respectively. He received his PhD degree on ‘MEMS-based gas sensor and its integration with CMOS circuits’ from the same University in 2008. Presently, he is a faculty member in the Department of Electronics and Telecommunication Engineering, Indian Institute of Engineering Science and Technology (IIEST), India. He was a visiting scientist at Institute of Micro- and Nanomaterials, Ulm University, Germany in 2015 for his post-doctoral research. His current research interests include nanomaterial-based sensors, graphene and other two dimensional material for device applications. <span style=\"background-color:white\">He has executed number of sponsored research projects funded by DST, AICTE, CSIR, INSA,</span> MeitY<span style=\"background-color:white\"> and developed laboratory with state of the art research facilities in the area of “Nano thin films and solid state gas sensor devices”. </span>He has published seven book chapters, 84 research and review articles in tier-one SCI journals (Including 48 IEEE publications) and 100 in conference proceedings. He has four patents (granted) and one more filed. He received many prestigious awards and recognitions like the Young Engineer’s Award from the Institution of Engineers, India, in 2010, Career Award for Young Teachers (CAYT) 2011-12 from All India Council for Technical Education (AICTE), ‘Young Engineer Award 2012’ from Indian National Academy of Engineering (INAE),‘Young Scientist Award 2012’ from Indian National Science Academy (INSA), Young scientist award from Institute of Smart Structures and Systems (ISSS) in 2016, Visvesvaraya Young Faculty Research Fellowship (MeitY, India) 2016 and lecture medal from Materials Research Society of India (MRSI) in 2017, for his teaching and research contributions. He has been recognized as ‘World's Top 2% Scientists’; as per the list published by Stanford University and Elsevier in 2020, 2021, 2022, 2023, 2024 and 2025. He has supervised fourteen (8 as sole supervisor, 2 as principal supervisor, and 4 as co-supervisor) PhD students so far (14 degree awarded); with two more continuing. Many of his PhD and M. Tech. students received the best PhD/M. Tech thesis award at national level (INAE, ISSS etc.) apart from several best paper awards in national and international conferences. He is a senior member of IEEE and fellow of Institution of Engineers, India (IEI), Institution of Electronics and Telecommunication Engineers (IETE) and West Bengal Academy of Science and Technology (WAST). He is an associate editor of IEEE Sensors Journal. </span></span></span></p> <p> </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Electronic Devices Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 955,
@@ -3211,7 +3880,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/ramanandsagarsangam-1060",
    "bio": "<p>Dr. Ramanand Sagar Sangam received the PhD degree in RF & Microwave Engineering from Indian Institute of Technology Guwahati. His research work has been focused on RF, Microwaves, mm-Waves and THz. During his PhD, he has designed and implemented various microwave filters and other passive devices using tapered lines, spoof surface plasmon polariton (SSPP) and metamaterial-inspired structures on planar type of transmission lines like microstrip line and substrate integrated waveguide (SIW) for wireless communications (UWB, ISM band, X-band, V-band etc.). His M.Tech is in Microwaves from Burdwan University, during which he has studied and worked on high-frequency active and passive circuits. He has done one-year M.Tech research project on PCE-gun for plasma-assisted microwave sources at CSIR-Central Electronics Engineering Research Institute (CEERI), Pilani, Rajasthan.</p> <p>He is currently working as an Assistant Professor in the Department of Electronics and Telecommunication Engineering, IIEST, Shibpur. Before joining IIEST, he has worked as an Assistant Professor at Amrita Vishwa Vidyapeetham Coimbatore for two years and a Temporary Faculty for one and half year at NIT Karnataka Surathkal. He has published more than ten research papers in good reputed international journals and conferences. He has reviewed various research papers of international journals like IEEE Microwave and Wireless Components Letters, IEEE Open Journal of Antennas and Propagation, IET Microwaves, Antennas & Propagation, AEÜ – International Journal of Electronics and Communications, Physical Communication, etc. He has also been invited as a guest speaker for an FDP organized at VIT Vellore and also at some other institutions. He has volunteered in many social and academic events and also very enthusiastic in spirituality.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Elective-I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    },
+    {
+     "code": "",
+     "title": "Electromagnetic Theory",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    },
+    {
+     "code": "",
+     "title": "Modelling and Simulation Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 1068,
@@ -3228,7 +3925,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/rikchattopadhyay-1068",
    "bio": "<p>• Post-doctoral research: Indian Association for the Cultivation of Science from June, 2016 to February 2019.<br /> • Teaching: Joined as assistant Professor in the department of Electronics and Telecommunication of IIEST, Shibpur on 11th March, 2019.</p> <p> </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Electronic Devices",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 1184,
@@ -3245,7 +3952,53 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/santanudas-1184",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Electromagnetic Theory",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    },
+    {
+     "code": "",
+     "title": "Network Theory",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    },
+    {
+     "code": "",
+     "title": "Network Theory Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 945,
@@ -3262,7 +4015,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/soumyajitpoddar-945",
    "bio": "Design and Evaluation of Photonic Networks-on-Chip for Many-core Architectures",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Digital Image Proc and Comp Vis.",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    },
+    {
+     "code": "",
+     "title": "Elective-I",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2023
+    },
+    {
+     "code": "",
+     "title": "Modelling and Simulation Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 1401,
@@ -3279,7 +4060,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/subimanchatterjee-1401",
    "bio": "<p><span style=\"font-size:14px\"><span style=\"background-color:white\"><span style=\"color:#333333\">Dr. Subiman Chatterjee is working with Electronics and Telecommunication Engineering Department, IIEST, Shibpur since September, 2023. He has completed his Ph.D. degree in the area of VLSI designing from Department of Electronics Engineering, IIT (BHU), Varanasi. His research interests include VLSI architectures for signal processing, digital circuits and systems design, algorithms and architectures for high efficiency video coding, versatile video coding, image and video signal processing.</span></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontr.",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Microprocessors and Microcontrollers Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1467,
@@ -3296,7 +4105,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/susantakumarparui-1467",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Transmission Lines and Antennas",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    }
+   ]
   },
   {
    "id": 1473,
@@ -3330,7 +4149,35 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/tamaghnaacharya-1493",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2024
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    },
+    {
+     "code": "",
+     "title": "Analog and Digital Communications Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ETB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 306,
@@ -6352,32 +7199,17 @@
   "officer": 13
  },
  "unmatched_professors": [
-  "AB",
-  "AN",
-  "AP",
-  "AS",
-  "ASG",
-  "ATB",
-  "BKB",
-  "Cd",
-  "DR",
-  "KM",
-  "KS",
-  "Kv",
-  "MM",
-  "MSG",
-  "PB",
-  "PD",
-  "PP",
-  "PSB",
-  "RSM",
-  "SAQ",
-  "SK",
-  "SP",
-  "Sb",
-  "Sc",
-  "Sns",
-  "sB",
-  "sC"
+  "Chirosree Dolui",
+  "Gourab Banerjee",
+  "Kundan Kumar Verma",
+  "Ranajay Paul",
+  "Ritam Banerjee",
+  "Saswat Banerji",
+  "Sourav Bala",
+  "Subhajit Dey",
+  "Sudipta Paul",
+  "Sukumar Chakraborty",
+  "Surya Narayan Santra",
+  "Wahid Rahaman"
  ]
 }
