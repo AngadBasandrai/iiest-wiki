@@ -114,6 +114,22 @@ hot reload only produces confusing stale-asset bugs. To exercise it, use
 Icons in `public/` are generated, not hand drawn. To regenerate them from a different
 mark, edit the SVG path and rerun the icon script.
 
+### The install page
+
+`public/download/index.html` is a standalone page at `/download/`, reachable from
+"Get the app" in the sidebar. It detects the visitor's platform and shows the right
+steps for Android, iPhone, Windows or Mac, with the other three a click away. If it is
+opened from an already installed copy it says so instead.
+
+It is deliberately a real file rather than a route in the React app. The app is hash
+routed, so `iiest.wiki/download` would otherwise 404 on GitHub Pages. That also means
+the service worker's `navigateFallback` would happily serve the app shell in its place,
+which is what `navigateFallbackDenylist: [/^\/download\//]` prevents.
+
+There is no store listing and nothing to download. Installing the PWA gives the same
+result on all four platforms: an icon, its own window, offline access and a route to
+notifications, at about 300 KB and self updating.
+
 ## Running it locally
 
 ```sh

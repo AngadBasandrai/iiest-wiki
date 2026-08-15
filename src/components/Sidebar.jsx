@@ -67,6 +67,9 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
         <a href="https://maps.iiest.wiki" className="external">
           <Icon name="pin" />Campus map
         </a>
+        <a href="./download/" className="external">
+          <Icon name="down" />Get the app
+        </a>
       </nav>
 
       <div className="side-foot">
