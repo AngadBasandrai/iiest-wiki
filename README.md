@@ -91,7 +91,17 @@ time a page needs it, then served instantly from cache while a fresh copy is fet
 the background.
 
 Offline, the shell, faculty, notices, syllabus, fees and the guide all work from cache.
-Marking attendance does not: it writes to Supabase and needs a connection.
+
+Marking attendance works offline too. A mark is applied locally straight away and queued
+in `localStorage` under `iiest.pending`, then flushed when the connection returns or on
+the next load. The queue is keyed by course, date and slot, so changing your mind while
+offline overwrites the pending entry rather than queueing a second one, and only the
+final state is ever sent. There is no pending indicator by design.
+
+A single in-flight guard in `lib/queue.js` stops a mount and an `online` event from
+flushing concurrently and sending everything twice.
+
+Two devices marking the same class offline is last write wins, whichever syncs second.
 
 `registerType: "autoUpdate"` plus the toast in `components/UpdateToast.jsx` means a
 student on a stale cached copy is told a new version exists rather than silently keeping
@@ -146,6 +156,24 @@ Drop one iCalendar file per department and joining year into `public/data/timeta
 named `DEPT-YEAR.ics`, for example `CSB-2025.ics`. The department codes are CSB, ITB,
 EEB, ETB, MEB, CEB, MMB, MNB and AEB. A student's roll number picks their timetable
 automatically: `2025CSB042` loads `CSB-2025.ics`.
+
+### Changing a timetable mid-term
+
+Replacing an `.ics` outright would rewrite history: attendance already marked would be
+recomputed against a timetable that was not in force at the time. So calendars are
+versioned by an effective date in the filename:
+
+```
+EEB-2025-CX.ics              in force from the start of term
+EEB-2025-CX@2026-09-15.ics   takes over on 15 September
+```
+
+Each version covers from its own date until the next one starts, and a class on any
+given day is resolved against whichever version was in force that day. Keep the old file
+rather than editing it; that is what makes past percentages stay correct.
+
+A file with no `@date` is the base version. If that is the only file, nothing changes
+from before.
 
 ### Lab groups
 

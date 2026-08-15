@@ -937,29 +937,61 @@ def parse_timetable(path: Path, rules: dict | None = None,
 def scrape_timetables() -> dict:
     log("timetables")
     all_codes = load_codes()
-    tables = []
+    found: dict[tuple, list] = {}
+
     for path in sorted(TIMETABLE_DIR.glob("*.ics")):
-        m = re.match(r"^([A-Z]{3})-(\d{4})(?:-([A-Z0-9]+))?$", path.stem, re.I)
+        m = re.match(r"^([A-Z]{3})-(\d{4})(?:-([A-Z0-9]+))?(?:@(\d{4}-\d{2}-\d{2}))?$",
+                     path.stem, re.I)
         if not m:
-            log(f"  skip {path.name}: expected <DEPT>-<YEAR>.ics or <DEPT>-<YEAR>-<GROUP>.ics")
+            log(f"  skip {path.name}: expected <DEPT>-<YEAR>[-<GROUP>][@<YYYY-MM-DD>].ics")
             continue
         dept, year = m.group(1).upper(), int(m.group(2))
         group = (m.group(3) or "").upper()
+        effective = m.group(4) or ""
         parsed = parse_timetable(path, all_codes.get(dept, {}),
                                  bool(all_codes.get("hide_scholars")))
-        tables.append({
-            "key": path.stem.upper(),
-            "dept": dept,
-            "department": DEPT_CODES.get(dept, dept),
-            "year": year,
-            "group": group,
-            "batch": f"{dept}-{year}",
+        found.setdefault((dept, year, group), []).append({
+            "from": effective,
             "file": f"data/timetables/{path.name}",
             "slots": parsed["slots"],
             "courses": parsed["courses"],
         })
         tag = f" group {group}" if group else ""
-        log(f"  {path.stem}: {len(parsed['slots'])} slots, {len(parsed['courses'])} courses{tag}")
+        when = f" from {effective}" if effective else ""
+        log(f"  {path.stem}: {len(parsed['slots'])} slots, "
+            f"{len(parsed['courses'])} courses{tag}{when}")
+
+    tables = []
+    for (dept, year, group), versions in sorted(found.items()):
+        versions.sort(key=lambda v: v["from"])
+        for i, v in enumerate(versions):
+            v["until"] = versions[i + 1]["from"] if i + 1 < len(versions) else ""
+
+        courses: dict[str, dict] = {}
+        for v in versions:
+            for c in v["courses"]:
+                key = c["code"] or c["title"]
+                seen = courses.setdefault(key, {**c, "profs": list(c["profs"])})
+                for p in c["profs"]:
+                    if p not in seen["profs"]:
+                        seen["profs"].append(p)
+
+        key = f"{dept}-{year}" + (f"-{group}" if group else "")
+        tables.append({
+            "key": key,
+            "dept": dept,
+            "department": DEPT_CODES.get(dept, dept),
+            "year": year,
+            "group": group,
+            "batch": f"{dept}-{year}",
+            "versions": versions,
+            "slots": versions[-1]["slots"],
+            "courses": sorted(courses.values(), key=lambda c: c["code"] or c["title"]),
+        })
+        if len(versions) > 1:
+            spans = ", ".join(f"{v['from'] or 'start'} to {v['until'] or 'end'}"
+                              for v in versions)
+            log(f"  {key}: {len(versions)} versions ({spans})")
 
     return {"departments": DEPT_CODES, "timetables": tables}
 

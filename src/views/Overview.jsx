@@ -166,11 +166,16 @@ function DayPanel({ iso, ctx, session, statusFor, storedStatus, onMark, onFacult
                 ) : null}
                 <div className="klass-actions">
                   {[["present", "P", "Present"], ["absent", "A", "Absent"],
-                    ["cancelled", "C", "Class cancelled"]].map(([kind, label, title]) => (
-                    <button key={kind} title={title}
-                            className={`mark ${kind}${stored === kind ? " on" : ""}`}
-                            onClick={() => onMark(slot, iso, kind)}>{label}</button>
-                  ))}
+                    ["cancelled", "C", "Class cancelled"]].map(([kind, label, title]) => {
+                    const future = iso > today();
+                    const blocked = future && kind !== "cancelled";
+                    return (
+                      <button key={kind} disabled={blocked}
+                              title={blocked ? "Only cancellations can be marked ahead of time" : title}
+                              className={`mark ${kind}${stored === kind ? " on" : ""}`}
+                              onClick={() => onMark(slot, iso, kind)}>{label}</button>
+                    );
+                  })}
                 </div>
               </div>
             </article>

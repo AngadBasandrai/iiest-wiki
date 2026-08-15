@@ -5,6 +5,7 @@ import { isoDate, addDays, weekdayOf, fmtDate } from "./util.js";
 import { sessionFor, dayState } from "./calendar.js";
 import { loadJson } from "./data.js";
 import { useUser } from "./useAuth.js";
+import { enqueue, drop, flush, onReconnect, pending } from "./queue.js";
 
 export const slotId = (slot) => `${slot.day}-${slot.start}`;
 export const markKey = (code, date, slot) => `${code}|${date}|${slot}`;
@@ -92,17 +93,25 @@ export function useAttendance() {
     return () => { alive = false; };
   }, [who, table]);
 
+  const slotsOn = useCallback((iso) => {
+    if (!table) return [];
+    const versions = table.versions || [{ from: "", until: "", slots: table.slots }];
+    const hit = versions.find((v) =>
+      (!v.from || iso >= v.from) && (!v.until || iso < v.until));
+    return (hit || versions[versions.length - 1]).slots;
+  }, [table]);
+
   const classesFor = useCallback((iso) => {
     if (!table || !session) return [];
     const day = weekdayOf(iso);
-    return table.slots
+    return slotsOn(iso)
       .filter((s) => {
         if (s.day !== day) return false;
         if (!s.weekly) return iso === s.from;
         return iso >= session.start && iso <= session.end;
       })
       .sort((a, b) => a.start.localeCompare(b.start));
-  }, [table, session]);
+  }, [table, session, slotsOn]);
 
   const statusFor = useCallback((slot, iso) => {
     const stored = marks.get(markKey(slot.code, iso, slotId(slot)));
@@ -161,6 +170,25 @@ export function useAttendance() {
     return { present, absent, cancelled, held, pct: held ? (present / held) * 100 : 100 };
   }, [rows]);
 
+  const send = useCallback(async (job) => {
+    if (job.status === null) {
+      await db("attendance", {
+        method: "DELETE",
+        params: {
+          course_code: `eq.${job.course_code}`,
+          class_on: `eq.${job.class_on}`,
+          slot: `eq.${job.slot}`,
+        },
+      });
+    } else {
+      await db("attendance", {
+        method: "POST",
+        body: job,
+        prefer: "resolution=merge-duplicates,return=minimal",
+      });
+    }
+  }, []);
+
   const setMark = useCallback(async (slot, iso, status) => {
     const key = markKey(slot.code, iso, slotId(slot));
     const clearing = marks.get(key) === status;
@@ -169,30 +197,46 @@ export function useAttendance() {
     else next.set(key, status);
     setMarks(next);
 
+    const job = {
+      student: who.id, course_code: slot.code, class_on: iso,
+      slot: slotId(slot), status: clearing ? null : status,
+    };
+    enqueue(key, job);
+
     try {
-      if (clearing) {
-        await db("attendance", {
-          method: "DELETE",
-          params: {
-            course_code: `eq.${slot.code}`,
-            class_on: `eq.${iso}`,
-            slot: `eq.${slotId(slot)}`,
-          },
-        });
-      } else {
-        await db("attendance", {
-          method: "POST",
-          body: { student: who.id, course_code: slot.code, class_on: iso,
-                  slot: slotId(slot), status },
-          prefer: "resolution=merge-duplicates,return=minimal",
-        });
-      }
+      await send(job);
+      drop(key);
       setError(null);
     } catch (err) {
-      setMarks(marks);
-      setError(err);
+      if (navigator.onLine) {
+        setError(err);
+      }
     }
-  }, [marks, who]);
+  }, [marks, who, send]);
+
+  useEffect(() => {
+    if (!configured() || !who) return () => {};
+    const run = () => {
+      if (!navigator.onLine) return;
+      flush(send).catch(() => {});
+    };
+    run();
+    return onReconnect(run);
+  }, [who, send]);
+
+  useEffect(() => {
+    if (!who) return;
+    const queued = pending();
+    if (!Object.keys(queued).length) return;
+    setMarks((prev) => {
+      const next = new Map(prev);
+      for (const [key, job] of Object.entries(queued)) {
+        if (job.status === null) next.delete(key);
+        else next.set(key, job.status);
+      }
+      return next;
+    });
+  }, [who, loading]);
 
   return { who, sets, table, parts, session, ctx, rows, totals,
            classesFor, statusFor, storedStatus, setMark, error, loading };
