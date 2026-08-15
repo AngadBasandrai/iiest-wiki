@@ -168,7 +168,17 @@ h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; margin: 0 0 8
     '<path d="M12 16V3"/><path d="m8 7 4-4 4 4"/>' +
     '<path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></span>';
 
+  function wireManual(intro, items) {
+    ctaText.textContent = "Show me how";
+    cta.disabled = false;
+    cta.onclick = function () {
+      showSteps(intro, items);
+      cta.disabled = true;
+    };
+  }
+
   function wireNative() {
+    steps.hidden = true;
     ctaText.textContent = "Install";
     cta.disabled = false;
     cta.onclick = function () {
@@ -190,51 +200,47 @@ h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; margin: 0 0 8
   }
 
   if (isIOS) {
-    ctaText.textContent = "Show me how";
-    cta.onclick = function () {
-      showSteps("Apple does not allow apps to install themselves, so this is the one place it takes three taps.", [
-        "Tap the <b>Share</b> button " + SHARE + " at the bottom of Safari.",
-        "Scroll down and tap <b>Add to Home Screen</b>.",
-        "Tap <b>Add</b>. Done.",
-      ]);
-      cta.disabled = true;
-    };
+    wireManual("Apple does not allow apps to install themselves, so this is the one place it takes three taps.", [
+      "Tap the <b>Share</b> button " + SHARE + " at the bottom of Safari.",
+      "Scroll down and tap <b>Add to Home Screen</b>.",
+      "Tap <b>Add</b>. Done.",
+    ]);
     return;
   }
 
   if (isMac && isSafari) {
-    ctaText.textContent = "Show me how";
-    cta.onclick = function () {
-      showSteps("Safari on Mac installs from its menu bar.", [
-        "Open the <b>File</b> menu.",
-        "Choose <b>Add to Dock</b>.",
-        "Confirm. It appears in Launchpad like any Mac app.",
-      ]);
-      cta.disabled = true;
-    };
+    wireManual("Safari on Mac installs from its menu bar.", [
+      "Open the <b>File</b> menu.",
+      "Choose <b>Add to Dock</b>.",
+      "Confirm. It appears in Launchpad like any Mac app.",
+    ]);
     return;
   }
 
+  var GENERIC_INTRO = "Your browser did not offer a one click install. Chrome or Edge can do it.";
+  var GENERIC_STEPS = [
+    "Open this page in <b>Chrome</b> or <b>Edge</b>.",
+    "Look for the <b>install icon</b> in the address bar, or open the browser menu.",
+    "Choose <b>Install</b>, or <b>Add to Home screen</b> on a phone.",
+  ];
+
   if (window.__installEvent) {
     wireNative();
-  } else {
-    window.__onInstallReady = wireNative;
-    ctaText.textContent = "Install";
-    cta.disabled = true;
-    setTimeout(function () {
-      if (window.__installEvent) return;
-      cta.disabled = false;
-      ctaText.textContent = "Show me how";
-      cta.onclick = function () {
-        showSteps("Your browser did not offer a one click install. Chrome or Edge can do it.", [
-          "Open this page in <b>Chrome</b> or <b>Edge</b>.",
-          "Look for the <b>install icon</b> in the address bar, or open the browser menu.",
-          "Choose <b>Install</b>, or <b>Add to Home screen</b> on a phone.",
-        ]);
-        cta.disabled = true;
-      };
-    }, 2500);
+    return;
   }
+
+  if (!("onbeforeinstallprompt" in window)) {
+    wireManual(GENERIC_INTRO, GENERIC_STEPS);
+    return;
+  }
+
+  window.__onInstallReady = wireNative;
+  ctaText.textContent = "Preparing install";
+  cta.disabled = true;
+  setTimeout(function () {
+    if (window.__installEvent) return;
+    wireManual(GENERIC_INTRO, GENERIC_STEPS);
+  }, 10000);
 })();
 </script>
 </body>
