@@ -35,7 +35,7 @@ function SessionCard({ session, table }) {
   );
 }
 
-export default function Sidebar({ view, who, session, table, open, onNavigate }) {
+export default function Sidebar({ view, param, clubs, who, session, table, open, onNavigate }) {
   return (
     <aside className={`side${open ? " open" : ""}`}>
       <a className="logo" href="#overview" onClick={onNavigate}>
@@ -64,6 +64,17 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
             ))}
           </div>
         ))}
+        {clubs.length ? (
+          <div>
+            <p className="nav-label">Clubs</p>
+            {clubs.map((c) => (
+              <a key={c.slug} href={`#club/${c.slug}`} onClick={onNavigate}
+                 aria-current={view === "club" && param === c.slug ? "page" : undefined}>
+                <Icon name="star" />{c.name}
+              </a>
+            ))}
+          </div>
+        ) : null}
         <a href="https://maps.iiest.wiki" className="external">
           <Icon name="pin" />Campus map
         </a>

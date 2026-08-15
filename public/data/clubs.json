@@ -1,0 +1,98 @@
+{
+ "note": "Placeholder copy. Replace the tagline, about, links and events with real details.",
+ "clubs": [
+  {
+   "slug": "codeiiest",
+   "name": "codeIIEST",
+   "tagline": "The coding and competitive programming club.",
+   "about": "Contests, weekly practice sessions, development projects and interview preparation. Open to every department and every year.",
+   "meets": "Wednesdays, 18:00, Software Lab",
+   "links": [
+    { "label": "Instagram", "url": "https://www.instagram.com/" },
+    { "label": "Discord", "url": "https://discord.com/" }
+   ],
+   "events": [
+    {
+     "title": "Weekly contest",
+     "date": "2026-08-19",
+     "start": "18:00",
+     "end": "20:00",
+     "venue": "Software Lab 1",
+     "about": "Five problems, two hours, editorial afterwards."
+    },
+    {
+     "title": "Intro to competitive programming",
+     "date": "2026-08-26",
+     "start": "18:00",
+     "end": "19:30",
+     "venue": "CST 301",
+     "about": "For first years. No prior experience needed."
+    },
+    {
+     "title": "Hackathon briefing",
+     "date": "2026-09-05",
+     "start": "17:00",
+     "end": "18:00",
+     "venue": "Seminar Hall",
+     "about": "Team formation and problem statement release."
+    }
+   ]
+  },
+  {
+   "slug": "reges-belli",
+   "name": "Reges Belli",
+   "tagline": "Strategy, wargaming and tactics.",
+   "about": "Replace this with the club's own description. Meeting times, what it actually does and how to join.",
+   "meets": "Saturdays, 16:00",
+   "links": [
+    { "label": "Instagram", "url": "https://www.instagram.com/" }
+   ],
+   "events": [
+    {
+     "title": "Open session",
+     "date": "2026-08-22",
+     "start": "16:00",
+     "end": "19:00",
+     "venue": "Students Activity Centre",
+     "about": "Drop in and play. Boards provided."
+    },
+    {
+     "title": "Inter-hall tournament",
+     "date": "2026-09-12",
+     "start": "10:00",
+     "end": "18:00",
+     "venue": "Students Activity Centre",
+     "about": "Registration closes a week before."
+    }
+   ]
+  },
+  {
+   "slug": "debsoc",
+   "name": "DebSoc",
+   "tagline": "The debating society.",
+   "about": "Parliamentary debate, public speaking and adjudication. Weekly practice rounds and inter-college tournaments.",
+   "meets": "Fridays, 17:30, Humanities Block",
+   "links": [
+    { "label": "Instagram", "url": "https://www.instagram.com/" }
+   ],
+   "events": [
+    {
+     "title": "Practice round",
+     "date": "2026-08-21",
+     "start": "17:30",
+     "end": "19:30",
+     "venue": "HU 204",
+     "about": "British Parliamentary format. Newcomers welcome."
+    },
+    {
+     "title": "Novice workshop",
+     "date": "2026-08-28",
+     "start": "17:30",
+     "end": "19:00",
+     "venue": "HU 204",
+     "about": "Motion analysis and speech structure for first years."
+    }
+   ]
+  }
+ ]
+}

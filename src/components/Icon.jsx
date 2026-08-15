@@ -18,6 +18,8 @@ const PATHS = {
   cup: <><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M6 2v2M10 2v2M14 2v2"/></>,
   out: <><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5M21 12H9"/></>,
   down: <><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></>,
+  star: <><path d="M11.5 3.4a.6.6 0 0 1 1 0l2.2 4.5 4.9.7a.6.6 0 0 1 .3 1l-3.5 3.5.8 4.9a.6.6 0 0 1-.8.6L12 16.3l-4.4 2.3a.6.6 0 0 1-.8-.6l.8-4.9-3.5-3.5a.6.6 0 0 1 .3-1l4.9-.7z"/></>,
+  bellring: <><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/><path d="M21 15H3l1.5-2V9a7.5 7.5 0 0 1 15 0v4z"/><path d="M2 8a9 9 0 0 1 2.5-5M22 8a9 9 0 0 0-2.5-5"/></>,
 };
 
 export default function Icon({ name, className = "ico" }) {

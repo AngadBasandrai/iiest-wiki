@@ -125,6 +125,57 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
 .link-out .ico { width: 16px; height: 16px; }
 .btn.full { width: 100%; justify-content: center; }
 
+.remind {
+  display: flex; align-items: center; gap: 11px; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-left: 2px solid var(--accent); border-radius: var(--radius);
+  padding: 12px 15px; margin-bottom: 18px; font-size: .86rem; color: var(--dim);
+}
+.remind .ico { width: 17px; height: 17px; color: var(--dim); flex: none; }
+.remind span { flex: 1; min-width: 200px; }
+.remind.on { border-left-color: var(--good); }
+.remind.on .ico { color: var(--good); }
+
+.club-head { display: flex; gap: 26px; align-items: flex-start; flex-wrap: wrap; }
+.club-intro { flex: 1; min-width: 260px; }
+.club-intro p { margin: 0 0 12px; color: var(--dim); font-size: .9rem; line-height: 1.65; }
+.club-meets {
+  display: flex; align-items: center; gap: 8px; font-size: .82rem; color: var(--text);
+}
+.club-meets .ico { width: 15px; height: 15px; color: var(--dim-2); }
+.club-links { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 14px; }
+.club-follow { flex: none; width: 220px; display: grid; gap: 9px; justify-items: start; }
+.club-follow .btn { width: 100%; justify-content: center; }
+.club-note { margin: 0; font-size: .76rem; color: var(--dim-2); line-height: 1.5; }
+.link-inline {
+  background: none; border: 0; padding: 0; cursor: pointer; font: inherit;
+  font-size: .78rem; color: var(--accent-2); text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+.club-events { display: grid; gap: 9px; }
+.club-event {
+  display: flex; gap: 18px; background: var(--surface);
+  border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 14px 16px;
+}
+.club-event.past { opacity: .55; }
+.club-when { flex: none; width: 128px; display: grid; gap: 2px; align-content: start; }
+.club-when strong { font-size: .82rem; font-weight: 650; }
+.club-when span { font: .74rem/1.5 var(--mono); color: var(--dim-2); }
+.club-what { min-width: 0; flex: 1; }
+.club-title { font-size: .92rem; font-weight: 600; }
+.club-what p { margin: 5px 0 0; font-size: .84rem; color: var(--dim); line-height: 1.6; }
+.club-venue {
+  display: inline-block; margin-top: 9px; font: 600 .68rem/1 var(--mono);
+  letter-spacing: .04em; color: var(--dim); background: var(--surface-2);
+  border: 1px solid var(--line-soft); border-radius: 5px; padding: 5px 7px;
+}
+@media (max-width: 620px) {
+  .club-event { flex-direction: column; gap: 9px; }
+  .club-when { width: auto; display: flex; gap: 10px; align-items: baseline; }
+  .club-follow { width: 100%; }
+}
+
 .toast {
   position: fixed; z-index: 60; left: 50%; transform: translateX(-50%);
   bottom: 20px; display: flex; align-items: center; gap: 10px;

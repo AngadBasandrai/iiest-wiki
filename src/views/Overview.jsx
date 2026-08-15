@@ -186,7 +186,50 @@ function DayPanel({ iso, ctx, session, statusFor, storedStatus, onMark, onFacult
   );
 }
 
-export default function Overview({ att, onFaculty }) {
+function ReminderBar({ reminders }) {
+  if (reminders.perm === "unsupported") return null;
+  if (reminders.perm === "granted") {
+    const p = reminders.push;
+    const detail = !p.supported
+      ? "This device gets reminders while the app is open."
+      : p.on
+        ? "This device is registered for push."
+        : p.error === "signed-out"
+          ? "Sign in to get reminders when the app is closed."
+          : "Reminders arrive while the app is open.";
+    return (
+      <div className="remind on">
+        <Icon name="bellring" />
+        <span>
+          Reminders are on, {reminders.armed} queued for today. {detail}
+        </span>
+        {p.on ? (
+          <button className="link-inline" onClick={reminders.stopPush}>
+            Stop on this device
+          </button>
+        ) : null}
+      </div>
+    );
+  }
+  if (reminders.perm === "denied") {
+    return (
+      <div className="remind">
+        <Icon name="bellring" />
+        <span>Notifications are blocked. Allow them in your browser settings to get
+              class reminders.</span>
+      </div>
+    );
+  }
+  return (
+    <div className="remind">
+      <Icon name="bellring" />
+      <span>Get a reminder 15 minutes before every class.</span>
+      <button className="btn small primary" onClick={reminders.ask}>Turn on</button>
+    </div>
+  );
+}
+
+export default function Overview({ att, onFaculty, reminders }) {
   const [selected, setSelected] = useState(today());
   const [month, setMonth] = useState(() => {
     const d = new Date();
@@ -205,6 +248,7 @@ export default function Overview({ att, onFaculty }) {
       </div>
       {att.error ? <Alert title="Attendance problem. " detail={att.error.message} /> : null}
       <Gate who={att.who} table={att.table} parts={att.parts}>
+        {reminders ? <ReminderBar reminders={reminders} /> : null}
         <Stats totals={att.totals} rows={att.rows} />
         <div className="split">
           <div className="card-plain">

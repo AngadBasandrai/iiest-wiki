@@ -10,8 +10,10 @@ import Notices from "./views/Notices.jsx";
 import Syllabus from "./views/Syllabus.jsx";
 import Fees from "./views/Fees.jsx";
 import Guide from "./views/Guide.jsx";
+import Club from "./views/Club.jsx";
 import { useRoute, go } from "./lib/router.js";
 import { useAttendance } from "./lib/useAttendance.js";
+import { useFollows, useReminders } from "./lib/useNotify.js";
 import { authError } from "./lib/auth.js";
 import { loadJson } from "./lib/data.js";
 
@@ -27,10 +29,22 @@ export default function App() {
   const [open, setOpen] = useState(false);
   const [facultyQuery, setFacultyQuery] = useState("");
   const [updated, setUpdated] = useState("");
+  const [clubs, setClubs] = useState([]);
+  const { follows, toggle } = useFollows();
+  const reminders = useReminders(att.classesFor, follows, Boolean(att.table));
 
   useEffect(() => {
-    document.title = `${TITLES[view]} | IIEST Shibpur`;
-  }, [view]);
+    const club = clubs.find((c) => c.slug === param);
+    document.title = view === "club" && club
+      ? `${club.name} | IIEST Shibpur`
+      : `${TITLES[view] || "IIEST Shibpur"} | IIEST Shibpur`;
+  }, [view, param, clubs]);
+
+  useEffect(() => {
+    loadJson("clubs", { clubs: [] })
+      .then((d) => setClubs(d.clubs || []))
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     loadJson("meta", {}).then((meta) => {
@@ -52,7 +66,8 @@ export default function App() {
 
   return (
     <div className="shell">
-      <Sidebar view={view} who={att.who} session={att.session} table={att.table}
+      <Sidebar view={view} param={param} clubs={clubs} who={att.who}
+               session={att.session} table={att.table}
                open={open} onNavigate={close} />
       {open ? <div className="side-scrim" onClick={close} /> : null}
 
@@ -71,7 +86,13 @@ export default function App() {
             <p className="empty">Sign-in failed: {authError}</p>
           ) : null}
 
-          {view === "overview" ? <Overview att={att} onFaculty={openFaculty} /> : null}
+          {view === "overview" ? (
+            <Overview att={att} onFaculty={openFaculty} reminders={reminders} />
+          ) : null}
+          {view === "club" ? (
+            <Club slug={param} follows={follows} onToggle={toggle}
+                  perm={reminders.perm} onAsk={reminders.ask} />
+          ) : null}
           {view === "weekly" ? <Weekly att={att} onFaculty={openFaculty} /> : null}
           {view === "courses" ? <Courses att={att} onFaculty={openFaculty} /> : null}
           {view === "faculty" ? (

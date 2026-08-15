@@ -7,17 +7,28 @@
 <meta name="description" content="Install the IIEST Shibpur student hub on Android, iPhone, Windows or Mac.">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0a0a0a">
+<link rel="manifest" href="../manifest.webmanifest">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="IIEST">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<script>
+  window.__installEvent = null;
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault();
+    window.__installEvent = e;
+    if (window.__onInstallReady) window.__onInstallReady();
+  });
+</script>
 <style>
 :root {
   --bg: #0a0a0a; --surface: #161616; --surface-2: #1e1e1e;
   --line: #2e2e2e; --line-soft: #232323; --text: #ededed;
-  --dim: #9d9d9d; --dim-2: #6d6d6d; --accent: #9aa3bd; --accent-2: #c0c9ff;
-  --accent-bg: rgba(154,163,189,.12); --accent-line: rgba(154,163,189,.3);
-  --good: #86b39a; --warn: #bfa274;
+  --dim: #9d9d9d; --dim-2: #6d6d6d; --accent-2: #c0c9ff;
+  --accent-bg: rgba(154,163,189,.14); --accent-line: rgba(154,163,189,.34);
+  --good: #86b39a;
   --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
@@ -25,223 +36,208 @@
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font: 15px/1.65 var(--sans); -webkit-font-smoothing: antialiased;
+  display: grid; place-items: center; min-height: 100vh;
 }
 a { color: var(--accent-2); }
-.wrap { max-width: 780px; margin: 0 auto; padding: 44px 22px 80px; }
-.top { display: flex; align-items: center; gap: 13px; margin-bottom: 40px; }
+.wrap { width: 100%; max-width: 460px; padding: 40px 22px 60px; text-align: center; }
 .tile {
-  width: 44px; height: 44px; border-radius: 12px; flex: none; display: grid;
-  place-items: center; background: var(--surface-2); border: 1px solid var(--line);
-  color: var(--dim);
+  width: 68px; height: 68px; border-radius: 18px; margin: 0 auto 22px;
+  display: grid; place-items: center; background: var(--surface-2);
+  border: 1px solid var(--line); color: var(--dim);
 }
-.tile svg { width: 24px; height: 24px; }
-.top strong { display: block; font-size: .95rem; letter-spacing: -.01em; }
-.micro {
-  font: 600 .64rem/1 var(--mono); letter-spacing: .12em;
-  text-transform: uppercase; color: var(--dim-2);
+.tile svg { width: 36px; height: 36px; }
+h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; margin: 0 0 8px; }
+.lede { color: var(--dim); font-size: .95rem; margin: 0 0 30px; }
+.cta {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; background: var(--accent-bg); border: 1px solid var(--accent-line);
+  color: var(--accent-2); border-radius: 12px; padding: 15px 24px;
+  font: 700 1rem/1 var(--sans); cursor: pointer; text-decoration: none;
+  transition: border-color .14s ease, background .14s ease;
 }
-h1 { font-size: 2.1rem; font-weight: 800; letter-spacing: -.035em; margin: 0 0 10px; }
-.lede { color: var(--dim); font-size: 1.02rem; margin: 0 0 34px; max-width: 62ch; }
-.pick {
-  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 26px;
-  border-bottom: 1px solid var(--line-soft); padding-bottom: 18px;
+.cta:hover { border-color: #9aa3bd; }
+.cta:disabled { opacity: .55; cursor: default; }
+.cta svg { width: 19px; height: 19px; }
+.plat {
+  margin-top: 14px; font: 600 .68rem/1 var(--mono);
+  letter-spacing: .1em; text-transform: uppercase; color: var(--dim-2);
 }
-.pick button {
-  background: var(--surface); color: var(--dim); cursor: pointer;
-  border: 1px solid var(--line-soft); border-radius: 99px;
-  padding: 8px 16px; font: 600 .84rem/1 var(--sans);
-  transition: color .14s ease, border-color .14s ease, background .14s ease;
+.steps {
+  margin-top: 26px; text-align: left; background: var(--surface);
+  border: 1px solid var(--line-soft); border-radius: 12px; padding: 20px 22px;
 }
-.pick button:hover { color: var(--text); border-color: var(--line); }
-.pick button[aria-selected="true"] {
-  background: var(--accent-bg); border-color: var(--accent-line); color: var(--accent-2);
+.steps p { margin: 0 0 14px; font-size: .84rem; color: var(--dim); }
+.steps ol { margin: 0; padding-left: 20px; font-size: .9rem; }
+.steps li { margin-bottom: 10px; }
+.steps li:last-child { margin-bottom: 0; }
+.steps b { color: var(--text); }
+.share {
+  display: inline-grid; place-items: center; width: 20px; height: 20px;
+  vertical-align: -5px; border: 1px solid var(--line); border-radius: 5px;
+  background: var(--surface-2);
 }
-.card {
-  background: var(--surface); border: 1px solid var(--line-soft);
-  border-radius: 14px; padding: 24px 26px; margin-bottom: 16px;
+.share svg { width: 12px; height: 12px; }
+.done { color: var(--good); }
+.alt {
+  margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line-soft);
+  font-size: .84rem; color: var(--dim-2);
 }
-.card h2 { font-size: 1.15rem; font-weight: 700; letter-spacing: -.02em; margin: 0 0 4px; }
-.card .sub { color: var(--dim); font-size: .88rem; margin: 0 0 20px; }
-ol { margin: 0; padding-left: 20px; }
-ol li { margin-bottom: 11px; }
-ol li:last-child { margin-bottom: 0; }
-kbd {
-  font: 600 .8rem/1.4 var(--mono); background: var(--surface-2);
-  border: 1px solid var(--line); border-radius: 5px; padding: 2px 6px;
-}
-.note {
-  margin-top: 20px; padding: 13px 15px; border-radius: 10px;
-  background: var(--surface-2); border: 1px solid var(--line-soft);
-  border-left: 2px solid var(--warn); font-size: .85rem; color: var(--dim);
-}
-.note strong { color: var(--text); }
-.detected {
-  display: inline-flex; align-items: center; gap: 7px; margin-bottom: 12px;
-  font: 600 .66rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase;
-  color: var(--good);
-}
-.detected i { width: 7px; height: 7px; border-radius: 50%; background: var(--good); }
-.open {
-  display: inline-flex; align-items: center; gap: 9px; margin-top: 30px;
-  background: var(--accent-bg); border: 1px solid var(--accent-line);
-  color: var(--accent-2); border-radius: 10px; padding: 12px 20px;
-  font-weight: 600; text-decoration: none; font-size: .9rem;
-}
-.open:hover { border-color: var(--accent); }
-.why { margin-top: 42px; border-top: 1px solid var(--line-soft); padding-top: 26px; }
-.why h3 { font-size: .95rem; margin: 0 0 10px; }
-.why p { color: var(--dim); font-size: .88rem; margin: 0 0 12px; max-width: 68ch; }
-.foot {
-  margin-top: 46px; padding-top: 22px; border-top: 1px solid var(--line-soft);
-  color: var(--dim-2); font-size: .8rem;
-}
+.alt a { color: var(--dim); }
 [hidden] { display: none !important; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <div class="top">
-    <span class="tile">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-           stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21.4 10.9a1 1 0 0 0 0-1.8L12.8 5.2a2 2 0 0 0-1.7 0L2.6 9.1a1 1 0 0 0 0 1.8l8.6 3.9a2 2 0 0 0 1.7 0z"/>
-        <path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
-      </svg>
-    </span>
-    <span>
-      <strong>IIEST Shibpur</strong>
-      <span class="micro">Student hub</span>
-    </span>
+  <div class="tile">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21.4 10.9a1 1 0 0 0 0-1.8L12.8 5.2a2 2 0 0 0-1.7 0L2.6 9.1a1 1 0 0 0 0 1.8l8.6 3.9a2 2 0 0 0 1.7 0z"/>
+      <path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
+    </svg>
   </div>
 
-  <h1>Get the app</h1>
-  <p class="lede">
-    Install it once and it opens like any other app, works without signal, and can send
-    you notifications later. There is nothing to download from a store.
-  </p>
+  <h1 id="title">Get the app</h1>
+  <p class="lede" id="lede">Works offline and opens like any other app.</p>
 
-  <div class="pick" id="pick">
-    <button data-os="android" aria-selected="false">Android</button>
-    <button data-os="ios" aria-selected="false">iPhone or iPad</button>
-    <button data-os="windows" aria-selected="false">Windows</button>
-    <button data-os="mac" aria-selected="false">Mac</button>
+  <button class="cta" id="cta">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <path d="m7 10 5 5 5-5"/><path d="M12 15V3"/>
+    </svg>
+    <span id="cta-text">Install</span>
+  </button>
+  <p class="plat" id="plat"></p>
+
+  <div class="steps" id="steps" hidden>
+    <p id="steps-intro"></p>
+    <ol id="steps-list"></ol>
   </div>
 
-  <section class="card" data-panel="android" hidden>
-    <p class="detected" data-for="android" hidden><i></i>Detected on your device</p>
-    <h2>Android</h2>
-    <p class="sub">Chrome, Edge, Brave or Samsung Internet.</p>
-    <ol>
-      <li>Open <a href="https://iiest.wiki">iiest.wiki</a> in Chrome.</li>
-      <li>Chrome usually shows an <strong>Install app</strong> prompt at the bottom. Tap it.</li>
-      <li>If it does not appear, tap the <kbd>&#8942;</kbd> menu and choose
-          <strong>Add to Home screen</strong> or <strong>Install app</strong>.</li>
-      <li>Confirm. It lands on your home screen with its own icon.</li>
-    </ol>
-  </section>
-
-  <section class="card" data-panel="ios" hidden>
-    <p class="detected" data-for="ios" hidden><i></i>Detected on your device</p>
-    <h2>iPhone and iPad</h2>
-    <p class="sub">Safari only. Chrome on iOS cannot install apps.</p>
-    <ol>
-      <li>Open <a href="https://iiest.wiki">iiest.wiki</a> in <strong>Safari</strong>.</li>
-      <li>Tap the <strong>Share</strong> button, the square with an arrow, at the bottom.</li>
-      <li>Scroll down and tap <strong>Add to Home Screen</strong>.</li>
-      <li>Tap <strong>Add</strong>.</li>
-    </ol>
-    <div class="note">
-      <strong>This step is required for notifications on iOS.</strong>
-      Apple only allows a web app to send notifications after it has been added to the
-      home screen, and only on iOS 16.4 or newer. Opening the site in a browser tab will
-      never be enough.
-    </div>
-  </section>
-
-  <section class="card" data-panel="windows" hidden>
-    <p class="detected" data-for="windows" hidden><i></i>Detected on your device</p>
-    <h2>Windows</h2>
-    <p class="sub">Chrome or Edge.</p>
-    <ol>
-      <li>Open <a href="https://iiest.wiki">iiest.wiki</a>.</li>
-      <li>Look for the <strong>install icon</strong> in the address bar, a monitor with a
-          downward arrow, and click it.</li>
-      <li>Or use the <kbd>&#8942;</kbd> menu, then <strong>Cast, save and share</strong>,
-          then <strong>Install page as app</strong>.</li>
-      <li>It gets a Start menu entry and its own window, with no browser chrome.</li>
-    </ol>
-  </section>
-
-  <section class="card" data-panel="mac" hidden>
-    <p class="detected" data-for="mac" hidden><i></i>Detected on your device</p>
-    <h2>Mac</h2>
-    <p class="sub">Safari 17 or newer, or Chrome.</p>
-    <ol>
-      <li>Open <a href="https://iiest.wiki">iiest.wiki</a>.</li>
-      <li>In Safari, choose <strong>File</strong>, then <strong>Add to Dock</strong>.</li>
-      <li>In Chrome, use the <kbd>&#8942;</kbd> menu, then <strong>Cast, save and share</strong>,
-          then <strong>Install page as app</strong>.</li>
-      <li>It appears in Launchpad and the Dock like a normal Mac app.</li>
-    </ol>
-  </section>
-
-  <a class="open" href="../">Open the web app instead</a>
-
-  <div class="why">
-    <h3>Why there is no store download</h3>
-    <p>
-      This is a progressive web app. The install above gives you the same thing an App
-      Store or Play Store download would: a home screen icon, its own window, offline
-      access and a route to notifications. It updates itself, so you never install a
-      patch, and it takes about 300 KB rather than tens of megabytes.
-    </p>
-    <p>
-      Attendance you mark without signal is saved on the device and syncs the moment you
-      are back online, so marking in a basement lab is safe.
-    </p>
-  </div>
-
-  <p class="foot">
-    Unofficial student portal &middot;
-    <a href="https://www.iiests.ac.in">iiests.ac.in</a>
+  <p class="alt">
+    <a href="../">Open in the browser instead</a>
   </p>
 </div>
 
 <script>
 (function () {
   var ua = navigator.userAgent;
-  var os = "android";
-  if (/iPhone|iPad|iPod/.test(ua) ||
-      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) os = "ios";
-  else if (/Android/.test(ua)) os = "android";
-  else if (/Macintosh|Mac OS X/.test(ua)) os = "mac";
-  else if (/Windows/.test(ua)) os = "windows";
+  var cta = document.getElementById("cta");
+  var ctaText = document.getElementById("cta-text");
+  var steps = document.getElementById("steps");
+  var stepsIntro = document.getElementById("steps-intro");
+  var stepsList = document.getElementById("steps-list");
+  var plat = document.getElementById("plat");
 
-  var panels = document.querySelectorAll("[data-panel]");
-  var buttons = document.querySelectorAll("#pick button");
+  var isIOS = /iPhone|iPad|iPod/.test(ua) ||
+    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  var isAndroid = /Android/.test(ua);
+  var isMac = !isIOS && /Macintosh|Mac OS X/.test(ua);
+  var isWindows = /Windows/.test(ua);
+  var isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(ua);
+  var installed = window.matchMedia("(display-mode: standalone)").matches ||
+    navigator.standalone === true;
 
-  function show(name) {
-    panels.forEach(function (p) { p.hidden = p.dataset.panel !== name; });
-    buttons.forEach(function (b) {
-      b.setAttribute("aria-selected", String(b.dataset.os === name));
+  var name = isIOS ? "iPhone and iPad" : isAndroid ? "Android"
+    : isWindows ? "Windows" : isMac ? "Mac" : "this device";
+  plat.textContent = "For " + name;
+
+  function showSteps(intro, items) {
+    stepsIntro.textContent = intro;
+    stepsList.innerHTML = "";
+    items.forEach(function (html) {
+      var li = document.createElement("li");
+      li.innerHTML = html;
+      stepsList.appendChild(li);
     });
-    document.querySelectorAll("[data-for]").forEach(function (d) {
-      d.hidden = !(d.dataset.for === name && d.dataset.for === os);
-    });
+    steps.hidden = false;
   }
 
-  buttons.forEach(function (b) {
-    b.addEventListener("click", function () { show(b.dataset.os); });
-  });
-  show(os);
+  if (installed) {
+    document.getElementById("title").textContent = "Already installed";
+    document.getElementById("lede").textContent =
+      "You are running the installed app right now.";
+    cta.hidden = true;
+    plat.hidden = true;
+    return;
+  }
 
-  if (window.matchMedia("(display-mode: standalone)").matches ||
-      navigator.standalone) {
-    var h = document.querySelector("h1");
-    h.textContent = "You already have it installed";
-    document.querySelector(".lede").textContent =
-      "This is running as an installed app right now. Nothing more to do.";
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register("../sw.js", { scope: "../" }).catch(function () {});
+  }
+
+  var SHARE = '<span class="share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+    'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M12 16V3"/><path d="m8 7 4-4 4 4"/>' +
+    '<path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg></span>';
+
+  function wireNative() {
+    ctaText.textContent = "Install";
+    cta.disabled = false;
+    cta.onclick = function () {
+      var e = window.__installEvent;
+      if (!e) return;
+      cta.disabled = true;
+      e.prompt();
+      e.userChoice.then(function (res) {
+        window.__installEvent = null;
+        if (res.outcome === "accepted") {
+          ctaText.textContent = "Installed";
+          cta.classList.add("done");
+        } else {
+          ctaText.textContent = "Install";
+          cta.disabled = false;
+        }
+      });
+    };
+  }
+
+  if (isIOS) {
+    ctaText.textContent = "Show me how";
+    cta.onclick = function () {
+      showSteps("Apple does not allow apps to install themselves, so this is the one place it takes three taps.", [
+        "Tap the <b>Share</b> button " + SHARE + " at the bottom of Safari.",
+        "Scroll down and tap <b>Add to Home Screen</b>.",
+        "Tap <b>Add</b>. Done.",
+      ]);
+      cta.disabled = true;
+    };
+    return;
+  }
+
+  if (isMac && isSafari) {
+    ctaText.textContent = "Show me how";
+    cta.onclick = function () {
+      showSteps("Safari on Mac installs from its menu bar.", [
+        "Open the <b>File</b> menu.",
+        "Choose <b>Add to Dock</b>.",
+        "Confirm. It appears in Launchpad like any Mac app.",
+      ]);
+      cta.disabled = true;
+    };
+    return;
+  }
+
+  if (window.__installEvent) {
+    wireNative();
+  } else {
+    window.__onInstallReady = wireNative;
+    ctaText.textContent = "Install";
+    cta.disabled = true;
+    setTimeout(function () {
+      if (window.__installEvent) return;
+      cta.disabled = false;
+      ctaText.textContent = "Show me how";
+      cta.onclick = function () {
+        showSteps("Your browser did not offer a one click install. Chrome or Edge can do it.", [
+          "Open this page in <b>Chrome</b> or <b>Edge</b>.",
+          "Look for the <b>install icon</b> in the address bar, or open the browser menu.",
+          "Choose <b>Install</b>, or <b>Add to Home screen</b> on a phone.",
+        ]);
+        cta.disabled = true;
+      };
+    }, 2500);
   }
 })();
 </script>
