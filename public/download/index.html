@@ -155,11 +155,7 @@ h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; margin: 0 0 8
   }
 
   if (installed) {
-    document.getElementById("title").textContent = "Already installed";
-    document.getElementById("lede").textContent =
-      "You are running the installed app right now.";
-    cta.hidden = true;
-    plat.hidden = true;
+    location.replace("../");
     return;
   }
 

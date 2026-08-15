@@ -1,5 +1,5 @@
-import { VAPID_PUBLIC_KEY, configured } from "./config.js";
-import { db, user } from "./auth.js";
+import { VAPID_PUBLIC_KEY, SUPABASE_URL, SUPABASE_ANON_KEY, configured } from "./config.js";
+import { accessToken, db, user } from "./auth.js";
 
 function urlBase64ToUint8Array(base64) {
   const padded = base64.padEnd(base64.length + ((4 - (base64.length % 4)) % 4), "=");
@@ -65,6 +65,27 @@ export async function subscribe() {
   }
 
   return { ok: true, endpoint: sub.endpoint };
+}
+
+export async function sendTest() {
+  if (!configured() || !user()) return { ok: false, reason: "signed-out" };
+  const token = await accessToken();
+  if (!token) return { ok: false, reason: "signed-out" };
+
+  const res = await fetch(`${SUPABASE_URL}/functions/v1/notify`, {
+    method: "POST",
+    headers: {
+      apikey: SUPABASE_ANON_KEY,
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ test: true }),
+  });
+
+  const out = await res.json().catch(() => ({}));
+  if (!res.ok) return { ok: false, reason: out.error || `HTTP ${res.status}` };
+  if (!out.sent) return { ok: false, reason: out.note || "no device registered" };
+  return { ok: true, sent: out.sent };
 }
 
 export async function unsubscribe() {

@@ -5,7 +5,8 @@ import {
 } from "./notify.js";
 import { isoDate } from "./util.js";
 import { loadJson } from "./data.js";
-import { currentSubscription, pushSupported, subscribe, unsubscribe } from "./push.js";
+import { currentSubscription, pushSupported, sendTest, subscribe, unsubscribe }
+  from "./push.js";
 import { configured } from "./config.js";
 import { db } from "./auth.js";
 import { useUser } from "./useAuth.js";
@@ -94,6 +95,14 @@ export function useReminders(classesFor, follows, ready) {
     setPush((p) => ({ ...p, on: false }));
   }, []);
 
+  const [testState, setTestState] = useState("");
+  const test = useCallback(async () => {
+    setTestState("sending");
+    const res = await sendTest().catch((e) => ({ ok: false, reason: e.message }));
+    setTestState(res.ok ? `sent to ${res.sent} device${res.sent > 1 ? "s" : ""}` : res.reason);
+    setTimeout(() => setTestState(""), 6000);
+  }, []);
+
   useEffect(() => {
     if (perm !== "granted" || !ready) return () => {};
 
@@ -123,5 +132,5 @@ export function useReminders(classesFor, follows, ready) {
     };
   }, [perm, ready, classesFor, follows]);
 
-  return { perm, ask, armed, push, stopPush };
+  return { perm, ask, armed, push, stopPush, test, testState };
 }

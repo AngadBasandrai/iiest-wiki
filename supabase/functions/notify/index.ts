@@ -249,7 +249,56 @@ async function noticeJobs(subs: any[], now: Date): Promise<Job[]> {
   }));
 }
 
+async function sendTo(sub: any, payload: Record<string, unknown>) {
+  await webpush.sendNotification(
+    { endpoint: sub.endpoint, keys: { p256dh: sub.p256dh, auth: sub.auth } },
+    JSON.stringify(payload),
+  );
+}
+
+async function selfTest(req: Request) {
+  const jwt = req.headers.get("Authorization")?.replace(/^Bearer\s+/i, "") ?? "";
+  const { data: { user } } = await admin.auth.getUser(jwt);
+  if (!user) return Response.json({ error: "not signed in" }, { status: 401 });
+
+  const { data: subs } = await admin
+    .from("push_subscriptions")
+    .select("endpoint, p256dh, auth")
+    .eq("student", user.id);
+
+  if (!subs?.length) {
+    return Response.json({
+      sent: 0,
+      note: "This account has no registered device. Turn notifications on first.",
+    });
+  }
+
+  let sent = 0;
+  let gone = 0;
+  for (const sub of subs) {
+    try {
+      await sendTo(sub, {
+        title: "Test notification",
+        body: "Push is working. Real reminders arrive 15 minutes before a class.",
+        tag: `test:${Date.now()}`,
+        url: "/#overview",
+      });
+      sent += 1;
+    } catch (err: any) {
+      if (err?.statusCode === 404 || err?.statusCode === 410) {
+        await admin.from("push_subscriptions").delete().eq("endpoint", sub.endpoint);
+        gone += 1;
+      }
+    }
+  }
+  return Response.json({ sent, gone, devices: subs.length });
+}
+
 Deno.serve(async (req) => {
+  const body = await req.json().catch(() => ({}));
+
+  if (body?.test) return selfTest(req);
+
   const secret = Deno.env.get("NOTIFY_SECRET");
   if (secret && req.headers.get("x-notify-secret") !== secret) {
     return new Response("forbidden", { status: 403 });

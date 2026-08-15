@@ -96,6 +96,10 @@ async function refresh() {
   return result;
 }
 
+export async function accessToken() {
+  return token();
+}
+
 async function token() {
   if (!session) return null;
   const now = Math.floor(Date.now() / 1000);

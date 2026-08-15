@@ -204,9 +204,14 @@ function ReminderBar({ reminders }) {
           Reminders are on, {reminders.armed} queued for today. {detail}
         </span>
         {p.on ? (
-          <button className="link-inline" onClick={reminders.stopPush}>
-            Stop on this device
-          </button>
+          <>
+            <button className="btn small" onClick={reminders.test}>
+              {reminders.testState || "Send a test"}
+            </button>
+            <button className="link-inline" onClick={reminders.stopPush}>
+              Stop on this device
+            </button>
+          </>
         ) : null}
       </div>
     );
