@@ -5,7 +5,7 @@ import {
 } from "./notify.js";
 import { isoDate } from "./util.js";
 import { loadJson } from "./data.js";
-import { currentSubscription, pushSupported, sendTest, subscribe, unsubscribe }
+import { pushSupported, sendTest, subscribe, syncSubscription, unsubscribe }
   from "./push.js";
 import { configured } from "./config.js";
 import { db } from "./auth.js";
@@ -69,14 +69,17 @@ export function useReminders(classesFor, follows, ready) {
   const [perm, setPerm] = useState(permission);
   const [armed, setArmed] = useState(0);
   const [push, setPush] = useState({ supported: pushSupported(), on: false, error: "" });
+  const account = useUser();
 
   useEffect(() => {
     let alive = true;
-    currentSubscription()
-      .then((sub) => alive && setPush((p) => ({ ...p, on: Boolean(sub) })))
+    syncSubscription()
+      .then((res) => {
+        if (alive) setPush((p) => ({ ...p, on: res.ok, error: res.ok ? "" : res.reason }));
+      })
       .catch(() => {});
     return () => { alive = false; };
-  }, [perm]);
+  }, [perm, account?.id]);
 
   const ask = useCallback(async () => {
     const result = await enable();

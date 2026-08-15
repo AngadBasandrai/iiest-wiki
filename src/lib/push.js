@@ -1,4 +1,4 @@
-import { VAPID_PUBLIC_KEY, SUPABASE_URL, SUPABASE_ANON_KEY, configured } from "./config.js";
+﻿import { VAPID_PUBLIC_KEY, SUPABASE_URL, SUPABASE_ANON_KEY, configured } from "./config.js";
 import { accessToken, db, user } from "./auth.js";
 
 function urlBase64ToUint8Array(base64) {
@@ -28,6 +28,33 @@ export async function currentSubscription() {
   return reg.pushManager.getSubscription();
 }
 
+async function store(sub) {
+  await db("push_subscriptions", {
+    method: "POST",
+    body: {
+      endpoint: sub.endpoint,
+      student: user().id,
+      p256dh: keyOf(sub, "p256dh"),
+      auth: keyOf(sub, "auth"),
+      user_agent: navigator.userAgent.slice(0, 300),
+      last_seen: new Date().toISOString(),
+    },
+    prefer: "resolution=merge-duplicates,return=minimal",
+  });
+}
+
+export async function syncSubscription() {
+  const sub = await currentSubscription().catch(() => null);
+  if (!sub) return { ok: false, reason: "" };
+  if (!configured() || !user()) return { ok: false, reason: "signed-out" };
+  try {
+    await store(sub);
+  } catch (err) {
+    return { ok: false, reason: err?.message || "could not save this device", error: err };
+  }
+  return { ok: true, endpoint: sub.endpoint };
+}
+
 export async function subscribe() {
   if (!pushSupported()) return { ok: false, reason: "unsupported" };
   if (!configured() || !user()) return { ok: false, reason: "signed-out" };
@@ -48,20 +75,9 @@ export async function subscribe() {
   }
 
   try {
-    await db("push_subscriptions", {
-      method: "POST",
-      body: {
-        endpoint: sub.endpoint,
-        student: user().id,
-        p256dh: keyOf(sub, "p256dh"),
-        auth: keyOf(sub, "auth"),
-        user_agent: navigator.userAgent.slice(0, 300),
-        last_seen: new Date().toISOString(),
-      },
-      prefer: "resolution=merge-duplicates,return=minimal",
-    });
+    await store(sub);
   } catch (err) {
-    return { ok: false, reason: "store-failed", error: err };
+    return { ok: false, reason: err?.message || "could not save this device", error: err };
   }
 
   return { ok: true, endpoint: sub.endpoint };
