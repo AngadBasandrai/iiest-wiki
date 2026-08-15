@@ -196,7 +196,9 @@ function ReminderBar({ reminders }) {
         ? "This device is registered for push."
         : p.error === "signed-out"
           ? "Sign in to get reminders when the app is closed."
-          : "Reminders arrive while the app is open.";
+          : p.error
+            ? `Push is off on this device: ${p.error}.`
+            : "Reminders arrive while the app is open, not when it is closed.";
     return (
       <div className="remind on">
         <Icon name="bellring" />
@@ -205,13 +207,19 @@ function ReminderBar({ reminders }) {
         </span>
         {p.on ? (
           <>
-            <button className="btn small" onClick={reminders.test}>
+            <button className="btn small" onClick={reminders.test}
+                    disabled={reminders.testState === "sending"}>
               {reminders.testState || "Send a test"}
             </button>
             <button className="link-inline" onClick={reminders.stopPush}>
               Stop on this device
             </button>
           </>
+        ) : null}
+        {p.supported && !p.on && p.error !== "signed-out" ? (
+          <button className="btn small primary" onClick={reminders.startPush}>
+            Enable push here
+          </button>
         ) : null}
       </div>
     );

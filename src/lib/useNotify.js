@@ -90,6 +90,13 @@ export function useReminders(classesFor, follows, ready) {
     return result;
   }, []);
 
+  const startPush = useCallback(async () => {
+    if (!pushSupported()) return;
+    setPush((p) => ({ ...p, error: "" }));
+    const res = await subscribe().catch((e) => ({ ok: false, reason: e.message }));
+    setPush({ supported: true, on: res.ok, error: res.ok ? "" : res.reason });
+  }, []);
+
   const stopPush = useCallback(async () => {
     await unsubscribe();
     setPush((p) => ({ ...p, on: false }));
@@ -132,5 +139,5 @@ export function useReminders(classesFor, follows, ready) {
     };
   }, [perm, ready, classesFor, follows]);
 
-  return { perm, ask, armed, push, stopPush, test, testState };
+  return { perm, ask, armed, push, startPush, stopPush, test, testState };
 }
