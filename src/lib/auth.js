@@ -58,7 +58,14 @@ export const authError = readError();
 
 export function user() {
   if (!session) return null;
-  return { id: session.sub, email: session.email, roll: session.email.split(".")[0].toUpperCase() };
+  const local = session.email.split("@")[0];
+  const first = local.split(".")[1] || "";
+  return {
+    id: session.sub,
+    email: session.email,
+    roll: local.split(".")[0].toUpperCase(),
+    name: first ? first[0].toUpperCase() + first.slice(1) : "",
+  };
 }
 
 export function onChange(fn) {

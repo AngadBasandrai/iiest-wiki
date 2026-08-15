@@ -1,15 +1,4 @@
-export const $ = (sel, root = document) => root.querySelector(sel);
-
-export const esc = (s) =>
-  String(s ?? "").replace(/[&<>"']/g, (c) =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-
 export const norm = (s) => String(s ?? "").toLowerCase();
-
-export const debounce = (fn, ms = 130) => {
-  let t;
-  return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
-};
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                 "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -21,11 +10,19 @@ export function fmtDate(iso) {
 
 export const count = (n, one, many) => `${n.toLocaleString()} ${n === 1 ? one : many}`;
 
-export function highlight(text, query) {
-  const safe = esc(text);
-  if (!query) return safe;
+export function splitMatch(text, query) {
+  const src = String(text ?? "");
+  if (!query) return [{ text: src, hit: false }];
   const needle = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return safe.replace(new RegExp(needle, "gi"), (hit) => `<mark>${hit}</mark>`);
+  const parts = [];
+  let last = 0;
+  for (const m of src.matchAll(new RegExp(needle, "gi"))) {
+    if (m.index > last) parts.push({ text: src.slice(last, m.index), hit: false });
+    parts.push({ text: m[0], hit: true });
+    last = m.index + m[0].length;
+  }
+  if (last < src.length) parts.push({ text: src.slice(last), hit: false });
+  return parts;
 }
 
 export function isoDate(d) {

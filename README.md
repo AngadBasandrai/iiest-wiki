@@ -33,38 +33,61 @@ years and senior years run on different dates. See
 
 ## Layout
 
+React on Vite. The Python scraper is untouched by that: it still writes JSON into
+`public/data/`, and Vite copies `public/` into the build verbatim.
+
 ```
 scraper/scrape.py    fetches and parses every source
 supabase/schema.sql  tables, row level security and the sign-up trigger
-public/              the site, deploy this directory
-  index.html
+index.html           Vite entry point
+src/
+  main.jsx           mounts React, runs auth init
+  App.jsx            shell, hash router, view switch
   styles.css
-  config.js          your Supabase URL and anon key go here
-  auth.js            Google sign-in and the REST helper
-  app.js             shell, routing, faculty, notices, syllabus and fees views
-  attendance.js      the three attendance pages
-  calendar.js        session, holiday, exam and day state logic
-  util.js
+  components/        Sidebar, Icon, Gate
+  views/             Overview, Weekly, Courses, Faculty, Notices,
+                     Syllabus, Fees, Guide
+  lib/
+    config.js        your Supabase URL and anon key go here
+    auth.js          Google sign-in and the REST helper
+    useAttendance.js attendance state, marking and the percentage maths
+    calendar.js      session, holiday, exam and day state logic
+    data.js          JSON fetch and cache hooks
+    router.js        hash routing
+    util.js
+public/              copied into the build as-is
+  CNAME              your custom domain
   data/*.json        generated, commit it so the site works without a backend
   data/timetables/   your .ics timetables, one per department and year
   data/schedule.json session start and end dates
   data/holidays.json holidays, single dates or ranges
   data/exams.json    exam windows
+  data/groups.json   lab group ranges by roll number
   data/guide.json    generated from the student wiki
+dist/                build output, git-ignored
 .cache/              downloaded PDFs, reused between runs (git-ignored)
 ```
+
+Routing is hash based (`#weekly`, `#guide/hostels`). On a static host that means a
+refresh or a shared link never 404s, with no rewrite rules to configure.
 
 ## Running it locally
 
 ```sh
-python -m http.server 8000 --directory public
+npm install
+npm run dev
 ```
 
-Then open <http://localhost:8000>. Any static server works, for example
-`npx serve public`, `npx http-server public -p 8000`, or VS Code Live Server on `public/`.
+Then open <http://localhost:8765>, with hot reload.
 
-Do not open `public/index.html` straight off disk. Browsers block `fetch()` on `file://`,
-so the data never loads. It has to be served over HTTP.
+To check exactly what gets deployed:
+
+```sh
+npm run build     # writes dist/
+npm run preview
+```
+
+`npm run build` is what CI runs too, so if it passes locally the deploy will pass.
 
 ## Refreshing the data
 
@@ -285,7 +308,7 @@ ID and secret from a Google Cloud OAuth client. Set the authorised redirect URI 
 `https://<project>.supabase.co/auth/v1/callback`, and add your own domain under
 Authentication, URL Configuration, Redirect URLs.
 
-**4. Fill in `public/config.js`:**
+**4. Fill in `src/lib/config.js`:**
 
 ```js
 export const SUPABASE_URL = "https://xxxx.supabase.co";
@@ -419,7 +442,7 @@ repo is a paid feature, and a private repo will simply refuse to publish.
 must not be committed. `public/data/*.json` **should** be committed, that is what makes
 the site work without a backend.
 
-Committing `public/config.js` with your Supabase URL and anon key is expected. The anon
+Committing `src/lib/config.js` with your Supabase URL and anon key is expected. The anon
 key is a public client key and is meant to ship in the browser; row level security is
 what protects the data. Never put the `service_role` key in that file.
 
