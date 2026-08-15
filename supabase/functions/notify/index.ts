@@ -1,4 +1,4 @@
-import webpush from "npm:web-push@3.6.7";
+﻿import webpush from "npm:web-push@3.6.7";
 import { createClient } from "jsr:@supabase/supabase-js@2";
 
 const SITE = Deno.env.get("SITE_URL") ?? "https://iiest.wiki";
@@ -256,10 +256,21 @@ async function sendTo(sub: any, payload: Record<string, unknown>) {
   );
 }
 
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, apikey, content-type, x-notify-secret",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Max-Age": "86400",
+};
+
+function json(payload: unknown, status = 200) {
+  return Response.json(payload, { status, headers: CORS });
+}
+
 async function selfTest(req: Request) {
   const jwt = req.headers.get("Authorization")?.replace(/^Bearer\s+/i, "") ?? "";
   const { data: { user } } = await admin.auth.getUser(jwt);
-  if (!user) return Response.json({ error: "not signed in" }, { status: 401 });
+  if (!user) return json({ error: "not signed in" }, 401);
 
   const { data: subs } = await admin
     .from("push_subscriptions")
@@ -267,7 +278,7 @@ async function selfTest(req: Request) {
     .eq("student", user.id);
 
   if (!subs?.length) {
-    return Response.json({
+    return json({
       sent: 0,
       note: "This account has no registered device. Turn notifications on first.",
     });
@@ -291,17 +302,19 @@ async function selfTest(req: Request) {
       }
     }
   }
-  return Response.json({ sent, gone, devices: subs.length });
+  return json({ sent, gone, devices: subs.length });
 }
 
 Deno.serve(async (req) => {
+  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
+
   const body = await req.json().catch(() => ({}));
 
   if (body?.test) return selfTest(req);
 
   const secret = Deno.env.get("NOTIFY_SECRET");
   if (secret && req.headers.get("x-notify-secret") !== secret) {
-    return new Response("forbidden", { status: 403 });
+    return new Response("forbidden", { status: 403, headers: CORS });
   }
 
   const now = istNow();
@@ -311,7 +324,7 @@ Deno.serve(async (req) => {
     .from("push_subscriptions")
     .select("endpoint, student, p256dh, auth, profiles(roll)");
   if (!subs?.length) {
-    return Response.json({ sent: 0, note: "no subscriptions" });
+    return json({ sent: 0, note: "no subscriptions" });
   }
 
   const jobs: Job[] = [];
@@ -323,7 +336,7 @@ Deno.serve(async (req) => {
   if (minutes >= 7 * 60 && minutes < 7 * 60 + WINDOW_MIN) {
     jobs.push(...await noticeJobs(subs, now));
   }
-  if (!jobs.length) return Response.json({ sent: 0 });
+  if (!jobs.length) return json({ sent: 0 });
 
   const { data: already } = await admin
     .from("push_sent")
@@ -360,5 +373,5 @@ Deno.serve(async (req) => {
     .delete()
     .lt("sent_at", new Date(Date.now() - 7 * 864e5).toISOString());
 
-  return Response.json({ sent, gone, considered: jobs.length });
+  return json({ sent, gone, considered: jobs.length });
 });

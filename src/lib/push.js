@@ -72,15 +72,20 @@ export async function sendTest() {
   const token = await accessToken();
   if (!token) return { ok: false, reason: "signed-out" };
 
-  const res = await fetch(`${SUPABASE_URL}/functions/v1/notify`, {
-    method: "POST",
-    headers: {
-      apikey: SUPABASE_ANON_KEY,
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ test: true }),
-  });
+  let res;
+  try {
+    res = await fetch(`${SUPABASE_URL}/functions/v1/notify`, {
+      method: "POST",
+      headers: {
+        apikey: SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ test: true }),
+    });
+  } catch {
+    return { ok: false, reason: "notify function unreachable" };
+  }
 
   const out = await res.json().catch(() => ({}));
   if (!res.ok) return { ok: false, reason: out.error || `HTTP ${res.status}` };
