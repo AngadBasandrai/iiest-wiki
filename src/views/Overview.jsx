@@ -203,7 +203,10 @@ function ReminderBar({ reminders }) {
       <div className="remind on">
         <Icon name="bellring" />
         <span>
-          Reminders are on, {reminders.armed} queued for today. {detail}
+          {reminders.armed
+            ? `Reminders are on, ${reminders.armed} queued for today. `
+            : "Reminders are on. "}
+          {detail}
         </span>
         {p.on ? (
           <>
@@ -260,8 +263,8 @@ export default function Overview({ att, onFaculty, reminders }) {
         </p>
       </div>
       {att.error ? <Alert title="Attendance problem. " detail={att.error.message} /> : null}
+      {reminders ? <ReminderBar reminders={reminders} /> : null}
       <Gate who={att.who} table={att.table} parts={att.parts}>
-        {reminders ? <ReminderBar reminders={reminders} /> : null}
         <Stats totals={att.totals} rows={att.rows} />
         <div className="split">
           <div className="card-plain">
