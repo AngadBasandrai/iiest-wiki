@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import Icon from "./components/Icon.jsx";
 import Sidebar from "./components/Sidebar.jsx";
+import UpdateToast from "./components/UpdateToast.jsx";
 import Overview from "./views/Overview.jsx";
 import Weekly from "./views/Weekly.jsx";
 import Courses from "./views/Courses.jsx";
@@ -88,6 +89,7 @@ export default function App() {
           </footer>
         </main>
       </div>
+      <UpdateToast />
     </div>
   );
 }

@@ -76,11 +76,13 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
             <span className="dim tiny">Sign-in not configured</span>
           ) : who ? (
             <>
-              <span className="avatar-dot">{who.roll.slice(-2)}</span>
-              <span className="user-text">
-                <strong>{who.roll}</strong>
-                <span className="micro">{who.name}</span>
-              </span>
+              <div className="user-row">
+                <span className="avatar-dot">{who.roll.slice(-2)}</span>
+                <span className="user-text">
+                  <strong>{who.roll}</strong>
+                  {who.name ? <span className="micro">{who.name}</span> : null}
+                </span>
+              </div>
               <button className="link-out" onClick={() => signOut().then(() => location.reload())}>
                 <Icon name="out" />Log out
               </button>

@@ -71,6 +71,39 @@ dist/                build output, git-ignored
 Routing is hash based (`#weekly`, `#guide/hostels`). On a static host that means a
 refresh or a shared link never 404s, with no rewrite rules to configure.
 
+## Installable app and offline
+
+`vite-plugin-pwa` generates a manifest and a Workbox service worker at build time, so
+the site installs to a phone home screen and keeps working without signal.
+
+What is cached, and why it is split that way:
+
+| Content | Strategy | Reason |
+| --- | --- | --- |
+| App shell, JS, CSS, icons | precache, 266 KB | must be there the moment you open it |
+| `data/*.json` | stale while revalidate | 1.3 MB total, too big to force on install, but fine to keep once fetched |
+| Google Fonts files | cache first, 1 year | immutable, never worth refetching |
+| Faculty photos | cache first, 30 days | hundreds of small images from a slow host |
+
+The data files are deliberately **not** precached. Precaching them would make the first
+install download 1.3 MB before the app was usable. Instead each one is cached the first
+time a page needs it, then served instantly from cache while a fresh copy is fetched in
+the background.
+
+Offline, the shell, faculty, notices, syllabus, fees and the guide all work from cache.
+Marking attendance does not: it writes to Supabase and needs a connection.
+
+`registerType: "autoUpdate"` plus the toast in `components/UpdateToast.jsx` means a
+student on a stale cached copy is told a new version exists rather than silently keeping
+old notices forever. Worth keeping given the nightly data refresh.
+
+The service worker is off in `npm run dev` on purpose, since a cache layer in front of
+hot reload only produces confusing stale-asset bugs. To exercise it, use
+`npm run build && npm run preview`.
+
+Icons in `public/` are generated, not hand drawn. To regenerate them from a different
+mark, edit the SVG path and rerun the icon script.
+
 ## Running it locally
 
 ```sh
