@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const VIEWS = ["overview", "weekly", "courses", "faculty", "notices",
-                      "syllabus", "fees", "guide", "club"];
+                      "syllabus", "fees", "guide", "clubs", "club"];
 export const HOME = "overview";
 
 export function parseHash(hash) {

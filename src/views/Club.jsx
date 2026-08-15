@@ -2,6 +2,7 @@ import Icon from "../components/Icon.jsx";
 import { useJson } from "../lib/data.js";
 import { fmtDate, isoDate } from "../lib/util.js";
 import { LEAD_MINUTES } from "../lib/notify.js";
+import { go } from "../lib/router.js";
 
 function EventRow({ ev, past }) {
   return (
@@ -35,6 +36,11 @@ export default function Club({ slug, follows, onToggle, perm, onAsk }) {
 
   return (
     <section className="view">
+      <nav className="wiki-crumbs">
+        <button className="wiki-crumb" onClick={() => go("clubs")}>Clubs</button>
+        <span className="sep">/</span>
+        <span className="dim">{club.name}</span>
+      </nav>
       <div className="page-head">
         <h1>{club.name}</h1>
         <p className="sub">{club.tagline}</p>

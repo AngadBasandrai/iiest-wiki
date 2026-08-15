@@ -136,6 +136,36 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
 .remind.on { border-left-color: var(--good); }
 .remind.on .ico { color: var(--good); }
 
+.club-grid {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+}
+.club-card {
+  display: grid; gap: 4px; text-align: left; cursor: pointer; font: inherit;
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-radius: var(--radius); padding: 18px 19px; color: var(--text);
+  box-shadow: var(--ring);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.club-card:hover { border-color: var(--line); transform: translateY(-1px); }
+.club-card-top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; margin-bottom: 8px;
+}
+.club-mark {
+  width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center;
+  background: var(--surface-2); border: 1px solid var(--line); color: var(--dim);
+}
+.club-mark .ico { width: 17px; height: 17px; }
+.club-card-name { font-size: 1rem; font-weight: 700; letter-spacing: -.015em; }
+.club-card-line { margin: 2px 0 0; font-size: .84rem; color: var(--dim); line-height: 1.55; }
+.club-card-foot {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line-soft);
+  font-size: .78rem; color: var(--dim);
+}
+.club-card-count { flex: none; font: 600 .68rem/1 var(--mono); color: var(--dim-2); }
+
 .club-head { display: flex; gap: 26px; align-items: flex-start; flex-wrap: wrap; }
 .club-intro { flex: 1; min-width: 260px; }
 .club-intro p { margin: 0 0 12px; color: var(--dim); font-size: .9rem; line-height: 1.65; }

@@ -11,6 +11,7 @@ import Syllabus from "./views/Syllabus.jsx";
 import Fees from "./views/Fees.jsx";
 import Guide from "./views/Guide.jsx";
 import Club from "./views/Club.jsx";
+import Clubs from "./views/Clubs.jsx";
 import { useRoute, go } from "./lib/router.js";
 import { useAttendance } from "./lib/useAttendance.js";
 import { useFollows, useReminders } from "./lib/useNotify.js";
@@ -20,7 +21,7 @@ import { loadJson } from "./lib/data.js";
 const TITLES = {
   overview: "Daily Overview", weekly: "Weekly Schedule", courses: "Course Attendance",
   faculty: "Faculty", notices: "Notices", syllabus: "Syllabus", fees: "Fees",
-  guide: "Student guide",
+  guide: "Student guide", clubs: "Clubs",
 };
 
 export default function App() {
@@ -66,8 +67,7 @@ export default function App() {
 
   return (
     <div className="shell">
-      <Sidebar view={view} param={param} clubs={clubs} who={att.who}
-               session={att.session} table={att.table}
+      <Sidebar view={view} who={att.who} session={att.session} table={att.table}
                open={open} onNavigate={close} />
       {open ? <div className="side-scrim" onClick={close} /> : null}
 
@@ -89,6 +89,7 @@ export default function App() {
           {view === "overview" ? (
             <Overview att={att} onFaculty={openFaculty} reminders={reminders} />
           ) : null}
+          {view === "clubs" ? <Clubs follows={follows} /> : null}
           {view === "club" ? (
             <Club slug={param} follows={follows} onToggle={toggle}
                   perm={reminders.perm} onAsk={reminders.ask} />
