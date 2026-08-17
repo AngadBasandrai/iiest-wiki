@@ -1,4 +1,4 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import Icon from "../components/Icon.jsx";
 import Gate, { EmptyPanel, Alert } from "../components/Gate.jsx";
 import { ATTENDANCE_TARGET } from "../lib/config.js";
@@ -186,66 +186,7 @@ function DayPanel({ iso, ctx, session, statusFor, storedStatus, onMark, onFacult
   );
 }
 
-function ReminderBar({ reminders }) {
-  if (reminders.perm === "unsupported") return null;
-  if (reminders.perm === "granted") {
-    const p = reminders.push;
-    const detail = !p.supported
-      ? "This device gets reminders while the app is open."
-      : p.on
-        ? "This device is registered for push."
-        : p.error === "signed-out"
-          ? "Sign in to get reminders when the app is closed."
-          : p.error
-            ? `Push is off on this device: ${p.error}.`
-            : "Reminders arrive while the app is open, not when it is closed.";
-    return (
-      <div className="remind on">
-        <Icon name="bellring" />
-        <span>
-          {reminders.armed
-            ? `Reminders are on, ${reminders.armed} queued for today. `
-            : "Reminders are on. "}
-          {detail}
-        </span>
-        {p.on ? (
-          <>
-            <button className="btn small" onClick={reminders.test}
-                    disabled={reminders.testState === "sending"}>
-              {reminders.testState || "Send a test"}
-            </button>
-            <button className="link-inline" onClick={reminders.stopPush}>
-              Stop on this device
-            </button>
-          </>
-        ) : null}
-        {p.supported && !p.on && p.error !== "signed-out" ? (
-          <button className="btn small primary" onClick={reminders.startPush}>
-            Enable push here
-          </button>
-        ) : null}
-      </div>
-    );
-  }
-  if (reminders.perm === "denied") {
-    return (
-      <div className="remind">
-        <Icon name="bellring" />
-        <span>Notifications are blocked. Allow them in your browser settings to get
-              class reminders.</span>
-      </div>
-    );
-  }
-  return (
-    <div className="remind">
-      <Icon name="bellring" />
-      <span>Get a reminder 15 minutes before every class.</span>
-      <button className="btn small primary" onClick={reminders.ask}>Turn on</button>
-    </div>
-  );
-}
-
-export default function Overview({ att, onFaculty, reminders }) {
+export default function Overview({ att, onFaculty }) {
   const [selected, setSelected] = useState(today());
   const [month, setMonth] = useState(() => {
     const d = new Date();
@@ -263,7 +204,6 @@ export default function Overview({ att, onFaculty, reminders }) {
         </p>
       </div>
       {att.error ? <Alert title="Attendance problem. " detail={att.error.message} /> : null}
-      {reminders ? <ReminderBar reminders={reminders} /> : null}
       <Gate who={att.who} table={att.table} parts={att.parts}>
         <Stats totals={att.totals} rows={att.rows} />
         <div className="split">

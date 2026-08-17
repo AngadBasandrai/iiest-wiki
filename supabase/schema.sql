@@ -1,4 +1,4 @@
-drop view   if exists public.review_feed;
+﻿drop view   if exists public.review_feed;
 drop table  if exists public.reports  cascade;
 drop table  if exists public.reviews  cascade;
 
@@ -34,19 +34,6 @@ create table if not exists public.attendance (
   primary key (student, course_code, class_on, slot)
 );
 
-create table if not exists public.push_subscriptions (
-  endpoint    text primary key,
-  student     uuid not null references public.profiles on delete cascade,
-  p256dh      text not null,
-  auth        text not null,
-  user_agent  text,
-  created_at  timestamptz not null default now(),
-  last_seen   timestamptz not null default now()
-);
-
-create index if not exists push_subscriptions_student_idx
-  on public.push_subscriptions (student);
-
 create table if not exists public.club_follows (
   student    uuid not null references public.profiles on delete cascade,
   club       text not null,
@@ -54,14 +41,8 @@ create table if not exists public.club_follows (
   primary key (student, club)
 );
 
-create table if not exists public.push_sent (
-  tag        text not null,
-  endpoint   text not null,
-  sent_at    timestamptz not null default now(),
-  primary key (tag, endpoint)
-);
-
-create index if not exists push_sent_time_idx on public.push_sent (sent_at);
+drop table if exists public.push_sent;
+drop table if exists public.push_subscriptions;
 
 create or replace function public.handle_new_user() returns trigger
 language plpgsql security definer set search_path = public as $$
@@ -114,14 +95,11 @@ create trigger attendance_touch before update on public.attendance
 
 alter table public.profiles           enable row level security;
 alter table public.attendance         enable row level security;
-alter table public.push_subscriptions enable row level security;
-alter table public.push_sent          enable row level security;
 alter table public.club_follows       enable row level security;
 
 grant usage on schema public to anon, authenticated;
 grant select, insert, update, delete on public.profiles           to authenticated;
 grant select, insert, update, delete on public.attendance         to authenticated;
-grant select, insert, update, delete on public.push_subscriptions to authenticated;
 grant select, insert, delete         on public.club_follows       to authenticated;
 
 drop policy if exists profiles_read_own on public.profiles;
@@ -138,11 +116,6 @@ create policy profiles_update_own on public.profiles
 
 drop policy if exists attendance_own on public.attendance;
 create policy attendance_own on public.attendance
-  for all using (student = auth.uid() and public.is_student())
-  with check (student = auth.uid() and public.is_student());
-
-drop policy if exists push_own on public.push_subscriptions;
-create policy push_own on public.push_subscriptions
   for all using (student = auth.uid() and public.is_student())
   with check (student = auth.uid() and public.is_student());
 

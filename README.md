@@ -1,4 +1,4 @@
-# IIEST Shibpur portal
+﻿# IIEST Shibpur portal
 
 A fast, dark, static front end over the public IIEST Shibpur data sets, plus
 attendance tracking for signed-in students.
@@ -116,85 +116,17 @@ mark, edit the SVG path and rerun the icon script.
 
 ### Clubs
 
-`public/data/clubs.json` drives the Clubs section in the sidebar. Each club has a slug,
-a description, meeting time, links and a list of events, and gets its own page at
-`#club/<slug>`. Following a club is stored in `localStorage` under `iiest.follows`, so it
-works without signing in and does not touch the database.
+`public/data/clubs.json` drives the Clubs page. Each club has a slug, a description,
+meeting time, links and a list of events, and gets its own page at `#club/<slug>`. The
+sidebar has a single Clubs entry; the individual clubs are buttons on that page.
+
+Following a club marks it on the Clubs page and nothing else. It is written to
+`localStorage` under `iiest.follows` so it works signed out, and mirrored into the
+`club_follows` table when signed in, with the two merged on sign-in.
 
 **The three clubs ship with placeholder copy.** Names and slugs are real, everything else
 is invented and should be replaced by whoever runs each club. Reges Belli in particular
 has a guessed description; do not leave it as is.
-
-### Class and event reminders
-
-With notifications allowed, the app schedules a reminder 15 minutes before every class
-today and before every event of a club you follow. Reminders are queued with `setTimeout`
-and shown through the service worker, and they are re-armed whenever the tab becomes
-visible again, so returning to the app refreshes the queue.
-
-Local timers die when the operating system reclaims the page, which Android does after a
-while and iOS does aggressively, so they alone cannot reach a student who has not opened
-the app. Web Push covers that, and is being added in steps.
-
-**Done so far:**
-
-- `src/sw.js` is a hand written service worker (`injectManifest` rather than
-  `generateSW`) with `push` and `notificationclick` handlers. Clicking a notification
-  focuses an already open window and navigates it, instead of spawning a new tab.
-- `VAPID_PUBLIC_KEY` in `config.js`. The public key is meant to ship to browsers. The
-  private key belongs in Supabase secrets and must never enter the repo.
-- `push_subscriptions` stores one row per device, keyed by endpoint, with the same
-  owner-only row level security as attendance.
-- `push_sent` records what has already gone out, keyed by tag and endpoint. A cron that
-  runs every five minutes across a fifteen minute window would otherwise send the same
-  class reminder three times. It has row level security on and no policy, because only
-  the Edge Function, running as `service_role`, ever touches it.
-- Granting notification permission also registers the device for push and stores the
-  subscription.
-
-- `supabase/functions/notify/index.ts` decides who to notify and sends it, and
-  `supabase/cron.sql` runs it every five minutes.
-
-### What gets pushed
-
-| Kind | When | Source |
-| --- | --- | --- |
-| Class starting | 15 minutes before, during the term | timetable for the roll's dept, year and group |
-| Club event | 15 minutes before | `clubs.json` plus that student's `club_follows` |
-| Attendance below target | 20:00 IST daily | `attendance`, only courses with at least 4 marked classes |
-| New notices | 07:00 IST daily | notices dated today, after the nightly scrape |
-
-The function re-derives semester, term, group and timetable version from the roll number
-using the same rules as the client, and it skips holidays and exam windows so nobody is
-reminded about a class that is not happening.
-
-Follows had to move into a `club_follows` table for this. `localStorage` is still written
-so the feature works signed out, and the two are merged on sign-in, but only the database
-copy is visible to the server.
-
-**Duplicate suppression matters here.** Cron runs every five minutes and the lead time is
-fifteen, so a naive implementation sends every class reminder three times. Each job has a
-deterministic tag, `push_sent` records tag plus endpoint, and rows older than a week are
-swept. Endpoints that return 404 or 410 are deleted, which is how dead subscriptions from
-uninstalled apps get cleaned up.
-
-### Deploying the function
-
-```sh
-supabase secrets set VAPID_PUBLIC_KEY=...  VAPID_PRIVATE_KEY=...
-supabase secrets set VAPID_SUBJECT=mailto:you@example.com
-supabase secrets set NOTIFY_SECRET=$(openssl rand -hex 16)
-supabase functions deploy notify
-```
-
-Then edit `supabase/cron.sql`, filling in your project ref, service role key and the same
-`NOTIFY_SECRET`, and run it in the SQL editor.
-
-To test without waiting for cron, invoke it directly and read the JSON it returns, which
-reports how many jobs were considered, sent and dropped.
-
-On iOS none of this works until the app has been added to the home screen, which is what
-the install page exists for.
 
 ### The install page
 

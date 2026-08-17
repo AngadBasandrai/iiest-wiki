@@ -1,7 +1,6 @@
 import Icon from "../components/Icon.jsx";
 import { useJson } from "../lib/data.js";
 import { fmtDate, isoDate } from "../lib/util.js";
-import { LEAD_MINUTES } from "../lib/notify.js";
 import { go } from "../lib/router.js";
 
 function EventRow({ ev, past }) {
@@ -20,7 +19,7 @@ function EventRow({ ev, past }) {
   );
 }
 
-export default function Club({ slug, follows, onToggle, perm, onAsk }) {
+export default function Club({ slug, follows, onToggle }) {
   const { data, error } = useJson("clubs", { clubs: [] });
   if (error) return <p className="empty">Could not load clubs: {error.message}</p>;
 
@@ -68,14 +67,9 @@ export default function Club({ slug, follows, onToggle, perm, onAsk }) {
           </button>
           <p className="club-note">
             {following
-              ? `You will be reminded ${LEAD_MINUTES} minutes before each event.`
-              : "Follow to get a reminder before each event."}
+              ? "This club is marked on your Clubs page."
+              : "Follow to mark this club on your Clubs page."}
           </p>
-          {following && perm !== "granted" ? (
-            <button className="link-inline" onClick={onAsk}>
-              Turn on notifications
-            </button>
-          ) : null}
         </div>
       </div>
 

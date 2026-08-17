@@ -14,7 +14,7 @@ import Club from "./views/Club.jsx";
 import Clubs from "./views/Clubs.jsx";
 import { useRoute, go } from "./lib/router.js";
 import { useAttendance } from "./lib/useAttendance.js";
-import { useFollows, useReminders } from "./lib/useNotify.js";
+import { useFollows } from "./lib/useFollows.js";
 import { authError } from "./lib/auth.js";
 import { loadJson } from "./lib/data.js";
 
@@ -32,7 +32,6 @@ export default function App() {
   const [updated, setUpdated] = useState("");
   const [clubs, setClubs] = useState([]);
   const { follows, toggle } = useFollows();
-  const reminders = useReminders(att.classesFor, follows, Boolean(att.table));
 
   useEffect(() => {
     const club = clubs.find((c) => c.slug === param);
@@ -65,6 +64,18 @@ export default function App() {
 
   const close = useCallback(() => setOpen(false), []);
 
+  useEffect(() => {
+    document.body.classList.toggle("locked", open);
+    return () => document.body.classList.remove("locked");
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return () => {};
+    const onKey = (e) => { if (e.key === "Escape") setOpen(false); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
   return (
     <div className="shell">
       <Sidebar view={view} who={att.who} session={att.session} table={att.table}
@@ -87,12 +98,11 @@ export default function App() {
           ) : null}
 
           {view === "overview" ? (
-            <Overview att={att} onFaculty={openFaculty} reminders={reminders} />
+            <Overview att={att} onFaculty={openFaculty} />
           ) : null}
           {view === "clubs" ? <Clubs follows={follows} /> : null}
           {view === "club" ? (
-            <Club slug={param} follows={follows} onToggle={toggle}
-                  perm={reminders.perm} onAsk={reminders.ask} />
+            <Club slug={param} follows={follows} onToggle={toggle} />
           ) : null}
           {view === "weekly" ? <Weekly att={att} onFaculty={openFaculty} /> : null}
           {view === "courses" ? <Courses att={att} onFaculty={openFaculty} /> : null}
