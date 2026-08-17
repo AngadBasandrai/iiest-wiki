@@ -6,9 +6,10 @@
    "TP": "Tamal Pal",
    "MK": "Malay Kule",
    "AM": "Abhik Mukherjee",
-   "JS": "Jaya Sil"
+   "JS": "Jaya Sil",
+   "SM": "Sulata Mitra"
   },
-  "hide": []
+  "hide": ["SKM", "sMK"]
  },
  "EEB": {
   "names": {

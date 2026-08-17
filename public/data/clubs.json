@@ -12,6 +12,18 @@
     { "label": "code.iiest.wiki", "url": "https://code.iiest.wiki" }
    ],
    "events": []
+  },
+  {
+   "slug": "reges-belli",
+   "name": "Reges Belli",
+   "tagline": "The IIEST chess club.",
+   "about": "Casual play, rated practice and inter-hall tournaments. Boards provided, all ratings welcome.",
+   "meets": "",
+   "site": "https://chess.iiest.wiki",
+   "links": [
+    { "label": "chess.iiest.wiki", "url": "https://chess.iiest.wiki" }
+   ],
+   "events": []
   }
  ]
 }
