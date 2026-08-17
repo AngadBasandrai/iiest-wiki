@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Gate, { Alert } from "../components/Gate.jsx";
 import { DAY_NAMES } from "../lib/calendar.js";
 
@@ -51,6 +52,25 @@ function layout(items) {
   return placed;
 }
 
+// Ticks once a minute so the now-line drifts down on its own, and re-syncs on
+// focus because background tabs get their timers throttled.
+function useNow() {
+  const [now, setNow] = useState(() => new Date());
+  useEffect(() => {
+    const sync = () => setNow(new Date());
+    const id = setInterval(sync, 60000);
+    const wake = () => { if (!document.hidden) sync(); };
+    document.addEventListener("visibilitychange", wake);
+    window.addEventListener("focus", sync);
+    return () => {
+      clearInterval(id);
+      document.removeEventListener("visibilitychange", wake);
+      window.removeEventListener("focus", sync);
+    };
+  }, []);
+  return now;
+}
+
 export default function Weekly({ att, onFaculty }) {
   const table = att.table;
   const slots = table?.slots || [];
@@ -68,6 +88,11 @@ export default function Weekly({ att, onFaculty }) {
 
   const ticks = [];
   for (let t = top + 60; t < bottom; t += 60) ticks.push(t);
+
+  const now = useNow();
+  const today = (now.getDay() + 6) % 7;
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+  const onGrid = DAYS.includes(today) && nowMin >= top && nowMin <= bottom;
 
   const lunchFrom = Math.max(toMin(LUNCH.start), top);
   const lunchTo = Math.min(toMin(LUNCH.end), bottom);
@@ -91,7 +116,7 @@ export default function Weekly({ att, onFaculty }) {
           <div className="wk-cal">
             <div className="wk-corner" />
             {DAYS.map((day) => (
-              <div className="wk-head" key={`head-${day}`}>
+              <div className={`wk-head${day === today ? " today" : ""}`} key={`head-${day}`}>
                 <span className="wk-day-long">{DAY_NAMES[day]}</span>
                 <span className="wk-day-short">{DAY_NAMES[day].slice(0, 3)}</span>
               </div>
@@ -108,10 +133,13 @@ export default function Weekly({ att, onFaculty }) {
             {DAYS.map((day) => {
               const items = layout(slots.filter((s) => s.day === day));
               return (
-                <div className="wk-col" key={day}>
+                <div className={`wk-col${day === today ? " today" : ""}`} key={day}>
                   {ticks.map((t) => (
                     <i className="wk-rule" style={{ top: at(t) }} key={t} />
                   ))}
+                  {onGrid && day === today ? (
+                    <div className="wk-now" style={{ top: at(nowMin) }} aria-hidden="true" />
+                  ) : null}
                   {hasLunch ? (
                     <div
                       className="wk-lunch"

@@ -470,6 +470,10 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
   border-bottom: 1px solid var(--line-soft); margin-bottom: 12px;
 }
 .wk-day-short { display: none; }
+.wk-head.today {
+  color: var(--accent-2); font-weight: 800;
+  border-bottom-color: var(--accent-line);
+}
 
 .wk-gutter, .wk-col { height: var(--wk-h); }
 .wk-col {
@@ -477,7 +481,22 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
   border: 1px solid var(--line-soft); border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, .012);
 }
+.wk-col.today {
+  border-color: var(--accent-line);
+  background: rgba(154, 163, 189, .05);
+}
 .wk-rule { position: absolute; left: 0; right: 0; height: 1px; background: var(--line-soft); }
+
+/* Current time, drawn only in today's column. */
+.wk-now {
+  position: absolute; left: 0; right: 0; height: 2px; z-index: 2;
+  background: var(--bad); border-radius: 1px; transform: translateY(-1px);
+}
+.wk-now::before {
+  content: ""; position: absolute; left: -3px; top: 50%;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--bad); transform: translateY(-50%);
+}
 .wk-tick {
   position: absolute; right: 12px; transform: translateY(-50%);
   font: .66rem/1 var(--mono); color: var(--dim-2); white-space: nowrap;
