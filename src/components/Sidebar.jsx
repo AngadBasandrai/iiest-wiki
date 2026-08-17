@@ -21,6 +21,11 @@ const GROUPS = [
 
 const ORDINAL = ["", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th"];
 
+const installed =
+  ["standalone", "minimal-ui", "fullscreen", "window-controls-overlay"]
+    .some((mode) => window.matchMedia(`(display-mode: ${mode})`).matches) ||
+  navigator.standalone === true;
+
 function SessionCard({ session, table }) {
   if (!session) return null;
   const year = ORDINAL[Math.ceil(session.semester / 2)] || "";
@@ -71,9 +76,11 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
         <a href="https://maps.iiest.wiki" className="external">
           <Icon name="pin" />Campus map
         </a>
-        <a href="./download/" className="external">
-          <Icon name="down" />Get the app
-        </a>
+        {installed ? null : (
+          <a href="./download/" className="external">
+            <Icon name="down" />Get the app
+          </a>
+        )}
       </nav>
 
       <div className="side-foot">
