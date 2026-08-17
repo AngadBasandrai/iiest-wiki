@@ -1,5 +1,15 @@
 {
  "hide_scholars": true,
+ "CSB": {
+  "names": {
+   "AKL": "Ashish Kumar Layek",
+   "TP": "Tamal Pal",
+   "MK": "Malay Kule",
+   "AM": "Abhik Mukherjee",
+   "JS": "Jaya Sil"
+  },
+  "hide": []
+ },
  "EEB": {
   "names": {
    "SAQ": "Syed Abdullah Qasim",

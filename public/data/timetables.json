@@ -12,6 +12,1220 @@
  },
  "timetables": [
   {
+   "key": "CSB-2025-GX",
+   "dept": "CSB",
+   "department": "Computer Science and Technology",
+   "year": 2025,
+   "group": "GX",
+   "batch": "CSB-2025",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/CSB-2025-GX.ics",
+     "slots": [
+      {
+       "code": "CS2172N",
+       "title": "Digital Logic Lab",
+       "profs": [
+        "SM",
+        "Abhik Mukherjee"
+       ],
+       "kind": "Lab",
+       "room": "H/W Lab, CSM-303",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MM2103N",
+       "title": "Physics of Materials",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2103N",
+       "title": "Discrete Structures",
+       "profs": [
+        "Tamal Pal"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2103N",
+       "title": "Discrete Structures",
+       "profs": [
+        "Tamal Pal"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MM2103N",
+       "title": "Physics of Materials",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2101N",
+       "title": "Object Oriented Programming and Design",
+       "profs": [
+        "Ashish Kumar Layek"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2101N",
+       "title": "Object Oriented Programming and Design",
+       "profs": [
+        "Ashish Kumar Layek"
+       ],
+       "kind": "Lecture",
+       "room": "CST Seminar Hall",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CST Seminar Hall",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2102N",
+       "title": "Digital Logic",
+       "profs": [
+        "SM"
+       ],
+       "kind": "Lecture",
+       "room": "CST Seminar Hall",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MM2173N",
+       "title": "Physics of Materials Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2171N",
+       "title": "Object Oriented Programming and Design Lab",
+       "profs": [
+        "Ashish Kumar Layek",
+        "Malay Kule",
+        "sMK"
+       ],
+       "kind": "Lab",
+       "room": "S/W Lab, CSD-2 & SWL-04",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "11:45",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2102N",
+       "title": "Digital Logic",
+       "profs": [
+        "SM"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "CS2101N",
+       "title": "Object Oriented Programming and Design",
+       "profs": [
+        "Ashish Kumar Layek"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS2102N",
+       "title": "Digital Logic",
+       "profs": [
+        "SM"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS2103N",
+       "title": "Discrete Structures",
+       "profs": [
+        "Tamal Pal"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS2171N",
+       "title": "Object Oriented Programming and Design Lab",
+       "profs": [
+        "Ashish Kumar Layek",
+        "Malay Kule",
+        "sMK"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "CS2172N",
+       "title": "Digital Logic Lab",
+       "profs": [
+        "SM",
+        "Abhik Mukherjee"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "MM2103N",
+       "title": "Physics of Materials",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "MM2173N",
+       "title": "Physics of Materials Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "profs": [
+      "SM",
+      "Abhik Mukherjee"
+     ],
+     "kind": "Lab",
+     "room": "H/W Lab, CSM-303",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MM2103N",
+     "title": "Physics of Materials",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "profs": [
+      "Tamal Pal"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "profs": [
+      "Tamal Pal"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MM2103N",
+     "title": "Physics of Materials",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "profs": [
+      "Ashish Kumar Layek"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "profs": [
+      "Ashish Kumar Layek"
+     ],
+     "kind": "Lecture",
+     "room": "CST Seminar Hall",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CST Seminar Hall",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "profs": [
+      "SM"
+     ],
+     "kind": "Lecture",
+     "room": "CST Seminar Hall",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MM2173N",
+     "title": "Physics of Materials Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2171N",
+     "title": "Object Oriented Programming and Design Lab",
+     "profs": [
+      "Ashish Kumar Layek",
+      "Malay Kule",
+      "sMK"
+     ],
+     "kind": "Lab",
+     "room": "S/W Lab, CSD-2 & SWL-04",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "profs": [
+      "SM"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "profs": [
+      "Ashish Kumar Layek"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "profs": [
+      "SM"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "profs": [
+      "Tamal Pal"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS2171N",
+     "title": "Object Oriented Programming and Design Lab",
+     "profs": [
+      "Ashish Kumar Layek",
+      "Malay Kule",
+      "sMK"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "profs": [
+      "SM",
+      "Abhik Mukherjee"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "MM2103N",
+     "title": "Physics of Materials",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "MM2173N",
+     "title": "Physics of Materials Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-2025-GY",
+   "dept": "CSB",
+   "department": "Computer Science and Technology",
+   "year": 2025,
+   "group": "GY",
+   "batch": "CSB-2025",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/CSB-2025-GY.ics",
+     "slots": [
+      {
+       "code": "MM2103N",
+       "title": "Physics of Materials",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2103N",
+       "title": "Discrete Structures",
+       "profs": [
+        "Tamal Pal"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2172N",
+       "title": "Digital Logic Lab",
+       "profs": [
+        "Jaya Sil",
+        "SKM"
+       ],
+       "kind": "Lab",
+       "room": "H/W Lab, CSM-303",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2103N",
+       "title": "Discrete Structures",
+       "profs": [
+        "Tamal Pal"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MM2103N",
+       "title": "Physics of Materials",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2101N",
+       "title": "Object Oriented Programming and Design",
+       "profs": [
+        "Ashish Kumar Layek"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MM2173N",
+       "title": "Physics of Materials Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2101N",
+       "title": "Object Oriented Programming and Design",
+       "profs": [
+        "Ashish Kumar Layek"
+       ],
+       "kind": "Lecture",
+       "room": "CST Seminar Hall",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CST Seminar Hall",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2102N",
+       "title": "Digital Logic",
+       "profs": [
+        "SM"
+       ],
+       "kind": "Lecture",
+       "room": "CST Seminar Hall",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2171N",
+       "title": "Object Oriented Programming and Design Lab",
+       "profs": [
+        "Ashish Kumar Layek",
+        "Malay Kule",
+        "sMK"
+       ],
+       "kind": "Lab",
+       "room": "S/W Lab, CSD-2 & SWL-04",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "11:45",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "CS2102N",
+       "title": "Digital Logic",
+       "profs": [
+        "SM"
+       ],
+       "kind": "Lecture",
+       "room": "CSD205",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "CS2101N",
+       "title": "Object Oriented Programming and Design",
+       "profs": [
+        "Ashish Kumar Layek"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS2102N",
+       "title": "Digital Logic",
+       "profs": [
+        "SM"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS2103N",
+       "title": "Discrete Structures",
+       "profs": [
+        "Tamal Pal"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS2171N",
+       "title": "Object Oriented Programming and Design Lab",
+       "profs": [
+        "Ashish Kumar Layek",
+        "Malay Kule",
+        "sMK"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "CS2172N",
+       "title": "Digital Logic Lab",
+       "profs": [
+        "Jaya Sil",
+        "SKM"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics III",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "MM2103N",
+       "title": "Physics of Materials",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "MM2173N",
+       "title": "Physics of Materials Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "MM2103N",
+     "title": "Physics of Materials",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "profs": [
+      "Tamal Pal"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "profs": [
+      "Jaya Sil",
+      "SKM"
+     ],
+     "kind": "Lab",
+     "room": "H/W Lab, CSM-303",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "profs": [
+      "Tamal Pal"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MM2103N",
+     "title": "Physics of Materials",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "profs": [
+      "Ashish Kumar Layek"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MM2173N",
+     "title": "Physics of Materials Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "profs": [
+      "Ashish Kumar Layek"
+     ],
+     "kind": "Lecture",
+     "room": "CST Seminar Hall",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CST Seminar Hall",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "profs": [
+      "SM"
+     ],
+     "kind": "Lecture",
+     "room": "CST Seminar Hall",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2171N",
+     "title": "Object Oriented Programming and Design Lab",
+     "profs": [
+      "Ashish Kumar Layek",
+      "Malay Kule",
+      "sMK"
+     ],
+     "kind": "Lab",
+     "room": "S/W Lab, CSD-2 & SWL-04",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "11:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "profs": [
+      "SM"
+     ],
+     "kind": "Lecture",
+     "room": "CSD205",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "profs": [
+      "Ashish Kumar Layek"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "profs": [
+      "SM"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "profs": [
+      "Tamal Pal"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS2171N",
+     "title": "Object Oriented Programming and Design Lab",
+     "profs": [
+      "Ashish Kumar Layek",
+      "Malay Kule",
+      "sMK"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "profs": [
+      "Jaya Sil",
+      "SKM"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "MM2103N",
+     "title": "Physics of Materials",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "MM2173N",
+     "title": "Physics of Materials Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
    "key": "EEB-2023-CX",
    "dept": "EEB",
    "department": "Electrical Engineering",
