@@ -2,10 +2,10 @@
  "note": "Events are placeholder copy. Replace them with real details.",
  "clubs": [
   {
-   "slug": "coding-cartel",
-   "name": "The Coding Cartel",
+   "slug": "tiny-coding-club",
+   "name": "Tiny Coding Club",
    "tagline": "The coding and competitive programming club.",
-   "about": "Contests, weekly practice sessions, development projects and interview preparation. Open to every department and every year.",
+   "about": "Contests, practice sessions, development projects and interview preparation. Open to every department and every year.",
    "meets": "Wednesdays, 18:00, Software Lab",
    "site": "https://code.iiest.wiki",
    "links": [
@@ -17,7 +17,7 @@
    "slug": "reges-belli",
    "name": "Reges Belli",
    "tagline": "The IIEST chess club.",
-   "about": "Casual play, rated practice and inter-hall tournaments. Boards provided, all ratings welcome.",
+   "about": "Casual play, practice and inter-hall tournaments. Boards provided, all ratings welcome.",
    "meets": "",
    "site": "https://chess.iiest.wiki",
    "links": [
