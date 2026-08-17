@@ -20,6 +20,7 @@ export default defineConfig({
           "Attendance, timetable, syllabus, notices and fees for IIEST Shibpur.",
         start_url: ".",
         scope: ".",
+        scope_extensions: [{ origin: "https://maps.iiest.wiki" }],
         display: "standalone",
         orientation: "portrait",
         background_color: "#0a0a0a",
