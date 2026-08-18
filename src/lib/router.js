@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-export const VIEWS = ["overview", "weekly", "courses", "faculty", "notices",
+export const VIEWS = ["home", "overview", "weekly", "courses", "faculty", "notices",
                       "syllabus", "fees", "guide", "clubs", "club"];
-export const HOME = "overview";
+export const HOME = "home";
 
 export function parseHash(hash) {
   const raw = (hash || "").replace(/^#/, "").split("?")[0];

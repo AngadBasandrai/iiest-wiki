@@ -90,6 +90,10 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
   transition: background .14s ease, color .14s ease;
 }
 .nav a:hover { color: var(--text); background: var(--surface); }
+.nav-rule {
+  border: 0; border-top: 1px solid var(--line-soft);
+  margin: 14px 10px 12px;
+}
 .nav a[aria-current="page"] { color: var(--text); background: var(--surface-2); font-weight: 600; }
 .ico { width: 18px; height: 18px; flex: none; display: block; }
 .ico svg { width: 100%; height: 100%; }
@@ -131,14 +135,47 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
   grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
 }
 .club-card {
-  display: grid; gap: 4px; text-align: left; cursor: pointer; font: inherit;
-  text-decoration: none;
+  position: relative; isolation: isolate; overflow: hidden;
+  text-align: left; color: var(--text);
   background: var(--surface); border: 1px solid var(--line-soft);
-  border-radius: var(--radius); padding: 18px 19px; color: var(--text);
-  box-shadow: var(--ring);
+  border-radius: var(--radius); box-shadow: var(--ring);
   transition: border-color .15s ease, transform .15s ease;
 }
 .club-card:hover { border-color: var(--line); transform: translateY(-1px); }
+.club-card-body { display: grid; gap: 4px; padding: 18px 19px; }
+
+/* The club's own artwork, blown up and pushed far back so it reads as a tint
+   behind the text rather than a picture competing with it. */
+.club-art {
+  position: absolute; inset: -30%; z-index: -2;
+  background: var(--club-art) no-repeat center / contain;
+  filter: blur(14px) saturate(150%);
+  opacity: .3;
+  transform: scale(1.06);
+  transition: opacity .3s ease, transform .3s ease;
+}
+.club-card.has-art { background: var(--surface); }
+.club-card.has-art::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(155deg,
+    rgba(22, 22, 22, .58) 0%, rgba(22, 22, 22, .8) 45%, rgba(22, 22, 22, .93) 100%);
+}
+.club-card:hover .club-art { opacity: .42; transform: scale(1.12); }
+
+/* A glass highlight that sweeps once on hover. */
+.club-sheen {
+  position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: linear-gradient(115deg,
+    transparent 35%, rgba(255, 255, 255, .07) 48%, transparent 62%);
+  background-size: 260% 100%; background-position: 130% 0;
+  transition: background-position .7s ease;
+}
+.club-card:hover .club-sheen { background-position: -40% 0; }
+.club-card.has-art .club-sheen {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .07);
+  border-radius: inherit;
+}
+
 .club-card-top {
   display: flex; align-items: center; justify-content: space-between;
   gap: 10px; margin-bottom: 8px;
@@ -146,9 +183,35 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
 .club-mark {
   width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center;
   background: var(--surface-2); border: 1px solid var(--line); color: var(--dim);
+  overflow: hidden; flex: none;
 }
 .club-mark .ico { width: 17px; height: 17px; }
-.club-card-name { font-size: 1rem; font-weight: 700; letter-spacing: -.015em; }
+.club-mark img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+.follow {
+  position: relative; z-index: 1;
+  display: inline-flex; align-items: center; gap: 6px; flex: none;
+  border: 1px solid var(--line-soft); background: var(--surface-2); color: var(--dim);
+  border-radius: 999px; padding: 6px 12px; cursor: pointer;
+  font: 600 .72rem/1 var(--sans);
+  transition: color .14s ease, border-color .14s ease, background .14s ease;
+}
+.follow .ico { width: 13px; height: 13px; }
+.follow:hover { color: var(--text); border-color: var(--line); }
+.follow.on {
+  color: var(--accent-2); border-color: var(--accent-line); background: var(--accent-bg);
+}
+.follow.on .ico { fill: currentColor; }
+
+/* The title carries the card's click target, so the follow button stays
+   clickable instead of being swallowed by a wrapping link. */
+.club-card-name {
+  font-size: 1rem; font-weight: 700; letter-spacing: -.015em;
+  background: none; border: 0; padding: 0; color: inherit;
+  font-family: inherit; text-align: left; text-decoration: none; cursor: pointer;
+}
+.club-hit::after { content: ""; position: absolute; inset: 0; }
+.club-hit:hover { text-decoration: underline; }
 .club-card-line { margin: 2px 0 0; font-size: .84rem; color: var(--dim); line-height: 1.55; }
 .club-card-foot {
   display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
@@ -688,6 +751,135 @@ code {
 .footer a:hover { color: var(--accent-2); }
 .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--line); }
 
+/* ---- Home ------------------------------------------------------------- */
+
+.now-card {
+  display: flex; align-items: center; gap: 16px;
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--line);
+  border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--ring);
+  margin-bottom: 14px;
+}
+.now-card.live { border-left-color: var(--good); background: var(--good-bg); }
+.now-card.quiet { border-left-color: var(--line-soft); }
+.now-ico {
+  width: 38px; height: 38px; flex: none; border-radius: 11px; display: grid;
+  place-items: center; background: var(--surface-2); border: 1px solid var(--line);
+  color: var(--dim);
+}
+.now-card.live .now-ico { color: var(--good); border-color: var(--good-line); }
+.now-body { min-width: 0; flex: 1; }
+.now-title {
+  margin: 4px 0 0; font-size: 1.06rem; font-weight: 700; letter-spacing: -.02em;
+}
+.now-note {
+  margin: 5px 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  font-size: .8rem; color: var(--dim);
+}
+.now-code { font: .72rem/1 var(--mono); color: var(--dim-2); }
+.now-when {
+  flex: none; font: 600 .76rem/1 var(--mono); color: var(--dim);
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 999px; padding: 8px 13px; white-space: nowrap;
+}
+.now-card.live .now-when {
+  color: var(--good); border-color: var(--good-line); background: transparent;
+}
+
+.id-card {
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  background: var(--panel); border: 1px solid var(--line-soft);
+  border-radius: var(--radius); padding: 16px 20px; box-shadow: var(--ring);
+  margin-bottom: 18px;
+}
+.id-mark {
+  width: 40px; height: 40px; flex: none; border-radius: 12px; display: grid;
+  place-items: center; background: var(--accent-bg); border: 1px solid var(--accent-line);
+  color: var(--accent-2); font: 700 .84rem/1 var(--mono);
+}
+.id-body { min-width: 0; flex: 1 1 170px; }
+.id-name { margin: 0; font-size: 1rem; font-weight: 700; letter-spacing: -.02em; }
+.id-dept { margin: 3px 0 0; font-size: .8rem; color: var(--dim); }
+.id-facts { display: flex; gap: 26px; flex-wrap: wrap; margin: 0; }
+.id-facts dt {
+  font: 600 .655rem/1.4 var(--mono); letter-spacing: .12em;
+  text-transform: uppercase; color: var(--dim-2);
+}
+.id-facts dd { margin: 4px 0 0; font-size: .86rem; font-weight: 600; }
+
+.home-split {
+  display: grid; gap: 14px; align-items: start;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+}
+.home-main { display: grid; gap: 14px; align-content: start; }
+.home-card { padding: 18px 20px; }
+.home-card-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  margin-bottom: 14px;
+}
+.link-more {
+  background: none; border: 0; padding: 0; cursor: pointer; font: inherit;
+  font-size: .76rem; color: var(--accent-2);
+}
+.link-more:hover { text-decoration: underline; }
+.home-empty {
+  display: flex; align-items: center; gap: 9px; margin: 0;
+  font-size: .84rem; color: var(--dim);
+}
+
+.risk-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+.risk {
+  display: flex; align-items: center; gap: 13px;
+  border: 1px solid var(--warn-line); background: var(--warn-bg);
+  border-radius: var(--radius-sm); padding: 11px 13px;
+}
+.risk.critical { border-color: var(--bad-line); background: var(--bad-bg); }
+.risk-pct {
+  flex: none; font: 700 .9rem/1 var(--mono); color: var(--warn);
+  min-width: 44px; text-align: right;
+}
+.risk.critical .risk-pct { color: var(--bad); }
+.risk-body { min-width: 0; display: grid; gap: 3px; }
+.risk-name { font-size: .87rem; font-weight: 650; }
+.risk-note { font-size: .755rem; color: var(--dim); }
+
+.notice-window { position: sticky; top: 18px; }
+.mini-notices { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.mini-notices li {
+  display: grid; gap: 3px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.mini-notices li:last-child { border-bottom: 0; padding-bottom: 0; }
+.mini-date { font: .655rem/1.4 var(--mono); letter-spacing: .1em; color: var(--dim-2); }
+.mini-title {
+  font-size: .82rem; line-height: 1.45; color: var(--dim);
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.mini-clubs { display: grid; gap: 9px; }
+.mini-club {
+  display: flex; align-items: center; gap: 12px; width: 100%; cursor: pointer;
+  text-align: left; font: inherit; color: var(--text);
+  border: 1px solid var(--line-soft); background: var(--surface);
+  border-radius: var(--radius-sm); padding: 11px 13px;
+  transition: border-color .14s ease;
+}
+.mini-club:hover { border-color: var(--line); }
+.mini-club-mark {
+  width: 32px; height: 32px; flex: none; border-radius: 9px; overflow: hidden;
+  display: grid; place-items: center;
+  background: var(--surface-2); border: 1px solid var(--line); color: var(--dim);
+}
+.mini-club-mark img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.mini-club-mark .ico { width: 15px; height: 15px; }
+.mini-club-text { min-width: 0; display: grid; gap: 2px; }
+.mini-club-name { font-size: .87rem; font-weight: 650; }
+.mini-club-line {
+  font-size: .765rem; color: var(--dim);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
 @media (max-width: 1080px) {
   .split { grid-template-columns: 1fr; }
   .cal { max-width: 380px; }
@@ -721,6 +913,8 @@ code {
   .klass-top { flex-direction: column; gap: 6px; }
   .klass-when { text-align: left; }
   .wk-cal { --wk-h: 700px; grid-template-columns: 46px repeat(5, 152px); }
+  .home-split { grid-template-columns: 1fr; }
+  .notice-window { position: static; }
 
   .icon-btn { min-width: 44px; min-height: 44px; margin-left: -8px; }
   .nav a { padding-top: 10px; padding-bottom: 10px; }
@@ -737,6 +931,8 @@ code {
   .page-head { margin-bottom: 20px; }
   .cal { max-width: none; }
   .club-grid { grid-template-columns: 1fr; }
+  .home-split { grid-template-columns: 1fr; }
+  .notice-window { position: static; }
   .footer { flex-wrap: wrap; }
   .input.wide { flex: 1 1 100%; }
   .wk-cal { --wk-h: 660px; grid-template-columns: 42px repeat(5, 134px); }

@@ -3,6 +3,10 @@ import { configured } from "../lib/config.js";
 import { signIn, signOut } from "../lib/auth.js";
 
 const GROUPS = [
+  ["Around campus", [
+    ["guide", "help", "Student guide"],
+    ["clubs", "star", "Clubs"],
+  ]],
   ["Attendance", [
     ["overview", "grid", "Daily Overview"],
     ["weekly", "table", "Weekly Schedule"],
@@ -13,9 +17,6 @@ const GROUPS = [
     ["notices", "bell", "Notices"],
     ["syllabus", "file", "Syllabus"],
     ["fees", "rupee", "Fees"],
-  ]],
-  ["Around campus", [
-    ["guide", "help", "Student guide"],
   ]],
 ];
 
@@ -43,7 +44,7 @@ function SessionCard({ session, table }) {
 export default function Sidebar({ view, who, session, table, open, onNavigate }) {
   return (
     <aside className={`side${open ? " open" : ""}`}>
-      <a className="logo" href="#overview" onClick={onNavigate}>
+      <a className="logo" href="#home" onClick={onNavigate}>
         <span className="logo-tile" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
                strokeLinecap="round" strokeLinejoin="round">
@@ -58,28 +59,35 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
       </a>
 
       <nav className="nav">
+        <a href="#home" onClick={onNavigate}
+           aria-current={view === "home" ? "page" : undefined}>
+          <Icon name="home" />Home
+        </a>
         {GROUPS.map(([label, items]) => (
           <div key={label}>
             <p className="nav-label">{label}</p>
             {items.map(([id, icon, text]) => (
               <a key={id} href={`#${id}`} onClick={onNavigate}
-                 aria-current={view === id ? "page" : undefined}>
+                 aria-current={id === "clubs"
+                   ? (view === "clubs" || view === "club" ? "page" : undefined)
+                   : (view === id ? "page" : undefined)}>
                 <Icon name={icon} />{text}
               </a>
             ))}
+            {label === "Around campus" ? (
+              <a href="https://maps.iiest.wiki" className="external">
+                <Icon name="pin" />Campus map
+              </a>
+            ) : null}
           </div>
         ))}
-        <a href="#clubs" onClick={onNavigate}
-           aria-current={view === "clubs" || view === "club" ? "page" : undefined}>
-          <Icon name="star" />Clubs
-        </a>
-        <a href="https://maps.iiest.wiki" className="external">
-          <Icon name="pin" />Campus map
-        </a>
         {installed ? null : (
-          <a href="./download/" className="external">
-            <Icon name="down" />Get the app
-          </a>
+          <>
+            <hr className="nav-rule" />
+            <a href="./download/" className="external">
+              <Icon name="down" />Get the app
+            </a>
+          </>
         )}
       </nav>
 

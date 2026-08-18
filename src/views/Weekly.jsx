@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
 import Gate, { Alert } from "../components/Gate.jsx";
 import { DAY_NAMES } from "../lib/calendar.js";
+import { useNow } from "../lib/useNow.js";
 
 const LUNCH = { start: "12:40", end: "13:50" };
 const DAYS = [0, 1, 2, 3, 4];
@@ -50,25 +50,6 @@ function layout(items) {
   }
   flush();
   return placed;
-}
-
-// Ticks once a minute so the now-line drifts down on its own, and re-syncs on
-// focus because background tabs get their timers throttled.
-function useNow() {
-  const [now, setNow] = useState(() => new Date());
-  useEffect(() => {
-    const sync = () => setNow(new Date());
-    const id = setInterval(sync, 60000);
-    const wake = () => { if (!document.hidden) sync(); };
-    document.addEventListener("visibilitychange", wake);
-    window.addEventListener("focus", sync);
-    return () => {
-      clearInterval(id);
-      document.removeEventListener("visibilitychange", wake);
-      window.removeEventListener("focus", sync);
-    };
-  }, []);
-  return now;
 }
 
 export default function Weekly({ att, onFaculty }) {

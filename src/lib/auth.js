@@ -42,7 +42,7 @@ function readHash() {
     refresh_token: params.get("refresh_token"),
     expires_at: params.get("expires_at"),
   };
-  history.replaceState(null, "", location.pathname + location.search + "#overview");
+  history.replaceState(null, "", location.pathname + location.search + "#home");
   return tokens.access_token ? fromTokens(tokens) : null;
 }
 
@@ -50,7 +50,7 @@ function readError() {
   if (!location.hash.includes("error")) return "";
   const params = new URLSearchParams(location.hash.slice(1));
   const message = params.get("error_description") || params.get("error") || "";
-  if (message) history.replaceState(null, "", location.pathname + location.search + "#overview");
+  if (message) history.replaceState(null, "", location.pathname + location.search + "#home");
   return decodeURIComponent(message.replace(/\+/g, " "));
 }
 

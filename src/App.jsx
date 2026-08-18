@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import Icon from "./components/Icon.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 import UpdateToast from "./components/UpdateToast.jsx";
+import Home from "./views/Home.jsx";
 import Overview from "./views/Overview.jsx";
 import Weekly from "./views/Weekly.jsx";
 import Courses from "./views/Courses.jsx";
@@ -19,7 +20,7 @@ import { authError } from "./lib/auth.js";
 import { loadJson } from "./lib/data.js";
 
 const TITLES = {
-  overview: "Daily Overview", weekly: "Weekly Schedule", courses: "Course Attendance",
+  home: "Home", overview: "Daily Overview", weekly: "Weekly Schedule", courses: "Course Attendance",
   faculty: "Faculty", notices: "Notices", syllabus: "Syllabus", fees: "Fees",
   guide: "Student guide", clubs: "Clubs",
 };
@@ -97,10 +98,13 @@ export default function App() {
             <p className="empty">Sign-in failed: {authError}</p>
           ) : null}
 
+          {view === "home" ? (
+            <Home att={att} clubs={clubs} follows={follows} onFaculty={openFaculty} />
+          ) : null}
           {view === "overview" ? (
             <Overview att={att} onFaculty={openFaculty} />
           ) : null}
-          {view === "clubs" ? <Clubs follows={follows} /> : null}
+          {view === "clubs" ? <Clubs follows={follows} onToggle={toggle} /> : null}
           {view === "club" ? (
             <Club slug={param} follows={follows} onToggle={toggle} />
           ) : null}
