@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Gate, { Alert } from "../components/Gate.jsx";
 import { DAY_NAMES } from "../lib/calendar.js";
 
-const LUNCH = { start: "12:30", end: "13:50" };
+const LUNCH = { start: "12:40", end: "13:50" };
 const DAYS = [0, 1, 2, 3, 4];
 const FALLBACK = { start: "09:00", end: "16:35" };
 
