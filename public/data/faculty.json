@@ -4544,7 +4544,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/arindambiswas-157",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:11.0pt\">Arindam Biswas graduated from Jadavpur University, Kolkata, India, and received his master's and doctorate degree both from the Indian Statistical Institute, Kolkata, India. He is currently Professor in the Department of Information Technology, Indian Institute of Engineering Science and Technology, Shibpur, India. His research interests include digital geometry, image processing, approximate shape matching and analysis, medical image analysis, natural language processing, and biometrics. He has published over 150 research papers in international journals, edited volumes, and refereed conference proceedings, and holds one US patent. He has served as a Board Member of the Technical Committee 18 (tc18) for Discrete Geometry and Mathematical Morphology of International Association of Patern Recognition (IAPR) from 2016 to 2021. He has served as the Dean, International Relations and Alumni Affairs of Indian Institute of Engineering Science and Technology, Shibpur from 01.03.2019 to 28.02.2022. He is a member of the Expert Committee on Artificial Intelligence/Machine Learning, Big Data Analytics, Robotics & other ICTs of the Department of Science & Technology and Biotechnology, Government of West Bengal (01.06.2023).</span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 350,
@@ -4612,7 +4622,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/chandangiri-427",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:11pt\">Chandan Giri received B.Tech degree in Computer Science & Engineering from Calcutta University, Kolkata, India in 2000 and subsequently Masters of Engineering (M.E) in Computer Science & Engineering from Jadavpur University, Kolkata, India in 2002 and the Ph.D degree from the Department of Electronics & Electrical Communication Engineering, Indian Institute of Technology, Kharagpur in 2008.</span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\">He served as a Lecturer at the College of Engineering and Management, Kolaghat from 2002 to 2005. He served as an Assistant Professor in the Department of Information Technology, Indian Institute of Engineering Science and Technology, Shibpur, India, from 2008 to 2018. He is currently serving as an Associate Professor in the Department of Information Technology, Indian Institute of Engineering Science and Technology, Shibpur, India. </span></p> <p style=\"text-align:justify\"><span style=\"font-size:11pt\">His research interests are Wireless Sensor Networks, testing and design-for-testability of integrated circuits (especially 3D and multicore chips), Microfluidic Biochip Design and Test. He served as a Conference/Symposium Co-Chair in many IEEE international conferences such as VLSI Design, VLSI Design, and Test (VDAT), ISED, ISDCS, RC, etc.. He is a member of IEEE and ACM.</span></p> <p> </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    },
+    {
+     "code": "IT2171N",
+     "title": "Data Structure and Algorithms Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 526,
@@ -4646,7 +4675,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/hafizurrahaman-1034",
    "bio": "<p style=\"text-align:justify\">Hafizur Rahaman received his B.E. (Electrical Engineering) from Calcutta University (B. E. College, Shibpur), M.E. (Electrical Engineering) and PhD (Computer Science and Engineering) degrees from the Jadavpur University, Calcutta, India in 1986, 1988 and 2003 respectively. Dr. Rahaman is full professor of Indian Institute of Engineering Science and Technology (IIEST), Shibpur, India. Prior to joining the IIEST Shibpur, he served as Design Engineer (System) in CMPDI (GoI R & D organization).</p> <p style=\"text-align:justify\">Dr. Rahaman visited as Post Doctoral Research Fellow under EPSARC Grant in the Design and Verification Division of Computer Science Department, Bristol University, UK during 2006-2007. During 2008-2009, Dr. Rahaman received Royal Society International Fellowship award to carry out one year advanced research in the Design and Verification Division of Computer Science Department, University of Bristol, United Kingdom. He served as visiting professor at the Computer Architecture Division, University of Germany, under DST-DAAD research fellowship award during 2013-2015.</p> <p style=\"text-align:justify\">His research interests include Logic Synthesis, design and testing of Integrated Circuits and nano-biochips, Nanoscale Technologies and Computing viz. Memristors and Reversible Quantum Circuit Synthesis etc.</p> <p style=\"text-align:justify\">He leads the VLSI design and test group, Chip-to Systems Program, GoI for fabrication of integrated circuits at IIEST, Shibpur, India,</p> <p style=\"text-align:justify\">To his credit, he has supervised 40 doctoral and forty six masters’ theses besides guiding several projects at undergraduate level. Eight more doctoral theses are now in progress.</p> <p style=\"text-align:justify\">He is also active in international collaborative research with the Bristol University (UK), University of Bremen (Germany), Duke University (USA), and Hiroshima University (Japan). He has established a strong collaboration with HiSim Laboratory, Hiroshima University since 2015. Currently he is engaged in several collaborative research projects with the different companies and research organizations including ARM, Sankalp Semiconductor.</p> <p style=\"text-align:justify\">His research has been funded by DEITY (MCIT, GoI), DST (GoI), CSIR (GoI), DIT (Gov. of WB), AICTE, UGC, Royal Society-UK, DAAD Foundation (Germany) and several industrial partners. He has contributed more than 300 research articles in archival journals and refereed conference proceedings. He has also contributed towards several book chapters in edited volumes from different publishers including CRC press, and Springer-Verlag Berlin Heidelberg etc. He published a book on emerging technology entitled “Carbon Nanotube and Graphene Nanoribbon Interconnects”, CRC Press (Taylor and Francies Group), USA, December 2014.</p> <p style=\"text-align:justify\">Dr. Rahaman is a Member of the VLSI Society of India (VSI), Senior Member of the IEEE, and ACM Sigda. He is regular reviewer of IEEE TCAD, IEEE TVLSI, IEEE TC, and ACM TODAEs. He has served/is serving as General Chair/Program Chair/Track Chair/TPC member in several conference committees including VLSI Design, VDAT, ATS, ISED, ISVLSI, ASP-DAC, ISPD, ISDCS etc.</p> <p style=\"text-align:justify\">He has initiated an IEEE International symposium on Devices, Circuits and systems (ISDCS) in collaboration with Hiroshima University, Japan under the bi-lateral cooperation between India and Japan. This symposium will be held annually in India and in Japan alternatively. This symposium will strengthen the cooperation between the two countries.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    },
+    {
+     "code": "IT2172N",
+     "title": "Digital Logic and Circuit Design Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 2221,
@@ -4765,7 +4813,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/santiprasadmaity-1218",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-family:Times New Roman,Times,serif\"><span style=\"font-size:12px\">Dr. Santi P. Maity joined the faculty of Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpurat) <span style=\"background-color:white\"><span style=\"color:black\">(formerly BEC(DU), BESU Shibpur) in the year 2000 </span></span>where he is currently a Professor (HAG) in Dept. of Information Technology. <span style=\"background-color:white\"><span style=\"color:black\">He served as the Head of different academic units of the Institute, namely Dept. of Information Technology, Purabi Das School of Information Technology (PDSIT), School of VLSI (SVLSI) and School of Mechatronics and Robotics (SMR) and School of Advanced Materials, Green Energy and Sensor Systems (SAMGESS) . </span></span>He received his B.E. degree in Electronics and Communication Engineering from National Institute of Technology Durgapur (formerly known as Regional Engineering College Durgapur under the university of Burdwan) and M.Tech. in Microwaves from the University of Burdwan, India in 1993 and 1997, respectively. He did his M. Tech project on “A time transfer system using pseudo random noise biphase modulated carrier” (topic on digital communications) at Time and Frequency Section in National Physical Laboratory, New Delhi from September 1996 to April, 1997. He received his Ph.D. degree in Engineering from IIEST Shibpur with the thesis title \" Studies on data hiding in digital media for secured communication, authentication and content integrity\" in 2008 in association with Machine Intelligence Unit, Indian Statistical Institute, Kolkata). He received a couple of post-doctoral research positions from the institues like Nanyang Technological University, Singapore, University of Vigo, Spain and Supelec, France. He did Post Doctoral work from January 2009 to July 2009 and February 2011 to July 2011 at the Laboratoire des Signaux et Systems (CNRS–Supelec–Universite Paris-Sud 11) in France. He is having more than 26 years (since 1997) in teaching experience at different academic institutes that include K. G. Engineering Institute, Bhisnupur, Haldia Institute of Technology and at present at IIEST, Shibpur since July 2000 (from July, 2000 to September, 2006 in the Department of Electronics and Telecommunication Engg. and since September 27, 2006 to till data in Information Technology Department). He has published more than 310 research papers in International journals that include IEEE Transactions, IEEE Journals, IEEE Letters, Elsevier, Springer, Wiley, World Scientific, International and National conference proceedings, and book chapters. <span style=\"background-color:white\"><span style=\"color:black\">He has successfully completed two sponsored projects funded by Department of Information Technology (DIT) (2008-2010) and Department of Science and Technology (DST) (2017-2020), Govt. of India as PI and Co-PI, respectively. He served as </span></span>Program Co-Chairs in 7th International Conference on Mathematics and Computing (ICMC2021), <span style=\"background-color:white\"><span style=\"color:black\">Publication Co-Chair of IEEE Advanced Networks and Telecommunications Systems (ANTS) 2018, General Chair of International Conference on Computers, Communications and Sensor Networks (CCSN) in 2016 and 2017. His research interests include </span></span><span style=\"color:black\">Cognitive Radio Networks, MC-CDMA systems, Digital Image Watermarking and Secret Sharing, Compressed Sensing based Image Reconstruction and Disease Diagnosis, and Computer Aided Diagnosis (CAD) based Gradation on Diabetic Retinopathy. His current research areas also include the use of Reinforcement Learning (RL) in Spectrum Prediction, Reconfigurable Intelligent Surfaces (RIS) in D2D communication and optimal placement of charging station in Electric Vehicle (EV) systems. </span> He has delivered so far more than 75 invited and tutorial talks in International and National conferences, seminars, workshops and symposiums, FDP program. He also acts as TPC member in various conferences like IEEE ANTS, NCC, ICVGIP. He was General Chair in CCSN 2016 and CCSN 2017 and publication Co-Chair in IEEE ANTS 2018. He has guided so far 20 Ph. D thesis (9 as sole supervisor, 5 as main supervisor and 6 as co-supervisor) and seven (7) Ph. D scholars are working under his supervison. He has so far examined more than 60 Ph. D theses of various institutes that include State universities, Central Universities, NITs, IITs and IIITs. He is serving the members of the Board of Studies for B. Tech and M. Tech courses of Electronics and Communication Engg., Computer Science and Engg., Information Technology, B. Sc and M. Sc courses on Computer Science and Information Technology specialization run by State University, Private Institutes and University, Central University etc. <span style=\"background-color:white\"><span style=\"color:black\">University (Maulana Abul Kalam Azad University of Technology) nominee in Board of Governor (BOG) of Techno College Hoogly, W.B., India. He is an Expert Member of Doctoral Committee (DC) in ECE Dept. of VIGNAN’s (Deemed to be University), Vadlamudi, Guntur, AP, India. </span></span></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 1272,
@@ -4782,7 +4840,17 @@
    "scholar": "https://scholar.google.com/citations?user=wT2HlGgAAAAJ&hl=en",
    "profile": "https://www.iiests.ac.in/en/faculty/shyamalendukandar-1272",
    "bio": "<p style=\"text-align:justify\">Shyamalendu Kandar is currently an Assistant Professor in the Department of Information Technology, Indian Institute of Engineering Science and Technology (An Institute of National Importance), Shibpur, India. He has obtained his M.Tech. in Information Technology from Jadavpur University and Ph.D. from the same university.<br /> He has contributed a number of research papers in several peer-reviewed international journals and conferences. He is the author of two books on the Automata theory. </p> <p style=\"text-align:justify\"> </p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "IT2173N",
+     "title": "Object Oriented Programming Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "ITB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 1302,

@@ -11,6 +11,15 @@
   },
   "hide": ["SKM", "sMK"]
  },
+ "ITB": {
+  "names": {
+   "SPM": "Santi Prasad Maity",
+   "HR": "Hafizur Rahaman",
+   "CG": "Chandan Giri",
+   "SK": "Shyamalendu Kandar",
+   "AB": "Arindam Biswas"
+  }
+ },
  "EEB": {
   "names": {
    "SAQ": "Syed Abdullah Qasim",

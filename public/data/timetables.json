@@ -7877,6 +7877,1236 @@
      ]
     }
    ]
+  },
+  {
+   "key": "ITB-2025-HX",
+   "dept": "ITB",
+   "department": "Information Technology",
+   "year": 2025,
+   "group": "HX",
+   "batch": "ITB-2025",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/ITB-2025-HX.ics",
+     "slots": [
+      {
+       "code": "IT2103N",
+       "title": "Signals and Systems",
+       "profs": [
+        "Santi Prasad Maity"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2102N",
+       "title": "Digital Logic and Circuit Design",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2101N",
+       "title": "Data Structure and Algorithms",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2173N",
+       "title": "Object Oriented Programming Lab",
+       "profs": [
+        "Shyamalendu Kandar"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2102N",
+       "title": "Digital Logic and Circuit Design",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "09:55",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2103N",
+       "title": "Signals and Systems",
+       "profs": [
+        "Santi Prasad Maity"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:55",
+       "end": "11:45",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2104N",
+       "title": "Formal Languages and Automata Theory",
+       "profs": [
+        "Arindam Biswas"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2172N",
+       "title": "Digital Logic and Circuit Design Lab",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2171N",
+       "title": "Data Structure and Algorithms Lab",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2101N",
+       "title": "Data Structure and Algorithms",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2104N",
+       "title": "Formal Languages and Automata Theory",
+       "profs": [
+        "Arindam Biswas"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "IT2101N",
+       "title": "Data Structure and Algorithms",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2102N",
+       "title": "Digital Logic and Circuit Design",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2103N",
+       "title": "Signals and Systems",
+       "profs": [
+        "Santi Prasad Maity"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2104N",
+       "title": "Formal Languages and Automata Theory",
+       "profs": [
+        "Arindam Biswas"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2171N",
+       "title": "Data Structure and Algorithms Lab",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "IT2172N",
+       "title": "Digital Logic and Circuit Design Lab",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "IT2173N",
+       "title": "Object Oriented Programming Lab",
+       "profs": [
+        "Shyamalendu Kandar"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "profs": [
+      "Santi Prasad Maity"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2173N",
+     "title": "Object Oriented Programming Lab",
+     "profs": [
+      "Shyamalendu Kandar"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "profs": [
+      "Santi Prasad Maity"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:55",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "profs": [
+      "Arindam Biswas"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2172N",
+     "title": "Digital Logic and Circuit Design Lab",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2171N",
+     "title": "Data Structure and Algorithms Lab",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "profs": [
+      "Arindam Biswas"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "profs": [
+      "Santi Prasad Maity"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "profs": [
+      "Arindam Biswas"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2171N",
+     "title": "Data Structure and Algorithms Lab",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "IT2172N",
+     "title": "Digital Logic and Circuit Design Lab",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "IT2173N",
+     "title": "Object Oriented Programming Lab",
+     "profs": [
+      "Shyamalendu Kandar"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ITB-2025-HY",
+   "dept": "ITB",
+   "department": "Information Technology",
+   "year": 2025,
+   "group": "HY",
+   "batch": "ITB-2025",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/ITB-2025-HY.ics",
+     "slots": [
+      {
+       "code": "IT2103N",
+       "title": "Signals and Systems",
+       "profs": [
+        "Santi Prasad Maity"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2102N",
+       "title": "Digital Logic and Circuit Design",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2101N",
+       "title": "Data Structure and Algorithms",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2171N",
+       "title": "Data Structure and Algorithms Lab",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2102N",
+       "title": "Digital Logic and Circuit Design",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "09:55",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2103N",
+       "title": "Signals and Systems",
+       "profs": [
+        "Santi Prasad Maity"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:55",
+       "end": "11:45",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2104N",
+       "title": "Formal Languages and Automata Theory",
+       "profs": [
+        "Arindam Biswas"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2173N",
+       "title": "Object Oriented Programming Lab",
+       "profs": [
+        "Shyamalendu Kandar"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2172N",
+       "title": "Digital Logic and Circuit Design Lab",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2101N",
+       "title": "Data Structure and Algorithms",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "IT2104N",
+       "title": "Formal Languages and Automata Theory",
+       "profs": [
+        "Arindam Biswas"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "IT2101N",
+       "title": "Data Structure and Algorithms",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2102N",
+       "title": "Digital Logic and Circuit Design",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2103N",
+       "title": "Signals and Systems",
+       "profs": [
+        "Santi Prasad Maity"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2104N",
+       "title": "Formal Languages and Automata Theory",
+       "profs": [
+        "Arindam Biswas"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "IT2171N",
+       "title": "Data Structure and Algorithms Lab",
+       "profs": [
+        "Chandan Giri"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "IT2172N",
+       "title": "Digital Logic and Circuit Design Lab",
+       "profs": [
+        "Hafizur Rahaman"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "IT2173N",
+       "title": "Object Oriented Programming Lab",
+       "profs": [
+        "Shyamalendu Kandar"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "MA2101N",
+       "title": "Mathematics - III",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "profs": [
+      "Santi Prasad Maity"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2171N",
+     "title": "Data Structure and Algorithms Lab",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-07-21",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "profs": [
+      "Santi Prasad Maity"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:55",
+     "end": "11:45",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "profs": [
+      "Arindam Biswas"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "11:45",
+     "end": "12:40",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2173N",
+     "title": "Object Oriented Programming Lab",
+     "profs": [
+      "Shyamalendu Kandar"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-07-22",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2172N",
+     "title": "Digital Logic and Circuit Design Lab",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kind": "Lab",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-07-23",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "profs": [
+      "Arindam Biswas"
+     ],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-07-24",
+     "until": "2026-11-13",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "IT2101N",
+     "title": "Data Structure and Algorithms",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2102N",
+     "title": "Digital Logic and Circuit Design",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2103N",
+     "title": "Signals and Systems",
+     "profs": [
+      "Santi Prasad Maity"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2104N",
+     "title": "Formal Languages and Automata Theory",
+     "profs": [
+      "Arindam Biswas"
+     ],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "IT2171N",
+     "title": "Data Structure and Algorithms Lab",
+     "profs": [
+      "Chandan Giri"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "IT2172N",
+     "title": "Digital Logic and Circuit Design Lab",
+     "profs": [
+      "Hafizur Rahaman"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "IT2173N",
+     "title": "Object Oriented Programming Lab",
+     "profs": [
+      "Shyamalendu Kandar"
+     ],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "MA2101N",
+     "title": "Mathematics - III",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
   }
  ]
 }
