@@ -1885,7 +1885,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/abhikmukherjee-139",
    "bio": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong><span style=\"font-size:10.0pt\"><span style=\"font-family:LiberationSans-Bold\"><span style=\"color:#00000a\">PROFESSIONAL EXPERIENCE:</span></span></span></strong></span></span></p> <p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:10.0pt\"><span style=\"font-family:LiberationSans\"><span style=\"color:#00000a\">1. One year as Programmer, Tata Consultancy Services, Kolkata Jul '91 - Jun '92.</span></span></span></span></span></p> <p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:10.0pt\"><span style=\"font-family:LiberationSans\"><span style=\"color:#00000a\">2. One year as Associate Consultant, Price Waterhouse Associates, Kolkata Nov '94 - Nov '95.</span></span></span></span></span></p> <p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:10.0pt\"><span style=\"font-family:LiberationSans\"><span style=\"color:#00000a\">3. Two and a half years as project linked programmer, at ISI, Kolkata Nov '95 – Mar '98. **</span></span></span></span></span></p> <p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:10.0pt\"><span style=\"font-family:LiberationSans\"><span style=\"color:#00000a\">4. One year as lecturer at Regional Computer Centre, Kolkata Feb '99 – Jan '00.</span></span></span></span></span></p> <p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong><span style=\"font-size:10.0pt\"><span style=\"font-family:LiberationSans-Bold\"><span style=\"color:#00000a\">5. Twenty+ years as Lecturer/ Asst Prof / Associate Professor at IIEST / BESU, Shibpur since Jan '00</span></span></span></strong></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 206,
@@ -1936,7 +1946,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/ashishkumarlayek-2204",
    "bio": "<p>I am presently an Assistant Professor in the Department of Computer Science and Technology at IIEST Shibpur, India, since 2013. My research interests span the broad area of Wireless Networks, Mobile Computing, Pattern Recognition, Image Processing, etc.</p> <p>I completed my Bachelor of Engineering and Master of Engineering from the Department of Computer Science and Technology, Bengal Engineering College (<em>now IIEST Shibpur</em>) in 1999 and 2001. Before joining IIEST Shibpur, I have worked in the Software Industries for more than twelve years. During my tenure in the industry, my area of work was in Wireless Telecommunication and Data communication. I was responsible for architecting and developing system software for 3G (UMTS and 1xEVDO) and 4G (LTE) mobile networks. I have worked for organizations like Sasken Technologies, Alcatel-Lucent, Airvana Networks, Polaris Networks and played the roles of Technical Leader / Consultant.</p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "CS2101N",
+     "title": "Object Oriented Programming and Design",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    },
+    {
+     "code": "CS2171N",
+     "title": "Object Oriented Programming and Design Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 176,
@@ -2004,7 +2033,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/jayasil-2205",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 754,
@@ -2021,7 +2060,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/malaykule-754",
    "bio": "<p style=\"text-align:justify\"><span style=\"font-size:14px\"><strong><span style=\"background-color:white\"><span style=\"color:#222222\">Malay Kule</span></span></strong><span style=\"background-color:white\"><span style=\"color:#222222\"> has been on the faculty of the Indian Institute of Engineering Science and Technology (IIEST), Shibpur, India since 2013, where currently, he is an assistant professor of Computer Science and Technology. </span></span></span><span style=\"font-size:14px\"><span style=\"background-color:white\"><span style=\"color:#222222\">He received the B. Sc. degree in physics honours, the B. Tech. and M. Tech. degrees in Computer Science and Engineering, all from the University of Calcutta, India. He received the PhD degree in Engineering from the Indian Institute of Engineering Science and Technology, Shibpur, India. </span></span></span><span style=\"font-size:14px\"><span style=\"background-color:white\"><span style=\"color:#222222\">His research interest includes defect tolerance of nanoscale crossbar circuits, cryptology, and hardware security.</span></span></span></p>",
-   "courses": []
+   "courses": [
+    {
+     "code": "CS2171N",
+     "title": "Object Oriented Programming and Design Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 759,
@@ -2174,7 +2223,26 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/sulatamitra-1433",
    "bio": "",
-   "courses": []
+   "courses": [
+    {
+     "code": "CS2102N",
+     "title": "Digital Logic",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    },
+    {
+     "code": "CS2172N",
+     "title": "Digital Logic Lab",
+     "kinds": [
+      "Lab"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 335,
@@ -2225,7 +2293,17 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/tamalpal-1494",
    "bio": "<ul> <li>Ph.D (Engineering), Computer Science and Technology, IIEST </li> <li>ME. Computer Science and Technology, IIEST</li> <li>BTech. Computer Science and Engineering, MAKAUT</li> </ul>",
-   "courses": []
+   "courses": [
+    {
+     "code": "CS2103N",
+     "title": "Discrete Structures",
+     "kinds": [
+      "Lecture"
+     ],
+     "dept": "CSB",
+     "year": 2025
+    }
+   ]
   },
   {
    "id": 241,
@@ -4632,7 +4710,7 @@
    "email_alt": "p_ghosal@it.iiests.ac.in",
    "phone": "+919903704664",
    "voip": "+91 33 26680525 (2 lines) x3008 (O)",
-   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6a33f6c932de63.74179258.jpg",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6a82dceb446d57.97166364.jpg",
    "scholar": "https://scholar.google.com/citations?user=ZUt4F58AAAAJ&hl=en",
    "profile": "https://www.iiests.ac.in/en/faculty/prasunghosal-910",
    "bio": "<p><span style=\"font-size:11pt\">Dr. Prasun Ghosal is currently an Associate Professor in the Department of IT, IIEST, Shibpur, India. He has visited the University of North Texas, the USA (2013 - 2014 under Raman PDF, GOI) and the University of Heidelberg, Germany (2013 under HLFF PDF). His research is in Performance Centric, Power-Aware Nanoscale Computing, and Electronic System Design. His research has been funded by MHRD (GoI), SERB, AICTE, DIT, MCIT (GoI), IEI, etc. He has contributed more than 110 research articles in several peer-reviewed avenues of international journals and conferences. Besides copyright, he has also contributed to several book chapters in edited volumes from different publishers including IET, CRC press, and Springer-Verlag Berlin Heidelberg, etc.</span></p> <p><span style=\"font-size:11pt\">He is a recipient of the Young Scientist Research Award 2011 from the Indian Science Congress Association, recipient of several Best Paper Awards in IEEE iNIS 2016, ICAEE - 2014 from IEEE CS, ADCONS - 2011, etc., Best Paper Award Nominee in ISVLSI - 2008.</span></p> <p><span style=\"font-size:11pt\">He has served/is serving in different roles in professional circuits including the VC, Steering Committee, IEEE iNIS, as General Chair/Program Chair/Track Chair/TPC member in several conference committees including GLSVLSI, ISVLSI, NoCArc, IEEE INDICON, IEEE iNIS, ACM MobiHoc, IEEE TENSYMP, ICIT, VDAT, IEEE TechSym, as the VC, Executive Committee of the IEEE CS TCVLSI, AE, IEEE CEMag, AE, VCAL, Guest Editor, ELSEVIER Integration, The VLSI Journal, Editor, IEEE Ethics and Policy in Technology eNewsletters. He is actively involved in the activities of several professional bodies including Senior Member(ACM), Senior Member(IEEE), Life Member (IEI), CSTA(ACM), IAENG.</span></p>",
