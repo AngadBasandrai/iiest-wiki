@@ -7029,6 +7029,23 @@
    "courses": []
   },
   {
+   "id": 2451,
+   "name": "Netai Chandra Dey",
+   "kind": "faculty",
+   "department": "School of Management Sciences",
+   "designation": "Head & Professor",
+   "role": "",
+   "email": "netaidey@hotmail.com",
+   "email_alt": "",
+   "phone": "0",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_69d63991481329.98657160.jpg",
+   "scholar": "",
+   "profile": "https://www.iiests.ac.in/en/faculty/netaichandradey-2451",
+   "bio": "",
+   "courses": []
+  },
+  {
    "id": 947,
    "name": "Poulomi Mukherjee Mondal",
    "kind": "faculty",
@@ -7340,7 +7357,7 @@
   "Visiting Professor"
  ],
  "counts": {
-  "faculty": 270,
+  "faculty": 271,
   "staff": 85,
   "officer": 13
  },
