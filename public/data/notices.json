@@ -1,6 +1,178 @@
 {
  "records": [
   {
+   "id": 36935,
+   "title": "Hostel Admission - 1 st List of Selected UG 3 rd Year Female Students (Notice No: CW/2008/010 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242953_1st%20List%20of%20Selected%20UG%203rd%20Year%20Female%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36934,
+   "title": "Hostel Admission - 1 st List of Selected UG 2 nd Year Male Students (Notice No: CW/2008/03 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242880_1st%20List%20of%20Selected%20UG%202nd%20Year%20Male%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36933,
+   "title": "Hostel Admission - 1 st List of Selected PG 2 nd Year Female Students (Notice No: CW/2008/11 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242804_1st%20List%20of%20Selected%20%20PG%202nd%20Year%20Female%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36932,
+   "title": "Hostel Admission -1 st List of Selected UG 3 rd Year Male Students (Notice No: CW/2008/04 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242699_1st%20List%20of%20Selected%20UG%203rd%20Year%20Male%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36931,
+   "title": "Hostel Admission - 1 st List of Selected UG 4 th Year Female Students (Notice No: CW/2008/08 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242629_1st%20List%20of%20Selected%20UG%204th%20Year%20Female%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36930,
+   "title": "Hostel Admission = 1 st List of Selected UG 5 th Year Female Students (Notice No: CW/2008/09 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242517_1st%20List%20of%20Selected%20UG%205th%20Year%20Female%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36929,
+   "title": "Hostel Admission - 2 nd List of Selected UG 1st Year Female Students (Notice No: CW/2008/01 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242449_2nd%20%20List%20of%20Selected%20%20UG%201st%20%20Year%20Female%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36928,
+   "title": "Hostel Admission-2 nd List of Selected PG 1 st Year Male Students (Notice No: CW/2008/07 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242372_2nd%20List%20of%20Selected%20%20PG%201st%20%20Year%20Male%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36927,
+   "title": "Hostel Admission -2 nd List of Selected UG 1 st Year Male Students (Notice No: CW/2008/02 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242314_2nd%20%20List%20of%20Selected%20%20UG%201st%20%20Year%20Male%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36926,
+   "title": "Hostel Admission-3 rd List of Selected PG 1 st Year Female Students(Notice No: CW/2008/05 Date: 20/08/2026)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787242249_3rd%20%20List%20of%20Selected%20%20PG%201st%20%20Year%20Female%20Students.pdf"
+    }
+   ]
+  },
+  {
+   "id": 36921,
+   "title": "Schedule for Orientation Program 2026 (UG)",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "",
+   "link": "",
+   "files": [
+    {
+     "name": "Attachment",
+     "url": "https://data.iiests.ac.in/uploads/announcements/files/1787222072_UG_Orientation_Program_Schedule%20(1).pdf"
+    }
+   ]
+  },
+  {
+   "id": 36936,
+   "title": "Central timetable (Odd Sem 2026) for BTech, BS-MS, PG, and PhD courses",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "B.S.-M.S. (PH, CH, ES) – 1st SEMESTER | AY (2026-2027) B.TECH. (EE,CST, IT, ETCE, MC) & B. ARCH. – 1st SEMESTER | AY (2026-2027) B.TECH(CE, ME, AE, MIN, MET) – 1st SEMESTER | AY (2026-2027) 3RD SEMESTER CLASS ROUTINE PhD ODD SEMESTER | AY (2026-2027) PG 3rd SEM - M.Tech 1/MSc 1/MBA 3 AY| (2026-2027) PG 1st SEM - M.Tech 1/MSc 1/MBA 3 AY | (2026-2027) 7TH SEMESTER |AY(2026-2027) UG 5TH SEMESTER | 2026-2027",
+   "link": "",
+   "files": []
+  },
+  {
+   "id": 36922,
+   "title": "Registration for the National Space Day 2026 Program to be held on 23rd August 2026",
+   "category": "Student",
+   "date": "2026-08-20",
+   "body": "Download Notice",
+   "link": "",
+   "files": []
+  },
+  {
    "id": 36832,
    "title": "Hostel Admission -2 nd List of Selected PG 1st Year Female Students (Notice Notice No: CW/1208/01 Date: 12/08/2026)",
    "category": "Student",
