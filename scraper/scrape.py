@@ -781,6 +781,7 @@ DEPT_CODES = {
     "PHB": "Physics",
     "CHB": "Chemistry",
     "ESB": "Earth Sciences",
+    "APB": "Architecture and Planning",
 }
 ICS_CODE = re.compile(r"^\s*([A-Z]{2,4}\s?\d{3,4}[A-Z]?)\b")
 ICS_FIELD = re.compile(r"^\s*(PROF|CODE|TYPE|TEACHER)\s*:\s*(.+)$", re.I)

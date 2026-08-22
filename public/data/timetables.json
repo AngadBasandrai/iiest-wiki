@@ -12,7 +12,8 @@
   "MCB": "Mathematics and Computing",
   "PHB": "Physics",
   "CHB": "Chemistry",
-  "ESB": "Earth Sciences"
+  "ESB": "Earth Sciences",
+  "APB": "Architecture and Planning"
  },
  "timetables": [
   {
@@ -639,6 +640,305 @@
     {
      "code": "PH1171N",
      "title": "Engineering Physics Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "APB-2026",
+   "dept": "APB",
+   "department": "Architecture and Planning",
+   "year": 2026,
+   "group": "",
+   "batch": "APB-2026",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/APB-2026.ics",
+     "slots": [
+      {
+       "code": "AM1103",
+       "title": "Engineering Mechanics",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "MA1102",
+       "title": "Mathematics IA",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "WS1171",
+       "title": "Workshop practice",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "MA1102",
+       "title": "Mathematics IA",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:00",
+       "end": "09:55",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "AM1103",
+       "title": "Engineering Mechanics",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1103",
+       "title": "English for Engineers",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "NSS/NCC/PT/Yoga",
+       "profs": [],
+       "kind": "Activity",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "15:40",
+       "end": "16:35",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "AM1103",
+       "title": "Engineering Mechanics",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "HU1103",
+       "title": "English for Engineers",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "MA1102",
+       "title": "Mathematics IA",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "NSS/NCC/PT/Yoga",
+       "profs": [],
+       "kinds": [
+        "Activity"
+       ]
+      },
+      {
+       "code": "WS1171",
+       "title": "Workshop practice",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "AM1103",
+     "title": "Engineering Mechanics",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "MA1102",
+     "title": "Mathematics IA",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "WS1171",
+     "title": "Workshop practice",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "MA1102",
+     "title": "Mathematics IA",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "AM1103",
+     "title": "Engineering Mechanics",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1103",
+     "title": "English for Engineers",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "NSS/NCC/PT/Yoga",
+     "profs": [],
+     "kind": "Activity",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "15:40",
+     "end": "16:35",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "AM1103",
+     "title": "Engineering Mechanics",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "HU1103",
+     "title": "English for Engineers",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "MA1102",
+     "title": "Mathematics IA",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "NSS/NCC/PT/Yoga",
+     "profs": [],
+     "kinds": [
+      "Activity"
+     ]
+    },
+    {
+     "code": "WS1171",
+     "title": "Workshop practice",
      "profs": [],
      "kinds": [
       "Lab"

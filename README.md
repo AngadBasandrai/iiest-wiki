@@ -275,12 +275,12 @@ Notes on the format:
   first-plus-last name. Anything unmatched is listed as `unmatched_professors` in
   `faculty.json` and logged by the scraper, so check that after adding a calendar.
 
-Thirty-three real timetables ship:
+Thirty-four real timetables ship:
 
 | Batch | Semester | Files |
 | --- | --- | --- |
 | All nine B.Tech departments, 2026 | 1 | `DEPT-2026-A.ics` and `DEPT-2026-B.ics`, except AEB and MNB which do not split |
-| MCB, PHB, CHB, ESB 2026 | 1 | `DEPT-2026.ics`, no group split |
+| MCB, PHB, CHB, ESB, APB 2026 | 1 | `DEPT-2026.ics`, no group split |
 | CSB 2025 | 3 | `CSB-2025-GX.ics` and `CSB-2025-GY.ics` |
 | ITB 2025 | 3 | `ITB-2025-HX.ics` and `ITB-2025-HY.ics` |
 | EEB 2025, 2024, 2023 | 3, 5, 7 | `EEB-YEAR-CX.ics` and `EEB-YEAR-CY.ics` |
@@ -309,8 +309,10 @@ the three programmes genuinely share one schedule and the three calendars are id
 apart from their name; the generator warns if that ever stops being true. These four
 programmes were added to `DEPT_CODES` as `PHB`, `CHB`, `ESB` and `MCB`.
 
-Architecture appears in the first routine but is still not shipped, since it has no
-roll-number code yet.
+Architecture ships as `APB`. Its routine is much sparser than the rest, seven slots with
+nothing at all on Tuesday or Wednesday, and it runs its own course codes: `AM1103`,
+`MA1102`, `WS1171` and `HU1103`, without the `N` suffix the B.Tech NEP codes carry. It
+also lists no rooms, because the routine notes that the department allocates its own.
 
 Two courses in the PH/CH/ES routine are printed without a code: `Mathematics - I` and
 the `MDC` and `Departmental Lab` blocks. They ship with an empty code and are grouped
