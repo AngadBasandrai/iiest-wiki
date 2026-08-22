@@ -9,7 +9,7 @@
   "MMB": "Metallurgy and Materials Engineering",
   "MNB": "Mining Engineering",
   "AEB": "Aerospace Engineering and Applied Mechanics",
-  "MCB": "Mathematics and Computing",
+  "MAB": "Mathematics and Computing",
   "PHB": "Physics",
   "CHB": "Chemistry",
   "ESB": "Earth Sciences",
@@ -17136,16 +17136,16 @@
    ]
   },
   {
-   "key": "MCB-2026",
-   "dept": "MCB",
+   "key": "MAB-2026",
+   "dept": "MAB",
    "department": "Mathematics and Computing",
    "year": 2026,
    "group": "",
-   "batch": "MCB-2026",
+   "batch": "MAB-2026",
    "versions": [
     {
      "from": "",
-     "file": "data/timetables/MCB-2026.ics",
+     "file": "data/timetables/MAB-2026.ics",
      "slots": [
       {
        "code": "ET1101N",

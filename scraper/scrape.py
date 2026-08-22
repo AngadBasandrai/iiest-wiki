@@ -777,7 +777,7 @@ DEPT_CODES = {
     "MMB": "Metallurgy and Materials Engineering",
     "MNB": "Mining Engineering",
     "AEB": "Aerospace Engineering and Applied Mechanics",
-    "MCB": "Mathematics and Computing",
+    "MAB": "Mathematics and Computing",
     "PHB": "Physics",
     "CHB": "Chemistry",
     "ESB": "Earth Sciences",
