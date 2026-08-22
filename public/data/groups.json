@@ -1,22 +1,146 @@
 {
  "CSB-2025": [
-  { "group": "GX", "label": "Gx, group 1", "max": 50 },
-  { "group": "GY", "label": "Gy, group 2", "min": 51 }
+  {
+   "group": "GX",
+   "label": "Gx, group 1",
+   "max": 50
+  },
+  {
+   "group": "GY",
+   "label": "Gy, group 2",
+   "min": 51
+  }
  ],
  "ITB-2025": [
-  { "group": "HX", "label": "Hx, group 1", "max": 50 },
-  { "group": "HY", "label": "Hy, group 2", "min": 51 }
+  {
+   "group": "HX",
+   "label": "Hx, group 1",
+   "max": 50
+  },
+  {
+   "group": "HY",
+   "label": "Hy, group 2",
+   "min": 51
+  }
  ],
  "EEB-2025": [
-  { "group": "CX", "label": "Cx, group 1", "max": 50 },
-  { "group": "CY", "label": "Cy, group 2", "min": 51 }
+  {
+   "group": "CX",
+   "label": "Cx, group 1",
+   "max": 50
+  },
+  {
+   "group": "CY",
+   "label": "Cy, group 2",
+   "min": 51
+  }
  ],
  "EEB-2024": [
-  { "group": "CX", "label": "Cx, group 1", "max": 50 },
-  { "group": "CY", "label": "Cy, group 2", "min": 51 }
+  {
+   "group": "CX",
+   "label": "Cx, group 1",
+   "max": 50
+  },
+  {
+   "group": "CY",
+   "label": "Cy, group 2",
+   "min": 51
+  }
  ],
  "EEB-2023": [
-  { "group": "CX", "label": "Cx, group 1", "max": 50 },
-  { "group": "CY", "label": "Cy, group 2", "min": 51 }
+  {
+   "group": "CX",
+   "label": "Cx, group 1",
+   "max": 50
+  },
+  {
+   "group": "CY",
+   "label": "Cy, group 2",
+   "min": 51
+  }
+ ],
+ "CSB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
+ ],
+ "ITB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
+ ],
+ "EEB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
+ ],
+ "ETB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
+ ],
+ "MEB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
+ ],
+ "CEB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
+ ],
+ "MMB-2026": [
+  {
+   "group": "A",
+   "label": "Group A",
+   "max": 50
+  },
+  {
+   "group": "B",
+   "label": "Group B",
+   "min": 51
+  }
  ]
 }

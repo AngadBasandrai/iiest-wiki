@@ -275,19 +275,42 @@ Notes on the format:
   first-plus-last name. Anything unmatched is listed as `unmatched_professors` in
   `faculty.json` and logged by the scraper, so check that after adding a calendar.
 
-Thirteen real timetables ship, covering the four departments that published a routine
-for July to December 2026:
+Twenty-nine real timetables ship:
 
 | Batch | Semester | Files |
 | --- | --- | --- |
+| All nine departments, 2026 | 1 | `DEPT-2026-A.ics` and `DEPT-2026-B.ics`, except AEB and MNB which do not split |
 | CSB 2025 | 3 | `CSB-2025-GX.ics` and `CSB-2025-GY.ics` |
 | ITB 2025 | 3 | `ITB-2025-HX.ics` and `ITB-2025-HY.ics` |
 | EEB 2025, 2024, 2023 | 3, 5, 7 | `EEB-YEAR-CX.ics` and `EEB-YEAR-CY.ics` |
 | ETB 2025, 2024, 2023 | 3, 5, 7 | `ETB-YEAR.ics` |
 
-Computer Science splits into Gx and Gy for labs, IT into Hx and Hy, Electrical into Cx
-and Cy; Electronics does not, so its files have no group suffix. Any batch without a
-file sees "no timetable published yet".
+Among the senior batches, Computer Science splits into Gx and Gy for labs, IT into Hx
+and Hy, Electrical into Cx and Cy; Electronics does not, so its files have no group
+suffix. Any batch without a file sees "no timetable published yet".
+
+### The 2026 first year
+
+First year is taught in mixed cohorts rather than by department, so the institute
+publishes it as three routines that cut across the roll-number codes. Two of them
+transcribe cleanly:
+
+- one covers EE, CST, IT and ETCE, which map to EEB, CSB, ITB and ETB
+- one covers ME, CE, MET, AE and MIN, which map to MEB, CEB, MMB, AEB and MNB
+
+Civil and Metallurgy share their lectures: the routine rows read `CE: A MET: A` and
+`CE: B MET: B`, and only the lab cells, prefixed `CE-A:` or `MET-B:`, are specific to
+one department. So `CEB-2026-A.ics` and `MMB-2026-A.ics` hold the same lectures and
+differ only in the afternoon lab.
+
+The third routine covers PH, CH and ES on one shared schedule, and the first routine
+also carries MC and Arch. None of those five have a B.Tech roll-number code, so they
+are not shipped; a roll number for them would need adding to `DEPT_CODES` first.
+
+The routines name no staff at all, so these calendars carry no `PROF`. `NSS/NCC/PT/Yoga`
+occupies a real period and ships as a slot with `TYPE: Activity` and no course code.
+Group A and Group B are split at roll number 50, matching the other batches, which is a
+convention rather than something the routines state.
 
 Three things to know about the transcription. Lab cells in the EE routine are merged
 across periods 5 to 7, so labs run 13:50 to 16:35 rather than a single period. The
