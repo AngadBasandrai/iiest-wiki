@@ -2165,8 +2165,8 @@
      "file": "data/timetables/CHB-2026.ics",
      "slots": [
       {
-       "code": "",
-       "title": "Mathematics - I",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kind": "Lecture",
        "room": "L204",
@@ -2249,8 +2249,8 @@
        "weekly": true
       },
       {
-       "code": "",
-       "title": "Mathematics - I",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kind": "Lecture",
        "room": "L204",
@@ -2353,8 +2353,8 @@
        ]
       },
       {
-       "code": "",
-       "title": "MDC",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -2362,7 +2362,7 @@
       },
       {
        "code": "",
-       "title": "Mathematics - I",
+       "title": "MDC",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -2374,8 +2374,8 @@
    ],
    "slots": [
     {
-     "code": "",
-     "title": "Mathematics - I",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kind": "Lecture",
      "room": "L204",
@@ -2458,8 +2458,8 @@
      "weekly": true
     },
     {
-     "code": "",
-     "title": "Mathematics - I",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kind": "Lecture",
      "room": "L204",
@@ -2562,8 +2562,8 @@
      ]
     },
     {
-     "code": "",
-     "title": "MDC",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -2571,7 +2571,7 @@
     },
     {
      "code": "",
-     "title": "Mathematics - I",
+     "title": "MDC",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -11840,8 +11840,8 @@
      "file": "data/timetables/ESB-2026.ics",
      "slots": [
       {
-       "code": "",
-       "title": "Mathematics - I",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kind": "Lecture",
        "room": "L204",
@@ -11924,8 +11924,8 @@
        "weekly": true
       },
       {
-       "code": "",
-       "title": "Mathematics - I",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kind": "Lecture",
        "room": "L204",
@@ -12028,8 +12028,8 @@
        ]
       },
       {
-       "code": "",
-       "title": "MDC",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -12037,7 +12037,7 @@
       },
       {
        "code": "",
-       "title": "Mathematics - I",
+       "title": "MDC",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -12049,8 +12049,8 @@
    ],
    "slots": [
     {
-     "code": "",
-     "title": "Mathematics - I",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kind": "Lecture",
      "room": "L204",
@@ -12133,8 +12133,8 @@
      "weekly": true
     },
     {
-     "code": "",
-     "title": "Mathematics - I",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kind": "Lecture",
      "room": "L204",
@@ -12237,8 +12237,8 @@
      ]
     },
     {
-     "code": "",
-     "title": "MDC",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -12246,7 +12246,7 @@
     },
     {
      "code": "",
-     "title": "Mathematics - I",
+     "title": "MDC",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -21694,8 +21694,8 @@
      "file": "data/timetables/PHB-2026.ics",
      "slots": [
       {
-       "code": "",
-       "title": "Mathematics - I",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kind": "Lecture",
        "room": "L204",
@@ -21778,8 +21778,8 @@
        "weekly": true
       },
       {
-       "code": "",
-       "title": "Mathematics - I",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kind": "Lecture",
        "room": "L204",
@@ -21882,8 +21882,8 @@
        ]
       },
       {
-       "code": "",
-       "title": "MDC",
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -21891,7 +21891,7 @@
       },
       {
        "code": "",
-       "title": "Mathematics - I",
+       "title": "MDC",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -21903,8 +21903,8 @@
    ],
    "slots": [
     {
-     "code": "",
-     "title": "Mathematics - I",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kind": "Lecture",
      "room": "L204",
@@ -21987,8 +21987,8 @@
      "weekly": true
     },
     {
-     "code": "",
-     "title": "Mathematics - I",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kind": "Lecture",
      "room": "L204",
@@ -22091,8 +22091,8 @@
      ]
     },
     {
-     "code": "",
-     "title": "MDC",
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -22100,7 +22100,7 @@
     },
     {
      "code": "",
-     "title": "Mathematics - I",
+     "title": "MDC",
      "profs": [],
      "kinds": [
       "Lecture"

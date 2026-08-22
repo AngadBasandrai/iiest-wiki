@@ -3,7 +3,7 @@ import Icon from "../components/Icon.jsx";
 import Gate, { EmptyPanel, Alert } from "../components/Gate.jsx";
 import { ATTENDANCE_TARGET } from "../lib/config.js";
 import { fmtDate, weekdayOf } from "../lib/util.js";
-import { DOW, DAY_NAMES, MONTHS, dayState, monthGrid } from "../lib/calendar.js";
+import { DOW, DAY_NAMES, MONTHS, dayState, monthGrid, graded } from "../lib/calendar.js";
 import { slotId, today } from "../lib/useAttendance.js";
 
 const LEGEND = [
@@ -125,7 +125,8 @@ function DayPanel({ iso, ctx, session, statusFor, storedStatus, onMark, onFacult
     return <EmptyPanel icon="cal" title="No classes" note="Nothing scheduled for this day." />;
   }
 
-  const unmarked = info.classes.some((s) => !storedStatus(s, iso)) && iso < today();
+  const unmarked = info.classes.filter(graded)
+    .some((s) => !storedStatus(s, iso)) && iso < today();
   return (
     <>
       <div className="panel-head">
@@ -137,10 +138,11 @@ function DayPanel({ iso, ctx, session, statusFor, storedStatus, onMark, onFacult
       ) : null}
       <div className="klass-list">
         {info.classes.map((slot) => {
-          const status = statusFor(slot, iso);
-          const stored = storedStatus(slot, iso);
+          const counts = graded(slot);
+          const status = counts ? statusFor(slot, iso) : "";
+          const stored = counts ? storedStatus(slot, iso) : "";
           return (
-            <article className={`klass ${status}${stored ? "" : " implied"}`}
+            <article className={`klass ${status}${stored || !counts ? "" : " implied"}`}
                      key={`${slot.code}-${slotId(slot)}`}>
               <div className="klass-bar" />
               <div className="klass-body">
@@ -165,7 +167,9 @@ function DayPanel({ iso, ctx, session, statusFor, storedStatus, onMark, onFacult
                   </div>
                 ) : null}
                 <div className="klass-actions">
-                  {[["present", "P", "Present"], ["absent", "A", "Absent"],
+                  {!counts ? (
+                    <span className="dim tiny">Not counted towards attendance</span>
+                  ) : [["present", "P", "Present"], ["absent", "A", "Absent"],
                     ["cancelled", "C", "Class cancelled"]].map(([kind, label, title]) => {
                     const future = iso > today();
                     const blocked = future && kind !== "cancelled";

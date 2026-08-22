@@ -15,6 +15,10 @@ export function semesterFor(joinYear, on = new Date()) {
   return Math.min(10, Math.max(1, semester));
 }
 
+// NSS, NCC, PT and Yoga sit on the routine but are not graded courses, so they
+// show on the schedule and stay out of the attendance maths.
+export const graded = (slot) => slot.kind !== "Activity";
+
 const appliesTo = (item, semester) =>
   !item.semesters || !semester || item.semesters.includes(semester);
 
@@ -85,7 +89,10 @@ export function dayState(ctx, iso) {
   const classes = classesFor(iso);
   if (!classes.length) return { kind: "free" };
 
-  const marks = classes.map((slot) => statusFor(slot, iso));
+  const counted = classes.filter(graded);
+  if (!counted.length) return { kind: "free", classes };
+
+  const marks = counted.map((slot) => statusFor(slot, iso));
   const present = marks.filter((m) => m === "present").length;
   const absent = marks.filter((m) => m === "absent").length;
   const cancelled = marks.filter((m) => m === "cancelled").length;

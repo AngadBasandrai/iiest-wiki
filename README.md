@@ -340,13 +340,17 @@ nothing at all on Tuesday or Wednesday, and it runs its own course codes: `AM110
 `MA1102`, `WS1171` and `HU1103`, without the `N` suffix the B.Tech NEP codes carry. It
 also lists no rooms, because the routine notes that the department allocates its own.
 
-Two courses in the PH/CH/ES routine are printed without a code: `Mathematics - I` and
-the `MDC` and `Departmental Lab` blocks. They ship with an empty code and are grouped
-by title instead. `Mathematics - I` is very likely the same `MA1101N` the B.Tech
-routines name, but the routine does not say so, so it is not assumed.
+The PH/CH/ES routine prints `Mathematics - I` without a code; it is filled in as
+`MA1101N`, the same course the other two routines name. `MDC` and `Departmental Lab`
+have no code either and none to borrow, so they ship with an empty code and group by
+title.
 
 The routines name no staff at all, so these calendars carry no `PROF`. `NSS/NCC/PT/Yoga`
-occupies a real period and ships as a slot with `TYPE: Activity` and no course code.
+occupies a real period and ships with `TYPE: Activity`. Anything marked `Activity` is
+shown on the schedule like any other class but left out of the attendance maths: it does
+not appear in Course Attendance, it does not move the overall percentage, it cannot be
+marked, and it does not colour a day in the calendar. `graded()` in `lib/calendar.js` is
+the single place that decides this.
 Group A and Group B are split at roll number 50, matching the other batches, which is a
 convention rather than something the routines state.
 

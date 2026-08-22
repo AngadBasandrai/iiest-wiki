@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { db, ensureProfile } from "./auth.js";
 import { configured, ATTENDANCE_TARGET } from "./config.js";
 import { isoDate, addDays, weekdayOf, fmtDate } from "./util.js";
-import { sessionFor, dayState } from "./calendar.js";
+import { sessionFor, dayState, graded } from "./calendar.js";
 import { loadJson } from "./data.js";
 import { useUser } from "./useAuth.js";
 import { enqueue, drop, flush, onReconnect, pending } from "./queue.js";
@@ -136,7 +136,7 @@ export function useAttendance() {
     while (cursor <= stop) {
       const info = dayState(ctx, cursor);
       if (info.classes) {
-        for (const slot of info.classes) {
+        for (const slot of info.classes.filter(graded)) {
           const key = slot.code || slot.title;
           const row = byCourse.get(key) || {
             code: slot.code, title: slot.title, profs: slot.profs,
