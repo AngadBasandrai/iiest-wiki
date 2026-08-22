@@ -5402,6 +5402,425 @@
        ]
       }
      ],
+     "until": "2026-08-23"
+    },
+    {
+     "from": "2026-08-23",
+     "file": "data/timetables/EEB-2023-CX@2026-08-23.ics",
+     "slots": [
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Amal Barman",
+        "Amalendu Bikash Choudhury",
+        "Debabrata Roy",
+        "Mousumi Mukherjee",
+        "Pritam Paral"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:00",
+       "end": "11:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Kaushik Mukherjee"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4121",
+       "title": "High Voltage Engineering",
+       "profs": [
+        "Abhinandan De"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4122",
+       "title": "New and Renewable Energy",
+       "profs": [
+        "Amal Barman"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4121",
+       "title": "High Voltage Engineering",
+       "profs": [
+        "Abhinandan De"
+       ],
+       "kind": "Lecture",
+       "room": "S470",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4122",
+       "title": "New and Renewable Energy",
+       "profs": [
+        "Amal Barman"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "HU4101",
+       "title": "HSS",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Prasid Syam",
+        "Sourav Dhara"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4101",
+       "title": "Digital Signal Processing and Embedded System",
+       "profs": [
+        "Anirudh Nath"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4101",
+       "title": "Digital Signal Processing and Embedded System",
+       "profs": [
+        "Anirudh Nath",
+        "Debjani Ganguly"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "HU4101",
+       "title": "HSS",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Abhinandan De",
+        "Pritam Paral",
+        "Reetam Mondal",
+        "Syed Abdullah Qasim"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Anirudh Nath",
+        "Atanu Banerjee",
+        "Kumari Swati",
+        "Mousumi Mukherjee",
+        "Syed Abdullah Qasim",
+        "Sukanya Parui"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:00",
+       "end": "11:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4121",
+       "title": "High Voltage Engineering",
+       "profs": [
+        "Syed Abdullah Qasim"
+       ],
+       "kind": "Lecture",
+       "room": "S464",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4122",
+       "title": "New and Renewable Energy",
+       "profs": [
+        "Sukanya Parui"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4121",
+       "title": "High Voltage Engineering",
+       "profs": [
+        "Syed Abdullah Qasim"
+       ],
+       "kind": "Lecture",
+       "room": "S464",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "15:40",
+       "end": "16:35",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4122",
+       "title": "New and Renewable Energy",
+       "profs": [
+        "Sukanya Parui"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "15:40",
+       "end": "16:35",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Bhaskaran Barman",
+        "Reetam Mondal",
+        "Suvarun Dalapati"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Konika Das (Bhattacharya)"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Konika Das (Bhattacharya)",
+        "Kaushik Mukherjee"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "EE4101",
+       "title": "Digital Signal Processing and Embedded System",
+       "profs": [
+        "Anirudh Nath",
+        "Debjani Ganguly"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Kaushik Mukherjee",
+        "Konika Das (Bhattacharya)"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4121",
+       "title": "High Voltage Engineering",
+       "profs": [
+        "Abhinandan De",
+        "Syed Abdullah Qasim"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4122",
+       "title": "New and Renewable Energy",
+       "profs": [
+        "Amal Barman",
+        "Sukanya Parui"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Amal Barman",
+        "Amalendu Bikash Choudhury",
+        "Debabrata Roy",
+        "Mousumi Mukherjee",
+        "Pritam Paral",
+        "Prasid Syam",
+        "Sourav Dhara",
+        "Abhinandan De",
+        "Reetam Mondal",
+        "Syed Abdullah Qasim",
+        "Anirudh Nath",
+        "Atanu Banerjee",
+        "Kumari Swati",
+        "Sukanya Parui",
+        "Bhaskaran Barman",
+        "Suvarun Dalapati"
+       ],
+       "kinds": [
+        "Project"
+       ]
+      },
+      {
+       "code": "HU4101",
+       "title": "HSS",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
      "until": ""
     }
    ],
@@ -5503,6 +5922,20 @@
      "start": "14:45",
      "end": "15:40",
      "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "HU4101",
+     "title": "HSS",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-21",
      "until": "2026-11-13",
      "weekly": true
     },
@@ -6167,6 +6600,375 @@
        ]
       }
      ],
+     "until": "2026-08-23"
+    },
+    {
+     "from": "2026-08-23",
+     "file": "data/timetables/EEB-2023-CY@2026-08-23.ics",
+     "slots": [
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Amal Barman",
+        "Amalendu Bikash Choudhury",
+        "Debabrata Roy",
+        "Mousumi Mukherjee",
+        "Pritam Paral"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:00",
+       "end": "11:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Kaushik Mukherjee"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4124",
+       "title": "Soft Computing and Intelligent Systems",
+       "profs": [
+        "Pritam Paral"
+       ],
+       "kind": "Lecture",
+       "room": "SL",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4124",
+       "title": "Soft Computing and Intelligent Systems",
+       "profs": [
+        "Pritam Paral"
+       ],
+       "kind": "Lecture",
+       "room": "SL",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-07-20",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "HU4101",
+       "title": "HSS",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-07-21",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Prasid Syam",
+        "Sourav Dhara"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4101",
+       "title": "Digital Signal Processing and Embedded System",
+       "profs": [
+        "Anirudh Nath"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4101",
+       "title": "Digital Signal Processing and Embedded System",
+       "profs": [
+        "Anirudh Nath",
+        "Debjani Ganguly"
+       ],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "HU4101",
+       "title": "HSS",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "S281",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Abhinandan De",
+        "Pritam Paral",
+        "Reetam Mondal",
+        "Syed Abdullah Qasim"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-07-22",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Anirudh Nath",
+        "Atanu Banerjee",
+        "Kumari Swati",
+        "Mousumi Mukherjee",
+        "Syed Abdullah Qasim",
+        "Sukanya Parui"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:00",
+       "end": "11:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4124",
+       "title": "Soft Computing and Intelligent Systems",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "SL",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4124",
+       "title": "Soft Computing and Intelligent Systems",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "SL",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-07-23",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Bhaskaran Barman",
+        "Reetam Mondal",
+        "Suvarun Dalapati"
+       ],
+       "kind": "Project",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Konika Das (Bhattacharya)"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Konika Das (Bhattacharya)",
+        "Kaushik Mukherjee"
+       ],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "11:45",
+       "end": "12:40",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      },
+      {
+       "code": "EE4171",
+       "title": "Digital Signal Processing and Embedded System Lab",
+       "profs": [
+        "Debjani Ganguly",
+        "Ranajay Paul",
+        "Ritam Banerjee"
+       ],
+       "kind": "Lab",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-07-24",
+       "until": "2026-11-13",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "EE4101",
+       "title": "Digital Signal Processing and Embedded System",
+       "profs": [
+        "Anirudh Nath",
+        "Debjani Ganguly"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4102",
+       "title": "Electrical Energy Utilization and Grid Interactive Control",
+       "profs": [
+        "Kaushik Mukherjee",
+        "Konika Das (Bhattacharya)"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4124",
+       "title": "Soft Computing and Intelligent Systems",
+       "profs": [
+        "Pritam Paral"
+       ],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "EE4171",
+       "title": "Digital Signal Processing and Embedded System Lab",
+       "profs": [
+        "Debjani Ganguly",
+        "Ranajay Paul",
+        "Ritam Banerjee"
+       ],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "EE4191",
+       "title": "UG Project",
+       "profs": [
+        "Amal Barman",
+        "Amalendu Bikash Choudhury",
+        "Debabrata Roy",
+        "Mousumi Mukherjee",
+        "Pritam Paral",
+        "Prasid Syam",
+        "Sourav Dhara",
+        "Abhinandan De",
+        "Reetam Mondal",
+        "Syed Abdullah Qasim",
+        "Anirudh Nath",
+        "Atanu Banerjee",
+        "Kumari Swati",
+        "Sukanya Parui",
+        "Bhaskaran Barman",
+        "Suvarun Dalapati"
+       ],
+       "kinds": [
+        "Project"
+       ]
+      },
+      {
+       "code": "HU4101",
+       "title": "HSS",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
      "until": ""
     }
    ],
@@ -6236,6 +7038,20 @@
      "start": "14:45",
      "end": "15:40",
      "from": "2026-07-20",
+     "until": "2026-11-13",
+     "weekly": true
+    },
+    {
+     "code": "HU4101",
+     "title": "HSS",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-07-21",
      "until": "2026-11-13",
      "weekly": true
     },

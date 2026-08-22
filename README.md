@@ -290,6 +290,32 @@ Among the senior batches, Computer Science splits into Gx and Gy for labs, IT in
 and Hy, Electrical into Cx and Cy; Electronics does not, so its files have no group
 suffix. Any batch without a file sees "no timetable published yet".
 
+### The central routines
+
+The institute also publishes *central* routines as spreadsheets, one per senior
+semester. These are not department timetables: they carry only the courses taught
+centrally by another department, three to ten slots a section, and the rest of the week
+lives in each department's own routine. A section reading `CS Gx` in the central sheet
+resolves to `CSB-2025-GX.ics`, and its six central slots are exactly the six non-CS
+courses in that file.
+
+They are worth keeping because they cross-check what is already transcribed. Against
+the odd-semester sheets, Computer Science, Electrical and Electronics agree slot for
+slot. Two disagreements are open:
+
+- `ITB-2025` puts `MA2101N` on Tuesday at 13:50, the central sheet at 14:45. Two of the
+  three Mathematics III slots match, only Tuesday differs, and our file came from a
+  photograph of the printed notice. Moving it would collide with `IT2102N`, which the
+  central sheet says nothing about, so the file is left alone pending the paper routine.
+- `EEB-2023` was missing `HU4101` on Tuesday, and had no Tuesday classes at all. That is
+  fixed, as a version effective 2026-08-23 rather than an edit to the base file, so the
+  Tuesdays already gone by are not retroactively turned into absences.
+
+The 5th-semester and both M.Tech/MSc/MBA sheets are published as empty templates, with
+the period header filled in and no classes, so nothing is transcribed from them. Note
+that the 5th-semester sheet uses a different bell: 09:00 to 09:50, then 10:00, 11:00,
+12:00, 14:30, 15:30 and 16:30, not the 09:00 to 09:55 grid every other routine uses.
+
 ### The 2026 first year
 
 First year is taught in mixed cohorts rather than by department, so the institute
