@@ -275,11 +275,12 @@ Notes on the format:
   first-plus-last name. Anything unmatched is listed as `unmatched_professors` in
   `faculty.json` and logged by the scraper, so check that after adding a calendar.
 
-Twenty-nine real timetables ship:
+Thirty-three real timetables ship:
 
 | Batch | Semester | Files |
 | --- | --- | --- |
-| All nine departments, 2026 | 1 | `DEPT-2026-A.ics` and `DEPT-2026-B.ics`, except AEB and MNB which do not split |
+| All nine B.Tech departments, 2026 | 1 | `DEPT-2026-A.ics` and `DEPT-2026-B.ics`, except AEB and MNB which do not split |
+| MCB, PHB, CHB, ESB 2026 | 1 | `DEPT-2026.ics`, no group split |
 | CSB 2025 | 3 | `CSB-2025-GX.ics` and `CSB-2025-GY.ics` |
 | ITB 2025 | 3 | `ITB-2025-HX.ics` and `ITB-2025-HY.ics` |
 | EEB 2025, 2024, 2023 | 3, 5, 7 | `EEB-YEAR-CX.ics` and `EEB-YEAR-CY.ics` |
@@ -303,9 +304,18 @@ Civil and Metallurgy share their lectures: the routine rows read `CE: A MET: A` 
 one department. So `CEB-2026-A.ics` and `MMB-2026-A.ics` hold the same lectures and
 differ only in the afternoon lab.
 
-The third routine covers PH, CH and ES on one shared schedule, and the first routine
-also carries MC and Arch. None of those five have a B.Tech roll-number code, so they
-are not shipped; a roll number for them would need adding to `DEPT_CODES` first.
+The third routine covers PH, CH and ES. All three rows are merged in the source, so
+the three programmes genuinely share one schedule and the three calendars are identical
+apart from their name; the generator warns if that ever stops being true. These four
+programmes were added to `DEPT_CODES` as `PHB`, `CHB`, `ESB` and `MCB`.
+
+Architecture appears in the first routine but is still not shipped, since it has no
+roll-number code yet.
+
+Two courses in the PH/CH/ES routine are printed without a code: `Mathematics - I` and
+the `MDC` and `Departmental Lab` blocks. They ship with an empty code and are grouped
+by title instead. `Mathematics - I` is very likely the same `MA1101N` the B.Tech
+routines name, but the routine does not say so, so it is not assumed.
 
 The routines name no staff at all, so these calendars carry no `PROF`. `NSS/NCC/PT/Yoga`
 occupies a real period and ships as a slot with `TYPE: Activity` and no course code.

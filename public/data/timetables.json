@@ -8,7 +8,11 @@
   "CEB": "Civil Engineering",
   "MMB": "Metallurgy and Materials Engineering",
   "MNB": "Mining Engineering",
-  "AEB": "Aerospace Engineering and Applied Mechanics"
+  "AEB": "Aerospace Engineering and Applied Mechanics",
+  "MCB": "Mathematics and Computing",
+  "PHB": "Physics",
+  "CHB": "Chemistry",
+  "ESB": "Earth Sciences"
  },
  "timetables": [
   {
@@ -1849,6 +1853,433 @@
    ]
   },
   {
+   "key": "CHB-2026",
+   "dept": "CHB",
+   "department": "Chemistry",
+   "year": 2026,
+   "group": "",
+   "batch": "CHB-2026",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/CHB-2026.ics",
+     "slots": [
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L204",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Tutorial",
+       "room": "L204",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CE1101N",
+       "title": "Energy, Environment and Climate Change",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "U802",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L204",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Tutorial",
+       "room": "L204",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "CE1101N",
+       "title": "Energy, Environment and Climate Change",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kinds": [
+        "Tutorial"
+       ]
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L204",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Tutorial",
+     "room": "L204",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CE1101N",
+     "title": "Energy, Environment and Climate Change",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "U802",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L204",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Tutorial",
+     "room": "L204",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "CE1101N",
+     "title": "Energy, Environment and Climate Change",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kinds": [
+      "Tutorial"
+     ]
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    }
+   ]
+  },
+  {
    "key": "CSB-2025-GX",
    "dept": "CSB",
    "department": "Computer Science and Technology",
@@ -3120,7 +3551,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "U513",
@@ -3316,7 +3747,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -3418,7 +3849,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "U513",
@@ -3614,7 +4045,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -3725,7 +4156,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "U513",
@@ -3921,7 +4352,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -4023,7 +4454,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "U513",
@@ -4219,7 +4650,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -9024,7 +9455,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "U802",
@@ -9270,7 +9701,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -9344,7 +9775,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "U802",
@@ -9590,7 +10021,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -9673,7 +10104,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "U802",
@@ -9919,7 +10350,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -9993,7 +10424,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "U802",
@@ -10239,7 +10670,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -10276,6 +10707,433 @@
      "profs": [],
      "kinds": [
       "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ESB-2026",
+   "dept": "ESB",
+   "department": "Earth Sciences",
+   "year": 2026,
+   "group": "",
+   "batch": "ESB-2026",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/ESB-2026.ics",
+     "slots": [
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L204",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Tutorial",
+       "room": "L204",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CE1101N",
+       "title": "Energy, Environment and Climate Change",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "U802",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L204",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Tutorial",
+       "room": "L204",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "CE1101N",
+       "title": "Energy, Environment and Climate Change",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kinds": [
+        "Tutorial"
+       ]
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L204",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Tutorial",
+     "room": "L204",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CE1101N",
+     "title": "Energy, Environment and Climate Change",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "U802",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L204",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Tutorial",
+     "room": "L204",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "CE1101N",
+     "title": "Energy, Environment and Climate Change",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kinds": [
+      "Tutorial"
+     ]
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kinds": [
+      "Lecture"
      ]
     }
    ]
@@ -12251,7 +13109,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "L201",
@@ -12503,7 +13361,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -12562,7 +13420,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "L201",
@@ -12814,7 +13672,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -12882,7 +13740,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "L201",
@@ -13134,7 +13992,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -13193,7 +14051,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "L201",
@@ -13445,7 +14303,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -14939,7 +15797,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "U413",
@@ -14995,7 +15853,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -15250,7 +16108,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "U413",
@@ -15306,7 +16164,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -15570,7 +16428,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kind": "Lecture",
        "room": "U413",
@@ -15626,7 +16484,7 @@
       },
       {
        "code": "HU1101N",
-       "title": "Well - being and Happiness",
+       "title": "Well-being and Happiness",
        "profs": [],
        "kinds": [
         "Lecture"
@@ -15881,7 +16739,7 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kind": "Lecture",
      "room": "U413",
@@ -15937,7 +16795,638 @@
     },
     {
      "code": "HU1101N",
-     "title": "Well - being and Happiness",
+     "title": "Well-being and Happiness",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "NSS/NCC/PT/Yoga",
+     "profs": [],
+     "kinds": [
+      "Activity"
+     ]
+    },
+    {
+     "code": "WS1171N",
+     "title": "Workshop",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "MCB-2026",
+   "dept": "MCB",
+   "department": "Mathematics and Computing",
+   "year": 2026,
+   "group": "",
+   "batch": "MCB-2026",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/MCB-2026.ics",
+     "slots": [
+      {
+       "code": "ET1101N",
+       "title": "Basic Electronics",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "MATH CR",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1101N",
+       "title": "Well-being and Happiness",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "NSS/NCC/PT/Yoga",
+       "profs": [],
+       "kind": "Activity",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "15:40",
+       "end": "16:35",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CH1101N",
+       "title": "Engineering Chemistry",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "U613",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:00",
+       "end": "09:55",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "WS1171N",
+       "title": "Workshop",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "ET1101N",
+       "title": "Basic Electronics",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "MATH CR",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L101",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "14:45",
+       "end": "15:40",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CH1171N",
+       "title": "Engineering Chemistry Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L101",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "15:40",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:55",
+       "end": "10:50",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L101",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "ET1101N",
+       "title": "Basic Electronics",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "MATH CR",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CH1101N",
+       "title": "Engineering Chemistry",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L101",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1171N",
+       "title": "Computer Programming Practices Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "Maths Dept lab/CC",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:55",
+       "end": "12:40",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L101",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "14:45",
+       "end": "16:35",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "CH1101N",
+       "title": "Engineering Chemistry",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CH1171N",
+       "title": "Engineering Chemistry Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS1171N",
+       "title": "Computer Programming Practices Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "ET1101N",
+       "title": "Basic Electronics",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "HU1101N",
+       "title": "Well-being and Happiness",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "MA1101N",
+       "title": "Engineering Mathematics - I",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "NSS/NCC/PT/Yoga",
+       "profs": [],
+       "kinds": [
+        "Activity"
+       ]
+      },
+      {
+       "code": "WS1171N",
+       "title": "Workshop",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "ET1101N",
+     "title": "Basic Electronics",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "MATH CR",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1101N",
+     "title": "Well-being and Happiness",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "NSS/NCC/PT/Yoga",
+     "profs": [],
+     "kind": "Activity",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "15:40",
+     "end": "16:35",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CH1101N",
+     "title": "Engineering Chemistry",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "U613",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "09:55",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "WS1171N",
+     "title": "Workshop",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "ET1101N",
+     "title": "Basic Electronics",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "MATH CR",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L101",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "14:45",
+     "end": "15:40",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CH1171N",
+     "title": "Engineering Chemistry Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L101",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "15:40",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:55",
+     "end": "10:50",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L101",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "ET1101N",
+     "title": "Basic Electronics",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "MATH CR",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CH1101N",
+     "title": "Engineering Chemistry",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L101",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1171N",
+     "title": "Computer Programming Practices Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "Maths Dept lab/CC",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:55",
+     "end": "12:40",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "MA1101N",
+     "title": "Engineering Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L101",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "14:45",
+     "end": "16:35",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "CH1101N",
+     "title": "Engineering Chemistry",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CH1171N",
+     "title": "Engineering Chemistry Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS1171N",
+     "title": "Computer Programming Practices Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "ET1101N",
+     "title": "Basic Electronics",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "HU1101N",
+     "title": "Well-being and Happiness",
      "profs": [],
      "kinds": [
       "Lecture"
@@ -19072,6 +20561,433 @@
      "profs": [],
      "kinds": [
       "Lab"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "PHB-2026",
+   "dept": "PHB",
+   "department": "Physics",
+   "year": 2026,
+   "group": "",
+   "batch": "PHB-2026",
+   "versions": [
+    {
+     "from": "",
+     "file": "data/timetables/PHB-2026.ics",
+     "slots": [
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L204",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Tutorial",
+       "room": "L204",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "10:50",
+       "end": "11:45",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 0,
+       "day_name": "Monday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-24",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CE1101N",
+       "title": "Energy, Environment and Climate Change",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "U802",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 1,
+       "day_name": "Tuesday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-25",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L204",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "10:50",
+       "end": "12:40",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kind": "Lab",
+       "room": "",
+       "day": 2,
+       "day_name": "Wednesday",
+       "start": "13:50",
+       "end": "16:35",
+       "from": "2026-08-26",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kind": "Tutorial",
+       "room": "L204",
+       "day": 3,
+       "day_name": "Thursday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-27",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "L201",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "09:00",
+       "end": "10:50",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kind": "Lecture",
+       "room": "",
+       "day": 4,
+       "day_name": "Friday",
+       "start": "13:50",
+       "end": "14:45",
+       "from": "2026-08-28",
+       "until": "2026-12-04",
+       "weekly": true
+      }
+     ],
+     "courses": [
+      {
+       "code": "CE1101N",
+       "title": "Energy, Environment and Climate Change",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "CS1101N",
+       "title": "Introduction to Computing",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "Departmental Lab",
+       "profs": [],
+       "kinds": [
+        "Lab"
+       ]
+      },
+      {
+       "code": "HU1102N",
+       "title": "Professional Communication in English",
+       "profs": [],
+       "kinds": [
+        "Tutorial"
+       ]
+      },
+      {
+       "code": "",
+       "title": "MDC",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      },
+      {
+       "code": "",
+       "title": "Mathematics - I",
+       "profs": [],
+       "kinds": [
+        "Lecture"
+       ]
+      }
+     ],
+     "until": ""
+    }
+   ],
+   "slots": [
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L204",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Tutorial",
+     "room": "L204",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "10:50",
+     "end": "11:45",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 0,
+     "day_name": "Monday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-24",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CE1101N",
+     "title": "Energy, Environment and Climate Change",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "U802",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 1,
+     "day_name": "Tuesday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-25",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L204",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "10:50",
+     "end": "12:40",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kind": "Lab",
+     "room": "",
+     "day": 2,
+     "day_name": "Wednesday",
+     "start": "13:50",
+     "end": "16:35",
+     "from": "2026-08-26",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kind": "Tutorial",
+     "room": "L204",
+     "day": 3,
+     "day_name": "Thursday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-27",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "L201",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "09:00",
+     "end": "10:50",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kind": "Lecture",
+     "room": "",
+     "day": 4,
+     "day_name": "Friday",
+     "start": "13:50",
+     "end": "14:45",
+     "from": "2026-08-28",
+     "until": "2026-12-04",
+     "weekly": true
+    }
+   ],
+   "courses": [
+    {
+     "code": "CE1101N",
+     "title": "Energy, Environment and Climate Change",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "CS1101N",
+     "title": "Introduction to Computing",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Departmental Lab",
+     "profs": [],
+     "kinds": [
+      "Lab"
+     ]
+    },
+    {
+     "code": "HU1102N",
+     "title": "Professional Communication in English",
+     "profs": [],
+     "kinds": [
+      "Tutorial"
+     ]
+    },
+    {
+     "code": "",
+     "title": "MDC",
+     "profs": [],
+     "kinds": [
+      "Lecture"
+     ]
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I",
+     "profs": [],
+     "kinds": [
+      "Lecture"
      ]
     }
    ]

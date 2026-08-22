@@ -777,6 +777,10 @@ DEPT_CODES = {
     "MMB": "Metallurgy and Materials Engineering",
     "MNB": "Mining Engineering",
     "AEB": "Aerospace Engineering and Applied Mechanics",
+    "MCB": "Mathematics and Computing",
+    "PHB": "Physics",
+    "CHB": "Chemistry",
+    "ESB": "Earth Sciences",
 }
 ICS_CODE = re.compile(r"^\s*([A-Z]{2,4}\s?\d{3,4}[A-Z]?)\b")
 ICS_FIELD = re.compile(r"^\s*(PROF|CODE|TYPE|TEACHER)\s*:\s*(.+)$", re.I)
