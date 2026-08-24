@@ -122,6 +122,7 @@ export default function App() {
             <a href="https://www.iiests.ac.in" target="_blank" rel="noreferrer">iiests.ac.in</a>
             <span className="dot" />
             <span>{updated ? `Updated ${updated}` : ""}</span>
+            <span className="made-by">made by Angad Basandrai</span>
           </footer>
         </main>
       </div>

@@ -750,6 +750,7 @@ code {
 .footer a { color: var(--dim); text-decoration: none; }
 .footer a:hover { color: var(--accent-2); }
 .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--line); }
+.made-by { margin-left: auto; color: var(--dim-2); }
 
 /* ---- Home ------------------------------------------------------------- */
 
@@ -934,6 +935,7 @@ code {
   .home-split { grid-template-columns: 1fr; }
   .notice-window { position: static; }
   .footer { flex-wrap: wrap; }
+  .made-by { width: 100%; text-align: right; margin-left: 0; }
   .input.wide { flex: 1 1 100%; }
   .wk-cal { --wk-h: 660px; grid-template-columns: 42px repeat(5, 134px); }
   .wk-day-long { display: none; }
