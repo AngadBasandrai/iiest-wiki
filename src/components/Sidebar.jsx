@@ -75,9 +75,14 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
               </a>
             ))}
             {label === "Around campus" ? (
-              <a href="https://maps.iiest.wiki" className="external">
-                <Icon name="pin" />Campus map
-              </a>
+              <>
+                <a href="https://maps.iiest.wiki" className="external">
+                  <Icon name="pin" />Campus map
+                </a>
+                <a href="https://cats.iiest.wiki" className="external">
+                  <Icon name="cat" />Cats
+                </a>
+              </>
             ) : null}
           </div>
         ))}
