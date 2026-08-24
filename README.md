@@ -345,6 +345,29 @@ The PH/CH/ES routine prints `Mathematics - I` without a code; it is filled in as
 have no code either and none to borrow, so they ship with an empty code and group by
 title.
 
+Group A and B boundaries come from the institute's UG 1st-semester roll sheets, which
+list each enrolment number against its group:
+
+| Batch | Group A | Group B | Source |
+| --- | --- | --- | --- |
+| CEB 2026 | 1-74 | 75-148 | roll sheet |
+| CSB 2026 | 1-53 | 54-105 | roll sheet |
+| EEB 2026 | 1-50 | 51-100 | roll sheet |
+| ITB 2026 | 1-50 | 51-98 | roll sheet |
+| MMB 2026 | 1-24 | 25-48 | roll sheet |
+| MEB 2026 | 1-52 | 53-103 | inferred |
+| ETB 2026 | 1-33 | 34-66 | inferred |
+
+Each published group is one contiguous run of roll numbers, so a `min`/`max` range holds
+them exactly. The Mechanical and Electronics roll sheets carry no group column even
+though their routines split for labs, so those two boundaries are the midpoint of the
+roll list, following the near-equal halves every published department uses. They are
+guesses and should be replaced when those sheets are published with groups.
+
+`2026CEB070` is listed in both the Gr-A and the Gr-B sheet. Group A runs 1 to 74 without
+a gap and Group B runs 75 to 148 without a gap, so the Group B entry is read as the slip
+and that roll resolves to Group A.
+
 The routines name no staff at all, so these calendars carry no `PROF`. `NSS/NCC/PT/Yoga`
 occupies a real period and ships with `TYPE: Activity`. Anything marked `Activity` is
 shown on the schedule like any other class but left out of the attendance maths: it does

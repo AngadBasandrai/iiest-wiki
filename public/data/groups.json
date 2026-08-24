@@ -63,12 +63,12 @@
   {
    "group": "A",
    "label": "Group A",
-   "max": 50
+   "max": 53
   },
   {
    "group": "B",
    "label": "Group B",
-   "min": 51
+   "min": 54
   }
  ],
  "ITB-2026": [
@@ -99,48 +99,48 @@
   {
    "group": "A",
    "label": "Group A",
-   "max": 50
+   "max": 33
   },
   {
    "group": "B",
    "label": "Group B",
-   "min": 51
+   "min": 34
   }
  ],
  "MEB-2026": [
   {
    "group": "A",
    "label": "Group A",
-   "max": 50
+   "max": 52
   },
   {
    "group": "B",
    "label": "Group B",
-   "min": 51
+   "min": 53
   }
  ],
  "CEB-2026": [
   {
    "group": "A",
    "label": "Group A",
-   "max": 50
+   "max": 74
   },
   {
    "group": "B",
    "label": "Group B",
-   "min": 51
+   "min": 75
   }
  ],
  "MMB-2026": [
   {
    "group": "A",
    "label": "Group A",
-   "max": 50
+   "max": 24
   },
   {
    "group": "B",
    "label": "Group B",
-   "min": 51
+   "min": 25
   }
  ]
 }
