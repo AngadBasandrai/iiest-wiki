@@ -200,7 +200,7 @@ A full run takes a few minutes, most of it the 23 pages of notices and the sylla
 
 Drop one iCalendar file per department and joining year into `public/data/timetables/`,
 named `DEPT-YEAR.ics`, for example `CSB-2025.ics`. The department codes are CSB, ITB,
-EEB, ETB, MEB, CEB, MMB, MNB and AEB. A student's roll number picks their timetable
+EEB, ETB, MEB, CEB, MMB, MNB and AMB. A student's roll number picks their timetable
 automatically: `2025CSB042` loads `CSB-2025.ics`.
 
 ### Changing a timetable mid-term
@@ -279,7 +279,7 @@ Thirty-four real timetables ship:
 
 | Batch | Semester | Files |
 | --- | --- | --- |
-| All nine B.Tech departments, 2026 | 1 | `DEPT-2026-A.ics` and `DEPT-2026-B.ics`, except AEB and MNB which do not split |
+| All nine B.Tech departments, 2026 | 1 | `DEPT-2026-A.ics` and `DEPT-2026-B.ics`, except AMB and MNB which do not split |
 | MAB, PHB, CHB, ESB, APB 2026 | 1 | `DEPT-2026.ics`, no group split |
 | CSB 2025 | 3 | `CSB-2025-GX.ics` and `CSB-2025-GY.ics` |
 | ITB 2025 | 3 | `ITB-2025-HX.ics` and `ITB-2025-HY.ics` |
@@ -323,7 +323,7 @@ publishes it as three routines that cut across the roll-number codes. Two of the
 transcribe cleanly:
 
 - one covers EE, CST, IT and ETCE, which map to EEB, CSB, ITB and ETB
-- one covers ME, CE, MET, AE and MIN, which map to MEB, CEB, MMB, AEB and MNB
+- one covers ME, CE, MET, AE and MIN, which map to MEB, CEB, MMB, AMB and MNB
 
 Civil and Metallurgy share their lectures: the routine rows read `CE: A MET: A` and
 `CE: B MET: B`, and only the lab cells, prefixed `CE-A:` or `MET-B:`, are specific to

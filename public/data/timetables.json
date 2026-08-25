@@ -8,7 +8,7 @@
   "CEB": "Civil Engineering",
   "MMB": "Metallurgy and Materials Engineering",
   "MNB": "Mining Engineering",
-  "AEB": "Aerospace Engineering and Applied Mechanics",
+  "AMB": "Aerospace Engineering and Applied Mechanics",
   "MAB": "Mathematics and Computing",
   "PHB": "Physics",
   "CHB": "Chemistry",
@@ -17,16 +17,16 @@
  },
  "timetables": [
   {
-   "key": "AEB-2026",
-   "dept": "AEB",
+   "key": "AMB-2026",
+   "dept": "AMB",
    "department": "Aerospace Engineering and Applied Mechanics",
    "year": 2026,
    "group": "",
-   "batch": "AEB-2026",
+   "batch": "AMB-2026",
    "versions": [
     {
      "from": "",
-     "file": "data/timetables/AEB-2026.ics",
+     "file": "data/timetables/AMB-2026.ics",
      "slots": [
       {
        "code": "CS1171N",

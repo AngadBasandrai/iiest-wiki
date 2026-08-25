@@ -776,7 +776,7 @@ DEPT_CODES = {
     "CEB": "Civil Engineering",
     "MMB": "Metallurgy and Materials Engineering",
     "MNB": "Mining Engineering",
-    "AEB": "Aerospace Engineering and Applied Mechanics",
+    "AMB": "Aerospace Engineering and Applied Mechanics",
     "MAB": "Mathematics and Computing",
     "PHB": "Physics",
     "CHB": "Chemistry",
