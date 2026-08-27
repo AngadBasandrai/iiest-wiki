@@ -284,6 +284,33 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.012em; margin: 0; 
   padding-top: env(safe-area-inset-top); height: calc(62px + env(safe-area-inset-top));
 }
 .topbar-title { font-weight: 700; letter-spacing: -0.02em; font-size: .98rem; }
+
+/* Support banner: a single strip of text that scrolls under the top bar. */
+.ticker {
+  position: sticky; top: calc(62px + env(safe-area-inset-top)); z-index: 19;
+  overflow: hidden; background: var(--surface);
+  border-bottom: 1px solid var(--line-soft);
+}
+.ticker-track {
+  display: flex; width: max-content;
+  animation: ticker-scroll 44s linear infinite;
+}
+.ticker-track > span {
+  flex: none; white-space: nowrap; padding: 7px 56px 7px 0;
+  font-size: .76rem; color: var(--dim);
+}
+.ticker-track a { color: var(--accent-2); text-decoration: none; }
+.ticker-track a:hover { text-decoration: underline; }
+.ticker:hover .ticker-track, .ticker:focus-within .ticker-track {
+  animation-play-state: paused;
+}
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-25%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+}
 .icon-btn {
   background: none; border: 0; color: var(--dim); cursor: pointer; padding: 6px;
   border-radius: 8px; display: grid; place-items: center; font-size: 1.05rem; line-height: 1;

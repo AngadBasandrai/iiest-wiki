@@ -19,6 +19,14 @@ import { useFollows } from "./lib/useFollows.js";
 import { authError } from "./lib/auth.js";
 import { loadJson } from "./lib/data.js";
 
+const SUPPORT_NOTE =
+  "This website is owned, maintained and ran by me alone, donate to support me :) " +
+  "For donations contact at";
+const DONATE_TO = "angadbasandrai@gmail.com";
+// Enough copies that the strip is never blank on a wide screen; the keyframe
+// shifts by exactly one copy, so the loop has no seam.
+const TICKER_COPIES = [0, 1, 2, 3];
+
 const TITLES = {
   home: "Home", overview: "Daily Overview", weekly: "Weekly Schedule", courses: "Course Attendance",
   faculty: "Faculty", notices: "Notices", syllabus: "Syllabus", fees: "Fees",
@@ -92,6 +100,19 @@ export default function App() {
           <span className="topbar-title">IIEST Shibpur Student Hub</span>
           <span className="pill">UNOFFICIAL COMMUNITY PORTAL</span>
         </header>
+
+        <div className="ticker">
+          <div className="ticker-track">
+            {TICKER_COPIES.map((i) => (
+              <span key={i} aria-hidden={i ? "true" : undefined}>
+                {SUPPORT_NOTE}{" "}
+                {i ? DONATE_TO : (
+                  <a href={`mailto:${DONATE_TO}`}>{DONATE_TO}</a>
+                )}
+              </span>
+            ))}
+          </div>
+        </div>
 
         <main className="content">
           {authError ? (
