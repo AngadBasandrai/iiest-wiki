@@ -9627,6 +9627,33 @@
    ]
   },
   {
+   "name": "Physics",
+   "group": "Departments",
+   "slug": "content/physics",
+   "page": "https://www.iiests.ac.in/en/content/physics",
+   "docs": [
+    {
+     "title": "Detailed Course Structure",
+     "url": "https://data.iiests.ac.in/cloud/2026/08/20260828_10448_syllabus-msc-physics-may-2025pdf.pdf",
+     "programme": "M.Sc",
+     "level": "pg",
+     "nep": false,
+     "broken": false,
+     "context": "2. Master of Science (M. Sc.)"
+    },
+    {
+     "title": "Detailed Course Structure and Syllabus (Pdf)",
+     "url": "https://data.iiests.ac.in/cloud/2026/08/20260828_35962_bsms-physics-from-websitepdf.pdf",
+     "programme": "Other",
+     "level": "other",
+     "nep": false,
+     "broken": false,
+     "context": "Academic Programs"
+    }
+   ],
+   "structures": []
+  },
+  {
    "name": "School of Mechatronics and Robotics",
    "group": "Schools",
    "slug": "content/robot",
