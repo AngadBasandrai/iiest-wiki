@@ -37,7 +37,7 @@
   --edge:       inset 0 1px 0 rgba(255, 255, 255, .045);
   --lift:       0 12px 32px -16px rgba(0, 0, 0, .9), 0 0 0 1px rgba(255, 255, 255, .05);
   --ease:       cubic-bezier(.2, .7, .3, 1);
-  --side-w:     264px;
+  --side-w:     238px;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 }
@@ -71,13 +71,13 @@ a { color: inherit; }
 ::selection { background: var(--accent-bg); }
 
 h1 { font-size: 2.05rem; font-weight: 800; letter-spacing: -0.042em; margin: 0; line-height: 1.15; }
-h2 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.025em; margin: 0; }
+h2 { font-size: 1.02rem; font-weight: 700; letter-spacing: -0.025em; margin: 0; }
 h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; }
 
 .dim { color: var(--dim); }
 .tiny { font-size: .74rem; }
 .nowrap { white-space: nowrap; }
-.sub { color: var(--dim); font-size: .9rem; margin: 7px 0 0; }
+.sub { color: var(--dim-2); font-size: .82rem; margin: 7px 0 0; }
 .micro {
   font: 600 .655rem/1.4 var(--mono); letter-spacing: .12em;
   text-transform: uppercase; color: var(--dim-2);
@@ -92,31 +92,31 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 .side {
   width: var(--side-w); flex: none; position: fixed; inset: 0 auto 0 0; z-index: 40;
   background: var(--panel); border-right: 1px solid var(--line-soft);
-  display: flex; flex-direction: column; padding: 20px 16px;
+  display: flex; flex-direction: column; padding: 18px 12px 16px;
   overflow-y: auto; overscroll-behavior: contain;
 }
-.logo { display: flex; gap: 12px; align-items: center; text-decoration: none; padding: 0 4px 22px; }
+.logo { display: flex; gap: 11px; align-items: center; text-decoration: none; padding: 2px 6px 20px; }
 .logo-tile {
-  width: 40px; height: 40px; border-radius: 13px; flex: none;
+  width: 34px; height: 34px; border-radius: 11px; flex: none;
   background: var(--accent-bg); border: 1px solid var(--accent-line);
   display: grid; place-items: center; color: var(--accent-2);
   box-shadow: var(--edge);
 }
-.logo-tile svg { width: 21px; height: 21px; }
+.logo-tile svg { width: 18px; height: 18px; }
 .logo-text { display: grid; gap: 2px; }
 .logo-text strong { font-size: .96rem; font-weight: 700; letter-spacing: -0.02em; }
 
 .nav { display: grid; gap: 2px; }
 .nav-label {
-  font: 600 .655rem/1.4 var(--mono); letter-spacing: .13em; text-transform: uppercase;
-  color: var(--dim-2); margin: 18px 0 7px; padding: 0 11px;
+  font: 600 .61rem/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--dim-2); margin: 15px 0 5px; padding: 0 10px;
 }
 .nav-label:first-child { margin-top: 0; }
 .nav a {
   position: relative;
-  display: flex; align-items: center; gap: 11px; padding: 9px 11px;
-  border-radius: var(--radius-sm); text-decoration: none;
-  color: var(--dim); font-size: .885rem; font-weight: 500;
+  display: flex; align-items: center; gap: 10px; padding: 7px 10px;
+  border-radius: 9px; text-decoration: none;
+  color: var(--dim); font-size: .845rem; font-weight: 500;
   transition: background .18s var(--ease), color .18s var(--ease);
 }
 .nav a:hover { color: var(--text); background: var(--surface); }
@@ -130,10 +130,10 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 }
 .nav a[aria-current="page"] .ico { color: var(--accent-2); }
 .nav a[aria-current="page"]::before {
-  content: ""; position: absolute; left: -16px; top: 50%; transform: translateY(-50%);
-  width: 3px; height: 17px; border-radius: 0 3px 3px 0; background: var(--accent-2);
+  content: ""; position: absolute; left: -12px; top: 50%; transform: translateY(-50%);
+  width: 3px; height: 15px; border-radius: 0 3px 3px 0; background: var(--accent-2);
 }
-.ico { width: 18px; height: 18px; flex: none; display: block; }
+.ico { width: 17px; height: 17px; flex: none; display: block; }
 .ico svg { width: 100%; height: 100%; }
 
 .side-foot { margin-top: auto; display: grid; gap: 14px; padding-top: 20px; }
@@ -169,8 +169,8 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 .btn.full { width: 100%; justify-content: center; }
 
 .club-grid {
-  display: grid; gap: 12px;
-  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+  display: grid; gap: 14px; justify-content: start;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 400px));
 }
 .club-card {
   position: relative; isolation: isolate; overflow: hidden;
@@ -188,7 +188,7 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
   border-color: var(--line); transform: translateY(-2px);
   box-shadow: var(--lift), var(--edge);
 }
-.club-card-body { display: grid; gap: 4px; padding: 18px 19px; }
+.club-card-body { display: grid; gap: 5px; padding: 17px 18px 15px; }
 
 /* The club's own artwork, blown up and pushed far back so it reads as a tint
    behind the text rather than a picture competing with it. */
@@ -224,14 +224,14 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 
 .club-card-top {
   display: flex; align-items: center; justify-content: space-between;
-  gap: 10px; margin-bottom: 8px;
+  gap: 10px; margin-bottom: 11px;
 }
 .club-mark {
-  width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center;
-  background: var(--surface-2); border: 1px solid var(--line); color: var(--dim);
-  overflow: hidden; flex: none;
+  width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center;
+  background: var(--surface-2); border: 1px solid var(--line-soft); color: var(--dim);
+  overflow: hidden; flex: none; box-shadow: var(--edge);
 }
-.club-mark .ico { width: 17px; height: 17px; }
+.club-mark .ico { width: 20px; height: 20px; }
 .club-mark img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
 .follow {
@@ -252,13 +252,13 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 /* The title carries the card's click target, so the follow button stays
    clickable instead of being swallowed by a wrapping link. */
 .club-card-name {
-  font-size: 1rem; font-weight: 700; letter-spacing: -.015em;
+  font-size: 1.06rem; font-weight: 700; letter-spacing: -.022em;
   background: none; border: 0; padding: 0; color: inherit;
   font-family: inherit; text-align: left; text-decoration: none; cursor: pointer;
 }
 .club-hit::after { content: ""; position: absolute; inset: 0; }
 .club-hit:hover { text-decoration: underline; }
-.club-card-line { margin: 2px 0 0; font-size: .84rem; color: var(--dim); line-height: 1.55; }
+.club-card-line { margin: 3px 0 0; font-size: .845rem; color: var(--dim); line-height: 1.55; }
 .club-card-foot {
   display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
   margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line-soft);
@@ -334,7 +334,7 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 /* Support banner: a single strip of text that scrolls under the top bar. */
 .ticker {
   position: sticky; top: calc(62px + env(safe-area-inset-top)); z-index: 19;
-  overflow: hidden; background: var(--surface);
+  overflow: hidden; background: var(--bg);
   border-bottom: 1px solid var(--line-soft);
 }
 .ticker-track {
@@ -342,9 +342,10 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
   animation: ticker-scroll 44s linear infinite;
 }
 .ticker-track > span {
-  flex: none; white-space: nowrap; padding: 7px 56px 7px 0;
-  font-size: .76rem; color: var(--dim);
+  flex: none; white-space: nowrap; padding: 6px 64px 6px 0;
+  font-size: .715rem; color: var(--dim-2);
 }
+.ticker-track a { color: var(--dim); }
 .ticker-track a { color: var(--accent-2); text-decoration: none; }
 .ticker-track a:hover { text-decoration: underline; }
 .ticker:hover .ticker-track, .ticker:focus-within .ticker-track {
@@ -376,8 +377,22 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
   background: var(--surface-2);
 }
 
-.content { flex: 1; padding: 32px 28px 60px; max-width: 1320px; width: 100%; }
-.page-head { margin-bottom: 26px; }
+.content {
+  flex: 1; display: flex; flex-direction: column;
+  padding: 30px 30px 26px; max-width: 1280px; width: 100%;
+}
+.view { flex: 1; min-width: 0; }
+
+/* Title and its meta share one baseline with a rule beneath, instead of
+   stacking into the top-left corner and leaving the width unused. */
+.page-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px 26px; flex-wrap: wrap;
+  margin-bottom: 26px; padding-bottom: 16px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.page-head h1 { font-size: 1.72rem; }
+.page-head .sub { margin: 0; text-align: right; flex: 0 1 auto; }
 .controls { display: flex; gap: 9px; flex-wrap: wrap; align-items: center; margin-bottom: 22px; }
 
 .input {
@@ -426,8 +441,9 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
   box-shadow: var(--ring), var(--edge);
 }
 .card-title { margin-bottom: 16px; }
-.gate { text-align: center; padding: 54px 22px; display: grid; gap: 12px; justify-items: center; }
-.gate p { color: var(--dim); margin: 0; max-width: 42ch; }
+.gate { display: grid; gap: 14px; justify-items: start; }
+.gate p { color: var(--dim); margin: 0; max-width: 52ch; }
+.gate .more-wrap { padding: 0; justify-content: flex-start; }
 
 .stat-grid {
   display: grid; gap: 14px; margin-bottom: 22px; align-items: start;
@@ -564,13 +580,20 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 .panel { display: flex; flex-direction: column; }
 .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
 .panel-note { font-size: .77rem; color: var(--dim-2); margin: 0 0 12px; }
-.panel-empty { margin: auto; text-align: center; display: grid; gap: 11px; justify-items: center; padding: 40px 12px; }
-.panel-ico {
-  width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center;
-  background: var(--surface-2); color: var(--dim);
+.panel-empty {
+  display: grid; grid-template-columns: auto 1fr; align-items: center;
+  gap: 3px 17px; margin: 0; padding: 18px 20px; width: 100%;
+  background: var(--panel); border: 1px solid var(--line-soft);
+  border-radius: var(--radius); box-shadow: var(--ring), var(--edge);
 }
-.panel-ico .ic { width: 24px; height: 24px; }
-.panel-empty p { margin: 0; color: var(--dim); font-size: .855rem; max-width: 32ch; }
+.panel-ico {
+  grid-row: 1 / -1; align-self: center;
+  width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--surface-2); border: 1px solid var(--line-soft); color: var(--dim);
+}
+.panel-ico .ic { width: 19px; height: 19px; }
+.panel-empty > :not(.panel-ico) { grid-column: 2; justify-self: start; }
+.panel-empty p { margin: 0; color: var(--dim); font-size: .845rem; max-width: 62ch; }
 
 .klass-list { display: grid; gap: 10px; }
 .klass {
@@ -836,7 +859,7 @@ code {
 }
 
 .footer {
-  border-top: 1px solid var(--line-soft); padding: 24px 0 0; margin-top: 44px;
+  border-top: 1px solid var(--line-soft); padding: 22px 0 0; margin-top: 48px;
   color: var(--dim-2); font-size: .8rem; display: flex; align-items: center; gap: 10px;
 }
 .footer a { color: var(--dim); text-decoration: none; }
@@ -907,10 +930,11 @@ code {
   grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
 }
 .home-main { display: grid; gap: 14px; align-content: start; }
-.home-card { padding: 18px 20px; }
+.home-card { padding: 17px 19px; }
 .home-card-head {
   display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
-  margin-bottom: 14px;
+  margin: -2px 0 15px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--line-soft);
 }
 .link-more {
   background: none; border: 0; padding: 0; cursor: pointer; font: inherit;
@@ -945,9 +969,12 @@ code {
   border-bottom: 1px solid var(--line-soft);
 }
 .mini-notices li:last-child { border-bottom: 0; padding-bottom: 0; }
-.mini-date { font: .655rem/1.4 var(--mono); letter-spacing: .1em; color: var(--dim-2); }
+.mini-date {
+  font: 600 .615rem/1.4 var(--mono); letter-spacing: .13em;
+  text-transform: uppercase; color: var(--dim-2);
+}
 .mini-title {
-  font-size: .82rem; line-height: 1.45; color: var(--dim);
+  font-size: .825rem; line-height: 1.5; color: var(--text);
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
   overflow: hidden;
 }
