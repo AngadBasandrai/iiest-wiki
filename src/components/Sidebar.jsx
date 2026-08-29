@@ -20,6 +20,9 @@ const GROUPS = [
   ]],
 ];
 
+// the page most students open first, nudged forward in the nav
+const FEATURED = "overview";
+
 const ORDINAL = ["", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th"];
 
 const installed =
@@ -68,6 +71,7 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
             <p className="nav-label">{label}</p>
             {items.map(([id, icon, text]) => (
               <a key={id} href={`#${id}`} onClick={onNavigate}
+                 className={id === FEATURED ? "featured" : undefined}
                  aria-current={id === "clubs"
                    ? (view === "clubs" || view === "club" ? "page" : undefined)
                    : (view === id ? "page" : undefined)}>
@@ -78,12 +82,15 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
               <>
                 <a href="https://maps.iiest.wiki" className="external">
                   <Icon name="pin" />Campus map
+                  <Icon name="ext" className="ext" />
                 </a>
                 <a href="https://cats.iiest.wiki" className="external">
                   <Icon name="cat" />Cats
+                  <Icon name="ext" className="ext" />
                 </a>
                 <a href="https://dogs.iiest.wiki" className="external">
                   <Icon name="dog" />Dogs
+                  <Icon name="ext" className="ext" />
                 </a>
               </>
             ) : null}

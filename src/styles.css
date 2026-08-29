@@ -117,6 +117,18 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
 }
 .nav a:hover { color: var(--text); background: var(--surface); }
 .nav a[aria-current="page"]:hover { background: var(--accent); }
+
+/* the one page worth landing on: brighter label, and a dot holding the
+   right edge so it reads as flagged rather than as merely hovered */
+.nav a.featured { color: var(--text); font-weight: 600; }
+.nav a.featured::after {
+  content: ""; margin-left: auto; flex: none;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-bg);
+}
+.nav a.featured[aria-current="page"]::after {
+  background: #fff; box-shadow: 0 0 0 3px rgba(255, 255, 255, .22);
+}
 .nav a .ico { transition: color .18s var(--ease); }
 .nav-rule {
   border: 0; border-top: 1px solid var(--line-soft);
@@ -585,8 +597,13 @@ h3 { font-size: .95rem;  font-weight: 650; letter-spacing: -0.015em; margin: 0; 
   margin: 34px 0 0 !important; padding-top: 16px;
   border-top: 1px solid var(--line-soft); font-size: .85rem;
 }
-.ext { margin-left: auto; font-size: .78rem; color: var(--dim-2); }
-.nav a.external:hover .ext { color: var(--accent-2); }
+/* marks a link that leaves iiest.wiki for another domain */
+.ext {
+  margin-left: auto; width: 13px; height: 13px; flex: none;
+  color: var(--dim-2); opacity: .75;
+  transition: color .18s var(--ease), opacity .18s var(--ease);
+}
+.nav a.external:hover .ext { color: var(--accent-2); opacity: 1; }
 
 .panel { display: flex; flex-direction: column; }
 .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
