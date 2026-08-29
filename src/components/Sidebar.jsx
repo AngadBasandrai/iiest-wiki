@@ -82,6 +82,9 @@ export default function Sidebar({ view, who, session, table, open, onNavigate })
                 <a href="https://cats.iiest.wiki" className="external">
                   <Icon name="cat" />Cats
                 </a>
+                <a href="https://dogs.iiest.wiki" className="external">
+                  <Icon name="dog" />Dogs
+                </a>
               </>
             ) : null}
           </div>
