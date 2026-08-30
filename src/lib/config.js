@@ -3,6 +3,6 @@ export const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiO
 export const EMAIL_DOMAIN = "students.iiests.ac.in";
 // GoatCounter site code only, not the full URL: "iiest" for iiest.goatcounter.com.
 // Empty disables analytics entirely, and it is off on localhost regardless.
-export const ANALYTICS_SITE = "";
+export const ANALYTICS_SITE = "iiest";
 export const ATTENDANCE_TARGET = 75;
 export const configured = () => Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
