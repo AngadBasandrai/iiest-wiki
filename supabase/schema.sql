@@ -119,6 +119,16 @@ create policy attendance_own on public.attendance
   for all using (student = auth.uid() and public.is_student())
   with check (student = auth.uid() and public.is_student());
 
+-- How many students have ever signed in. profiles is read-own under RLS, so a
+-- plain count returns 1; this runs as definer to see the whole table. It returns
+-- a single number and nothing about any individual.
+create or replace function public.account_count() returns bigint
+language sql security definer set search_path = public stable as $$
+  select count(*) from public.profiles;
+$$;
+revoke all on function public.account_count() from public, anon;
+grant execute on function public.account_count() to authenticated;
+
 drop policy if exists follows_own on public.club_follows;
 create policy follows_own on public.club_follows
   for all using (student = auth.uid() and public.is_student())

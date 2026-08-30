@@ -6,6 +6,7 @@ import { sessionFor, dayState, graded } from "./calendar.js";
 import { loadJson } from "./data.js";
 import { useUser } from "./useAuth.js";
 import { enqueue, drop, flush, onReconnect, pending } from "./queue.js";
+import { event } from "./analytics.js";
 
 export const slotId = (slot) => `${slot.day}-${slot.start}`;
 export const markKey = (code, date, slot) => `${code}|${date}|${slot}`;
@@ -196,6 +197,8 @@ export function useAttendance() {
     if (clearing) next.delete(key);
     else next.set(key, status);
     setMarks(next);
+
+    event(clearing ? "attendance-clear" : `attendance-${status}`);
 
     const job = {
       student: who.id, course_code: slot.code, class_on: iso,

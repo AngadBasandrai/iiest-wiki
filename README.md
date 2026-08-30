@@ -196,6 +196,41 @@ in the right order.
 Each run rewrites `public/data/*.json` and stamps `meta.json`, which the footer shows.
 A full run takes a few minutes, most of it the 23 pages of notices and the syllabus PDFs.
 
+## Analytics
+
+Off by default. Set `ANALYTICS_SITE` in `src/lib/config.js` to your GoatCounter
+site code — just the code, so `iiest` for `iiest.goatcounter.com` — and rebuild.
+Empty disables it, and it stays off on localhost whatever the setting.
+
+It is loaded from `lib/analytics.js` rather than from a script tag in
+`index.html`, for two reasons that both bite the stock snippet:
+
+- A tag in `<head>` runs before `main.jsx`. Straight after a Google sign-in the
+  URL still carries `#access_token=...` at that moment, so a default snippet
+  would post that token to the analytics host as the page URL. Auto-counting is
+  off and the module never reads `location`; every hit is built from the route
+  the router already parsed.
+- The app is hash-routed, so `#home` to `#clubs` is not a page load. The
+  automatic counter would record one hit per session and nothing after it.
+
+What leaves the browser is a route (`/home`, `/club/reges-belli`) or an event
+name. No roll number, name, email or attendance, and no identifier that would
+let hits be joined into a person. The events are `sign-in`, `club-follow`,
+`club-unfollow`, `attendance-present` and its siblings, and `app-installed`.
+
+If the script is blocked or the host is down the module goes quiet and stops
+queueing, so nothing accumulates.
+
+Account numbers are a different question and GoatCounter cannot answer it: it
+counts browsers, not registrations. `public.account_count()` in `schema.sql`
+returns how many students have ever signed in. `profiles` is read-own under RLS
+so a plain count returns 1, hence the security definer; it is granted to
+`authenticated` only and returns a single number:
+
+```sql
+select public.account_count();
+```
+
 ## Timetables
 
 Drop one iCalendar file per department and joining year into `public/data/timetables/`,

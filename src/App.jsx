@@ -18,6 +18,7 @@ import { useAttendance } from "./lib/useAttendance.js";
 import { useFollows } from "./lib/useFollows.js";
 import { authError } from "./lib/auth.js";
 import { loadJson } from "./lib/data.js";
+import { pageview, event } from "./lib/analytics.js";
 
 const SUPPORT_NOTE =
   "This website is owned, maintained and ran by me alone, donate to support me :) " +
@@ -48,6 +49,14 @@ export default function App() {
       ? `${club.name} | IIEST Shibpur`
       : `${TITLES[view] || "IIEST Shibpur"} | IIEST Shibpur`;
   }, [view, param, clubs]);
+
+  useEffect(() => { pageview(view, param); }, [view, param]);
+
+  useEffect(() => {
+    const installed = () => event("app-installed");
+    window.addEventListener("appinstalled", installed);
+    return () => window.removeEventListener("appinstalled", installed);
+  }, []);
 
   useEffect(() => {
     loadJson("clubs", { clubs: [] })

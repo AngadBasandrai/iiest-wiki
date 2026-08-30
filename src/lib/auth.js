@@ -1,3 +1,4 @@
+import { event } from "./analytics.js";
 import { SUPABASE_URL, SUPABASE_ANON_KEY, EMAIL_DOMAIN, configured } from "./config.js";
 
 const STORE = "iiest.session";
@@ -108,6 +109,7 @@ async function token() {
 }
 
 export function signIn() {
+  event("sign-in");
   const back = `${location.origin}${location.pathname}`;
   const url = new URL(`${SUPABASE_URL}/auth/v1/authorize`);
   url.searchParams.set("provider", "google");

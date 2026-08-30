@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { configured } from "./config.js";
 import { db } from "./auth.js";
 import { useUser } from "./useAuth.js";
+import { event } from "./analytics.js";
 
 const FOLLOW_KEY = "iiest.follows";
 
@@ -58,6 +59,7 @@ export function useFollows() {
       const adding = !prev.includes(slug);
       const next = adding ? [...prev, slug] : prev.filter((s) => s !== slug);
       writeFollows(next);
+      event(adding ? "club-follow" : "club-unfollow");
 
       if (configured() && who) {
         const call = adding
