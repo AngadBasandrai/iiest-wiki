@@ -6705,6 +6705,24 @@
      "context": "2. Master of Technology (M. Tech.)"
     },
     {
+     "title": "Thermal Science and Energy Technology (As per NEP 2020 New Curriculum)",
+     "url": "https://data.iiests.ac.in/cloud/2026/09/20260909_20575_mechanical-engineering-pg-mtech-curriculum.pdf",
+     "programme": "M.Tech",
+     "level": "pg",
+     "nep": true,
+     "broken": false,
+     "context": "2. Master of Technology (M. Tech.)"
+    },
+    {
+     "title": "Advanced Mechanical Design and Smart Manufacturing",
+     "url": "https://data.iiests.ac.in/cloud/2026/09/20260909_22727_mechanical-engineering-pg-mtech-curriculum.pdf",
+     "programme": "M.Tech",
+     "level": "pg",
+     "nep": false,
+     "broken": false,
+     "context": "2. Master of Technology (M. Tech.)"
+    },
+    {
      "title": "M.Tech Legacy Syllabus",
      "url": "https://data.iiests.ac.in/cloud/2026/02/20260205_25799_mechanical-engineering.pdf",
      "programme": "M.Tech",
