@@ -52,6 +52,23 @@
    "courses": []
   },
   {
+   "id": 2581,
+   "name": "Debjit Bhowmik",
+   "kind": "staff",
+   "department": "",
+   "designation": "Technical Assistant",
+   "role": "",
+   "email": "debjit@fd",
+   "email_alt": "",
+   "phone": "11",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6aa2b6fdb08f00.41084678.jpg",
+   "scholar": "",
+   "profile": "https://www.iiests.ac.in/en/faculty/debjitbhowmik-2581",
+   "bio": "",
+   "courses": []
+  },
+  {
    "id": 263,
    "name": "Dr. Bivore Das",
    "kind": "officer",
@@ -7358,7 +7375,7 @@
  ],
  "counts": {
   "faculty": 271,
-  "staff": 85,
+  "staff": 86,
   "officer": 13
  },
  "unmatched_professors": [
