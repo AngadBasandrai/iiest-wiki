@@ -7199,23 +7199,6 @@
    "courses": []
   },
   {
-   "id": 469,
-   "name": "Debaprasad Das",
-   "kind": "faculty",
-   "department": "School of VLSI Technology",
-   "designation": "Professor",
-   "role": "",
-   "email": "debaprasad@vlsi.iiests.ac.in",
-   "email_alt": "debaprasad.vlsi@faculty.iiests.ac.in",
-   "phone": "",
-   "voip": "",
-   "photo": "https://data.iiests.ac.in/uploads/faculty/68c2810364e64dpd-pic.jpg",
-   "scholar": "",
-   "profile": "https://www.iiests.ac.in/en/faculty/debaprasaddas-469",
-   "bio": "VLSI Design",
-   "courses": []
-  },
-  {
    "id": 2304,
    "name": "Dr. Sudip Ghosh",
    "kind": "faculty",
@@ -7374,7 +7357,7 @@
   "Visiting Professor"
  ],
  "counts": {
-  "faculty": 271,
+  "faculty": 270,
   "staff": 86,
   "officer": 13
  },

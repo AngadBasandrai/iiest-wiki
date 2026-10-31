@@ -6641,6 +6641,15 @@
    "page": "https://www.iiests.ac.in/en/content/math",
    "docs": [
     {
+     "title": "View Syllabus",
+     "url": "https://data.iiests.ac.in/cloud/2026/02/20260205_79072_mathematics.pdf",
+     "programme": "B.Arch",
+     "level": "ug",
+     "nep": false,
+     "broken": false,
+     "context": "3 Bachelor of Architecture (B. Arch.) 5 Years Structural Mathematics & Geometric Applications"
+    },
+    {
      "title": "B. Tech. in Mathematics and Computing Curriculum (Effective from 2026-27 admitting batch onwards)",
      "url": "https://data.iiests.ac.in/cloud/2026/08/20260810_37747_b-tech-in-mathematics-and.pdf",
      "programme": "B.Tech",
