@@ -22,7 +22,7 @@
    "name": "Dr. Bivore Das",
    "kind": "officer",
    "department": "",
-   "designation": "Assistant Registrar",
+   "designation": "Deputy Registrar",
    "role": "",
    "email": "arbd@iiests.ac.in",
    "email_alt": "",
@@ -32,6 +32,23 @@
    "scholar": "",
    "profile": "",
    "bio": "(Compound & Estate) 09433956878(M)",
+   "courses": []
+  },
+  {
+   "id": 2602,
+   "name": "Dr. Deepak Kumar Singh",
+   "kind": "officer",
+   "department": "",
+   "designation": "Assistant Registrar",
+   "role": "",
+   "email": "ar.ac@iiests.ac.in",
+   "email_alt": "",
+   "phone": "4444",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6aec2c75336235.36474318.jpg",
+   "scholar": "",
+   "profile": "",
+   "bio": "",
    "courses": []
   },
   {
@@ -80,6 +97,23 @@
    "phone": "91-33-2668-4561",
    "voip": "",
    "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_69a00ccf398fd3.97551851.jpg",
+   "scholar": "",
+   "profile": "",
+   "bio": "",
+   "courses": []
+  },
+  {
+   "id": 2603,
+   "name": "Dr. Subhasish Nag",
+   "kind": "officer",
+   "department": "",
+   "designation": "Senior Medical Officer",
+   "role": "",
+   "email": "drsnag@officer.iiests.ac.in",
+   "email_alt": "",
+   "phone": "44",
+   "voip": "",
+   "photo": "",
    "scholar": "",
    "profile": "",
    "bio": "",
@@ -185,6 +219,23 @@
    "scholar": "",
    "profile": "",
    "bio": "(CIVIL)",
+   "courses": []
+  },
+  {
+   "id": 2600,
+   "name": "Sri Biplab Mukherjee",
+   "kind": "officer",
+   "department": "",
+   "designation": "Assistant Registrar",
+   "role": "",
+   "email": "ar.bm@iiests.ac.in",
+   "email_alt": "",
+   "phone": "2232",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6aec2838122964.68930110.jpg",
+   "scholar": "",
+   "profile": "",
+   "bio": "",
    "courses": []
   },
   {
@@ -7343,6 +7394,7 @@
   "Senior Instrument Mechanic",
   "Senior Mali",
   "Senior Mechanic Gr.-II",
+  "Senior Medical Officer",
   "Senior Peon",
   "Senior Stenographer",
   "Senior Technical Assistant",
@@ -7359,7 +7411,7 @@
  "counts": {
   "faculty": 270,
   "staff": 86,
-  "officer": 13
+  "officer": 16
  },
  "unmatched_professors": [
   "Chirosree Dolui",
