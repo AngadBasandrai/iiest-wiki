@@ -9733,6 +9733,24 @@
     }
    ],
    "structures": []
+  },
+  {
+   "name": "School of VLSI Technology",
+   "group": "Schools",
+   "slug": "content/vlsi",
+   "page": "https://www.iiests.ac.in/en/content/vlsi",
+   "docs": [
+    {
+     "title": "Download",
+     "url": "https://data.iiests.ac.in/cloud/2026/11/20261109_96325_course-structure-and-syllabus.pdf",
+     "programme": "M.Tech",
+     "level": "pg",
+     "nep": false,
+     "broken": false,
+     "context": "1 Master of Technology (M. Tech.)"
+    }
+   ],
+   "structures": []
   }
  ],
  "levels": [

@@ -7199,11 +7199,28 @@
    "courses": []
   },
   {
+   "id": 2606,
+   "name": "Prasun Ghosal",
+   "kind": "faculty",
+   "department": "School of Mechatronics and Robotics",
+   "designation": "Associate Professor and Head",
+   "role": "",
+   "email": "hod@mechatronics.iiests.ac.in",
+   "email_alt": "",
+   "phone": "9903704664",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6af2c6925cd714.89483693.jpg",
+   "scholar": "",
+   "profile": "https://www.iiests.ac.in/en/faculty/prasunghosal-2606",
+   "bio": "",
+   "courses": []
+  },
+  {
    "id": 1499,
    "name": "Tanmay Pal",
    "kind": "faculty",
    "department": "School of Mechatronics and Robotics",
-   "designation": "Head and Assistant professor",
+   "designation": "Assistant Professor",
    "role": "",
    "email": "tanmay@mechatronics.iiests.ac.in",
    "email_alt": "tanmay.mechatronics@faculty.iiests.ac.in",
@@ -7250,23 +7267,6 @@
    "courses": []
   },
   {
-   "id": 2304,
-   "name": "Dr. Sudip Ghosh",
-   "kind": "faculty",
-   "department": "School of VLSI Technology",
-   "designation": "Assistant Professor",
-   "role": "",
-   "email": "sudip.ghosh@vlsi.iiests.ac.in",
-   "email_alt": "sudipghosh2005@gmail.com",
-   "phone": "",
-   "voip": "",
-   "photo": "https://data.iiests.ac.in/uploads/faculty/5ddce861324eaSG.jpg",
-   "scholar": "",
-   "profile": "https://www.iiests.ac.in/en/faculty/drsudipghosh-2304",
-   "bio": "<h3><strong>Membership</strong></h3> <ul> <li>IEEE SENIOR MEMBER</li> <li>IAENG</li> </ul> <h3><strong>Courses Undertaken</strong></h3> <p><strong>PG Courses</strong></p> <ul> <li><strong>VLSI Testing (VLSI-903)</strong></li> <li><strong>Advanced System Architecture (VLSI-904/1)</strong></li> <li><strong>Synthesis and Verification Techniques (VLSI-1004)</strong></li> <li><strong>SoC and Memory Design and Test (VLSI-1150/2)</strong></li> <li><strong>Digital Signal Processing (VLSI-905/2)</strong></li> </ul>",
-   "courses": []
-  },
-  {
    "id": 592,
    "name": "Goutam Paul",
    "kind": "staff",
@@ -7298,6 +7298,23 @@
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/koushikdey-701",
    "bio": "<p>Highest Qualification: Secondary (10+)</p>",
+   "courses": []
+  },
+  {
+   "id": 2304,
+   "name": "Sudip Ghosh",
+   "kind": "faculty",
+   "department": "School of VLSI Technology",
+   "designation": "Assistant Professor",
+   "role": "",
+   "email": "sudip.ghosh@vlsi.iiests.ac.in",
+   "email_alt": "sudipghosh2005@gmail.com",
+   "phone": "",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/5ddce861324eaSG.jpg",
+   "scholar": "",
+   "profile": "https://www.iiests.ac.in/en/faculty/sudipghosh-2304",
+   "bio": "<h3><strong>Membership</strong></h3> <ul> <li>IEEE SENIOR MEMBER</li> <li>IAENG</li> </ul> <h3><strong>Courses Undertaken</strong></h3> <p><strong>PG Courses</strong></p> <ul> <li><strong>VLSI Testing (VLSI-903)</strong></li> <li><strong>Advanced System Architecture (VLSI-904/1)</strong></li> <li><strong>Synthesis and Verification Techniques (VLSI-1004)</strong></li> <li><strong>SoC and Memory Design and Test (VLSI-1150/2)</strong></li> <li><strong>Digital Signal Processing (VLSI-905/2)</strong></li> </ul>",
    "courses": []
   },
   {
@@ -7361,6 +7378,7 @@
   "Associate Professor / Associate Dean - Research",
   "Associate Professor / Associate Dean - Students Welfare",
   "Associate Professor / Associate Dean - Under Graduate Study",
+  "Associate Professor and Head",
   "Computer Assistant",
   "Deputy Registrar",
   "Director",
@@ -7408,7 +7426,7 @@
   "Visiting Professor"
  ],
  "counts": {
-  "faculty": 270,
+  "faculty": 271,
   "staff": 86,
   "officer": 16
  },
