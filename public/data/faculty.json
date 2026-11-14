@@ -1310,6 +1310,23 @@
    "courses": []
   },
   {
+   "id": 2607,
+   "name": "Aparna Dey Ghosh",
+   "kind": "faculty",
+   "department": "Chirasree Centre of Sustainable Infrastructure Development (CCSID)",
+   "designation": "Professor",
+   "role": "",
+   "email": "aparna.civil@faculty.iiests.ac.in",
+   "email_alt": "",
+   "phone": "9830009729",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6af6f2ae29eef0.33911386.jpg",
+   "scholar": "",
+   "profile": "https://www.iiests.ac.in/en/faculty/aparnadeyghosh-2607",
+   "bio": "",
+   "courses": []
+  },
+  {
    "id": 193,
    "name": "Amar Tarafder",
    "kind": "staff",
@@ -1993,7 +2010,7 @@
    "email_alt": "",
    "phone": "8902562722",
    "voip": "0332668-576",
-   "photo": "https://data.iiests.ac.in/uploads/faculty/5dd3dca7421c2apurba.jpg",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/faculty_6af6f705bc8e84.92534992.jpg",
    "scholar": "",
    "profile": "https://www.iiests.ac.in/en/faculty/apurbasarkar-261",
    "bio": "<p><span style=\"font-size:16px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">I am currently serving as an associate professor in the Department of Computer Science and Technology, IIEST Shibpur. I am also currently the<strong> Head of the Department of Computer Science and Technology</strong>. I have done my bachelor's in Computer Science and Engineering from the University of Calcutta, Kolkata, India, in 2001 and subsequently completed masters degree in Computer Science and Engineering from the Indian Institute of Technology Guwahati, India in 2003. I have obtained the Ph.D. degree in Computer Science and Engineering from the Department of Computer Science and Engineering, Indian Institute of Technology Kanpur. I am broadly interested in digital geometry, discrete and combinatorial geometry, text summerization and image processing. Recenlty I am exploring and started working in graph compression teechniques.</span></span></p>",
@@ -7340,6 +7357,7 @@
   "Architecture and Planning",
   "Center of Healthcare Science and Technology",
   "Chemistry",
+  "Chirasree Centre of Sustainable Infrastructure Development (CCSID)",
   "Civil Engineering",
   "Computer Science and Technology",
   "Earth Sciences",
@@ -7426,7 +7444,7 @@
   "Visiting Professor"
  ],
  "counts": {
-  "faculty": 271,
+  "faculty": 272,
   "staff": 86,
   "officer": 16
  },
