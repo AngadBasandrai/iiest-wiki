@@ -7369,6 +7369,23 @@
    "courses": []
   },
   {
+   "id": 2321,
+   "name": "HAFIZUR RAHAMAN",
+   "kind": "faculty",
+   "department": "School of VLSI Technology",
+   "designation": "Professor",
+   "role": "",
+   "email": "hafizur@vlsi.iiests.ac.in",
+   "email_alt": "",
+   "phone": "",
+   "voip": "",
+   "photo": "https://data.iiests.ac.in/uploads/faculty/60f198a28eec0hrahaman.jpg",
+   "scholar": "",
+   "profile": "https://www.iiests.ac.in/en/faculty/hafizurrahaman-2321",
+   "bio": "",
+   "courses": []
+  },
+  {
    "id": 701,
    "name": "Koushik Dey",
    "kind": "staff",
@@ -7516,7 +7533,7 @@
   "Visiting Professor"
  ],
  "counts": {
-  "faculty": 276,
+  "faculty": 277,
   "staff": 86,
   "officer": 16
  },
